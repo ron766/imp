@@ -1,0 +1,6 @@
+1. SETUP
+- npm init
+- npm install express --save
+- npm install nunjucks --save
+
+

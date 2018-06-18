@@ -1,0 +1,64 @@
+Testing
+Mocha
+
+1. npm i mocha@3.0.0 --save-dev
+
+2. Make new test js file in Test folder 
+
+3. require server file in test file
+
+4. install expect , supertest
+
+5. use it() in test.js to call a function and test it -> demo function -> runs and adds data in background
+									describe('ADD TASKS',() => {
+									it('It adds tasks',(done) => {
+										var data ="demo";
+								    		request(app)
+										    .post('/addtask')
+										    .send({data})
+										    .expect(200)
+										    .expect((res) => {
+										    	expect(res.body).toBe(res.body);
+										    })
+										    .end(done);
+									  });
+									})
+
+6. In package.json change "test" parameter -> "test": "mocha **/test.js" ("test": "mocha filename")
+
+7. run test -> $ npm test
+
+8. Make a test case fail -> demo -> throw new Error('Value not correct')
+
+9. throw Error
+
+10. Sabotage function to make a test fail
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Watch and Auto Restart
+11. nodemon --exec 'npm test' (" " for windows)
+
+12. Add test watch script -> "test-watch": "nodemon --exec 'npm test'"  || windows -> "test-watch": "nodemon --exec \"npm test\""
+
+13. Setup 2 envts: Development & Testing -> 
+	switch(process.env.NODE_ENV) {
+	  case 'development':
+	    app.use(require('./routes/routes'));
+	    dev = './todo.json';
+	    break;
+
+	  case 'testing':
+	    app.use(require('./routes/routes'));
+	    dev = './testTodo.json';
+	    break;
+	    
+	  default: 
+	    console.log("Please provide proper envt");
+	}
+
+14. Select envt on app run - > NODE_ENV=development nodemon main.js || NODE_ENV=testing nodemon main.js
+
+
+
+
+
+ 

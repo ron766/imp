@@ -1,0 +1,49 @@
+1. SETUP
+-> mkdir node-web-server
+-> npm init
+-> 'npm install' - if using pre-developed project |OR| 'npm install express@4.14.0 --save' - for new
+-> node filename
+
+2. SETUP STATIC SERVER
+-> create a folder with html file in it
+-> In server.js user buil-in middleware
+-> app.use(express.static(__dirname + '/public'))
+	__dirname : stores the path to your project dir
+	+ to concat folder to it
+
+3. RENDERING TEMPLATE WITH DATA	
+-> install Atom	
+-> handlebar view engine for js
+	npm install hbs@4.0.0 --save
+-> loading handlebars
+	const hbs = require('hbs');
+-> app.set(key,value)
+	app.set('view engine' , hbs);
+-> new folder:views ; new file: about.hbs
+-> res.render : allows us to render any of the templates to have setup with the current view engine
+-> make h1 tag dynamic to pass to webpage using {{property from json}}
+
+4. DEPLOYMENT   
+-> create acc on heroku
+-> install heroku from https://toolbelt.heroku.com
+-> login to heroku through cli
+	heroku login
+-> add keys to heroku
+	heroku keys:add
+-> test connection 
+	ssh -v git@heroku.com
+-> set port
+	const port = process.env.PORT || 3000;
+-> add script to package.json
+	"start": "node server.js"
+-> run: npm start
+-> add code to git
+-> run: create heroku
+-> run: git push heroku
+-> get the url from 3rd last remote |||| heroku open (will directly open url to chrome) 
+-> check in heroku
+->
+->
+->
+->
+->

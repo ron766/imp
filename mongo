@@ -1,0 +1,115 @@
+1. Install Mongo -> https://www.howtoforge.com/tutorial/install-mongodb-on-ubuntu/
+
+2. MongoClient = require('mongodb').MongoClient;
+
+3. Download and Install compass 
+
+4. Create db
+
+5. Create a db coonnection function
+	//global db object
+	var db;
+
+	/*
+		@function mongo()
+		@description mongoDB connection function
+	*/
+	function mongo() {
+		return new Promise(function(resolve, reject){
+			const uri = 'mongodb://localhost:27017/todoDB'; 
+			MongoClient.connect(uri,{ useNewUrlParser: true }, function (err, client) {
+		  	if(err) throw err;
+		   	//success
+		   	db = client.db('todoDB');
+		   	// console.log(db);
+		   	return resolve(null);
+		  });
+		})
+	}
+--------------------------------------------------------------------------
+SCHEMA
+TRYING MONGOOSE APPROACH
+
+6. Install Mongoose - > npm install mongoose --save
+
+7. Create Schema
+
+8. Require mongoose and connect to db ->
+	var mongoose = require('mongoose');
+
+	//connecting mongoose to db
+	mongoose.connect('mongodb://localhost:27017/todoDB');
+
+9. Get db object ->
+	//here I define a Schema
+	var Schema = mongoose.Schema;
+
+10. Build a schema -> 
+	var todoSchema = mongoose.Schema( 
+	{
+		id: {	
+			type:Number,
+			required:true
+		    }
+	}
+
+11. Acquire schema/collection in an abject ->
+	//acquiring collection by schema
+	var todoTb = mongoose.model('todoTB', todoSchema,'todoTB');
+
+12. Export that db object ->
+	//exporting database
+	module.exports = {todoTb}
+
+13. Use Mongoose methods to perform CRUD operartions
+
+14. Using DB object in model -> 
+	todoTb.find({})
+	    .exec(function (err, todos) {
+		if (err) {
+		    reject('error occured')
+		} 
+		else {
+		  console.log(todos);
+		  resolve(todos); 
+		}
+	    });
+
+ 
+--------------------------------------------------------------------------
+VALIDATE
+
+15. Use  inbuilt mongoose schema validator ->
+	var todoSchema = mongoose.Schema( 
+	{
+		id: {	
+			type:Number,
+			required:true, 
+			validate: {
+				validator: function(v) {
+					return v.length != 13
+				}
+			},
+			message: 'ID length should be 13!'
+		    }
+	}
+
+
+16. Demo model function after using mongoose built-in validator ->
+	todoOb.save(function (err, fluffy) {
+		if (err) {
+			reject("Schema validation error:",err.errors['id'].message,'ID length should be 13!');
+			reject("Schema validation error:",err.errors['todo'].message,'Task input should not be blank!');
+			reject("Schema validation error:",err.errors['activeStatus'].message,'Task input should not be blank!');
+		}  
+		else {
+			console.log(fluffy);
+	  		resolve(todoOb);
+		}
+	});	
+
+
+
+
+
+
