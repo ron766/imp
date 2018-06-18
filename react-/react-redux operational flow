@@ -1,0 +1,15 @@
+Operational Flow
+
+- creating an api call in the server
+
+- defining action in 'action-type.js'
+
+- creating action object in all-action.js
+
+- make axios call in 'action-api.js'
+
+- add case in 'all-reducer.js'
+
+- combine reducer in 'index.js'(reducer)
+
+- call action-api method in component
