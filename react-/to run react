@@ -1,0 +1,5 @@
+to run react 
+
+- nodemon server.js
+
+- /react-app gulp gulp-build
