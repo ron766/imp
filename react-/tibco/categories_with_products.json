@@ -1,0 +1,24 @@
+[{
+	"name":"Data & Systems",
+	"products": [{"filtered_name":"TIBCO BusinessEvents", "name":"TIBCO BusinessEvents®"},{"filtered_name":"TIBCO ActiveSpaces - Enterprise Edition", "name":"TIBCO ActiveSpaces®"},{"filtered_name":"TIBCO BusinessEvents", "name":"TIBCO BusinessEvents®"}, {"filtered_name":"TIBCO Live Datamart", "name":"TIBCO® Live Datamart"},{"filtered_name":"TIBCO BusinessEvents", "name":"TIBCO BusinessEvents®"}, {"filtered_name":"TIBCO Live Datamart", "name":"TIBCO® Live Datamart"},{"filtered_name":"TIBCO BusinessEvents", "name":"TIBCO BusinessEvents®"}, {"filtered_name":"TIBCO Live Datamart", "name":"TIBCO® Live Datamart"}]
+},
+{
+	"name":"APIs",
+	"products": [{"filtered_name":"TIBCO BusinessEvents", "name":"TIBCO BusinessEvents®"}, {"filtered_name":"TIBCO Live Datamart", "name":"TIBCO® Live Datamart"},{"filtered_name":"TIBCO API Exchange Gateway", "name":"TIBCO® API Exchange Gateway"}, {"filtered_name":"TIBCO API Exchange Manager", "name":""}, {"filtered_name":"TIBCO Mashery Documentation", "name":"TIBCO Mashery®"}, {"filtered_name":"TIBCO Mashery Local", "name":""}]
+},
+{
+	"name":"People & Processes",
+	"products": [{"filtered_name":"TIBCO API Exchange Gateway", "name":"TIBCO® API Exchange Gateway"},{"filtered_name":"tibbr, tibbr Service, tibbr Community, and tibbrCommunity Service", "name":"tibbr®"}, {"filtered_name":"TIBCO ActiveMatrix BPM", "name":"TIBCO ActiveMatrix® BPM"}, {"filtered_name":"TIBCO Cloud Live Apps", "name":"TIBCO Cloud™ Live Apps"}, {"filtered_name":"TIBCO Nimbus", "name":"TIBCO Nimbus™"}, {"filtered_name":"TIBCO Reward", "name":"TIBCO® Reward"}]
+},
+{
+	"name":"Reporting & Dashboards",
+	"products": [{"filtered_name":"TIBCO Jaspersoft", "name":"TIBCO Jaspersoft®"}, {"filtered_name":"TIBCO JasperReports Server", "name":""}, {"filtered_name":"TIBCO Jaspersoft Studio", "name":""}]
+},
+{
+	"name":"Visual Analytics",
+	"products": [{"filtered_name":"TIBCO BusinessEvents", "name":"TIBCO BusinessEvents®"}, {"filtered_name":"TIBCO Live Datamart", "name":"TIBCO® Live Datamart"},{"filtered_name":"TIBCO Analytics", "name":"TIBCO® Analytics"}, {"filtered_name":"TIBCO Graph Database - Enterprise Edition", "name":"TIBCO® Graph Database"}, {"filtered_name":"TIBCO Statistica", "name":"TIBCO® Statistica™"}]
+},
+{
+	"name":"Streaming Analytics",
+	"products": [{"filtered_name":"TIBCO BusinessEvents", "name":"TIBCO BusinessEvents®"}, {"filtered_name":"TIBCO Live Datamart", "name":"TIBCO® Live Datamart"}, {"filtered_name":"TIBCO StreamBase", "name":"TIBCO StreamBase®"}]
+}]

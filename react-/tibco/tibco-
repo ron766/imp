@@ -1,0 +1,13 @@
+TIBCO
+
+- clone dirs
+
+- npm install
+
+- edit password and FileSystemPath in local.js
+
+- create folder /home/work/doclib/ftp_root
+
+- copy 'categories_with_products.json' in this folder
+
+- install redis -> https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-redis-on-ubuntu-16-04
