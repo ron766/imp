@@ -13,3 +13,5 @@ Operational Flow
 - combine reducer in 'index.js'(reducer)
 
 - call action-api method in component
+
+- map component in router.js

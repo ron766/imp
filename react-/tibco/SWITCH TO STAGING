@@ -1,0 +1,39 @@
+SWITCH TO STAGING
+
+rohan@rohan-desktop:~/Codes/react/tibco/tibco-docs$ 
+
+- git status
+
+- git checkout public-phase/
+
+- git status
+
+- git branch
+
+- git fetch --all
+
+- git checkout staging
+
+- git branch
+
+- git status
+
+
+FOR DEVELOPEMENT
+47 /themes/basic/template/layout/public-phase.html
+
+46 comment minified /public/js/minified/bundle(prod) for dev
+
+uncomment  /public/js/bundle for dev
+
+
+LATER MAKE A PROD BUILD
+
+- ~/Codes/react/tibco/tibco-docs/public-phase$ ./build_for_production.sh 
+
+/themes/basic/template/layout/public-phase.html
+
+47 uncomment minified /public/js/minified/bundle(prod) for dev
+
+46 comment  /public/js/bundle for dev
+

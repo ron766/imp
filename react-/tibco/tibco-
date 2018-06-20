@@ -11,3 +11,11 @@ TIBCO
 - copy 'categories_with_products.json' in this folder
 
 - install redis -> https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-redis-on-ubuntu-16-04
+
+
+FOR DEVELOPEMENT
+/themes/basic/template/layout/public-phase.html
+
+comment minified /public/js/minified/bundle(prod) for dev
+
+uncomment  /public/js/bundle for dev
