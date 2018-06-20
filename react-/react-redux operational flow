@@ -15,3 +15,146 @@ Operational Flow
 - call action-api method in component
 
 - map component in router.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DEMO
+
+action-type.js -->
+//demo Rohan
+export const ATOZ = 'ATOZ';
+
+
+all-action.js -->
+//rohan demo
+export function aToZFunc(data){
+  return {
+    type: types.ATOZ,
+    data
+  };
+}
+
+
+action-api.js -->
+//rohan demo
+export function apiAtoZFunc(){
+	return axios.get('/api/a_to_z')
+    .then(response=>{
+      store.dispatch(aToZFunc(response));
+      return response
+    })
+}
+
+
+all-reducer.js -->
+- initial state
+
+- //rohan demo
+  case types.ATOZ:
+  	return Object.assign({},state,{demoAToZ:action.data});
+
+
+router.js -->
+<Route path='/a_to_z_demo' component={DemoAZ}/>
+
+
+demo container
+import React from 'react';
+
+import {apiAtoZFunc} from '../../api/action-api'
+
+import {connect} from 'react-redux';
+
+class DemoAZ extends React.Component {
+  constructor (){
+    super ();
+
+    this.callProds = this.callProds.bind(this);
+  }
+
+  callProds() {
+    console.log("hiiiiiiiiii");
+    apiAtoZFunc().then (res=> {
+      console.log("hi in",res);
+    })
+  }
+
+  render () {
+    // console.log("proppppppppppppp",this.props.propKey ? this.props.propKey.result.products[0] : null);
+    return (
+      <div>
+        <button onClick={this.callProds}>Click to display products</button>
+        <p>{
+          this.props.propKey ? 
+            this.props.propKey.result.products.map((data,index) => {
+              console.log("slug",data.slug);
+              return (
+                <ul>
+                  <li><a href={"/products/"+data.slug}>{data.name}</a></li>
+                </ul>
+              )
+            }) 
+            : 
+            null
+            }
+        </p>
+      </div>
+    )
+  }
+}
+
+function mapStateToProps(argument) {
+	console.log(argument);
+	return {
+		propKey : argument.searchState.demoAToZ.data
+	}
+}
+
+export default connect(mapStateToProps)(DemoAZ);
+----------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
