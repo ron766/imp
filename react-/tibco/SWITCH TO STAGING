@@ -1,4 +1,4 @@
-SWITCH TO STAGING
+PUSH TO STAGING
 
 rohan@rohan-desktop:~/Codes/react/tibco/tibco-docs$ 
 
@@ -18,7 +18,20 @@ rohan@rohan-desktop:~/Codes/react/tibco/tibco-docs$
 
 - git status
 
+- git push origin staging
 
+- ~/Codes/react/tibco/tibco-docs/public-phase$ ./build_for_production.sh 
+
+- /themes/basic/template/layout/public-phase.html -->
+
+	47 uncomment minified /public/js/minified/bundle(prod) for dev
+
+	46 comment  /public/js/bundle for dev
+
+- deploy on beanstalk
+
+
+-------------------------------------------------------------------------------------------
 FOR DEVELOPEMENT
 47 /themes/basic/template/layout/public-phase.html (always incr v value)
 
@@ -36,4 +49,26 @@ LATER MAKE A PROD BUILD
 47 uncomment minified /public/js/minified/bundle(prod) for dev
 
 46 comment  /public/js/bundle for dev
+
+
+STAG URL
+https://stag-tibcodocs.cloudthis.com/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
