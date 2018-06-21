@@ -18,15 +18,15 @@ rohan@rohan-desktop:~/Codes/react/tibco/tibco-docs$
 
 - git status
 
-- git push origin staging
-
 - ~/Codes/react/tibco/tibco-docs/public-phase$ ./build_for_production.sh 
 
 - /themes/basic/template/layout/public-phase.html -->
 
+	46 comment  /public/js/bundle for dev
+
 	47 uncomment minified /public/js/minified/bundle(prod) for dev
 
-	46 comment  /public/js/bundle for dev
+- git push origin staging
 
 - deploy on beanstalk
 
