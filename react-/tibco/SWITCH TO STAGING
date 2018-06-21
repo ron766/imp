@@ -4,13 +4,13 @@ rohan@rohan-desktop:~/Codes/react/tibco/tibco-docs$
 
 - git status
 
-- git checkout public-phase/
+- git checkout public-phase/ --> discards local changes
 
 - git status
 
 - git branch
 
-- git fetch --all
+- git fetch --all  -> get remote branch
 
 - git checkout staging
 
@@ -53,6 +53,22 @@ LATER MAKE A PROD BUILD
 
 STAG URL
 https://stag-tibcodocs.cloudthis.com/
+
+
+git imp
+
+git add filename1 filename2 /config/filename3
+git reset filename1
+git status 					appears in green color
+git commit -m "added new API"
+
+git status					blank screen
+
+git reset --hard
+
+git push origin master/staging    	push changes to remote server >> remote server repo
+
+
 
 
 

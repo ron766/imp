@@ -1,0 +1,23 @@
+FTP PORTAL
+
+- login ->
+	Raki@8145
+	rakesh.boddu@raweng.com
+
+- clone/pull git
+
+- npm install
+
+- download mongo dump
+
+- $ cd stagingCustomWebTool/ -->
+
+	$ mongorestore -d dev-customapp audits.bson
+
+	$ mongorestore -d dev-customapp users.bson
+
+	$ mongo
+		- use dev-customapp
+
+
+
