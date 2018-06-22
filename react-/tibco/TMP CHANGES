@@ -34,3 +34,12 @@ views/product_page/matrix.js ->
             </li>
           </ul>
 				</div>
+
+
+
+DROP
+
+                  <option value="volvo">{this.state.dropVersion}</option>
+                  <option value="saab">Saab</option>
+                  <option value="opel">Opel</option>
+                  <option value="audi">Audi</option>
