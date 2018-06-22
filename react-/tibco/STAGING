@@ -17,14 +17,22 @@ rohan@rohan-desktop:~/Codes/react/tibco/tibco-docs$
 - git branch
 
 - git status
-
-- ~/Codes/react/tibco/tibco-docs/public-phase$ ./build_for_production.sh 
+-----------------------------------------------------------------------------------------
+TO PUSH TO STAGE
 
 - /themes/basic/template/layout/public-phase.html -->
 
 	46 comment  /public/js/bundle for dev
 
 	47 uncomment minified /public/js/minified/bundle(prod) for dev
+
+- ~/Codes/react/tibco/tibco-docs/public-phase$ ./build_for_production.sh 
+
+- git status
+
+- git add .
+
+- git reset/config/local.js
 
 - git push origin staging
 

@@ -20,4 +20,10 @@ FTP PORTAL
 		- use dev-customapp
 
 
+- to run -->
+	- NODE_ENV=localdev nodemon app
+	
+	- ~/Codes/react/practice/tibco-docs-ftp-portal/public/ftp_portal/manage_portal$ gulp gulp-build
+
+
 

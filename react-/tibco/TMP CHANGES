@@ -1,0 +1,36 @@
+TMP CHANGES
+
+views/landing_page/matrix.js ->
+	if -
+		- <div className='container text-right'>
+	          <div className='containing-anchor'>
+	            <ul className='site-assist-anchor-ul'>
+	              <li>
+	                <a className='site-assist-anchor ' href='javascript:void(0)'>Site Assistance</a>
+	              </li>
+	            </ul>
+	          </div>
+					</div>
+
+	else -
+		<div className='container text-right'>
+		  <div className='containing-anchor'>
+		    <ul className='site-assist-anchor-ul'>
+		      <li>
+		        <a className='site-assist-anchor ' href='javascript:void(0)'>Site Assistance</a>
+		      </li>
+		    </ul>
+		  </div>
+					</div>
+
+views/product_page/matrix.js ->
+	- <div className='container text-right'>
+          <ul>
+            <li className='link-aft li-inline'>
+              <a className='site-assist-anchor right-none ' href='javascript:void(0)'>Site Assistance</a>
+            </li>
+            <li className='li-inline'>
+            <a className='site-assist-anchor right-none ' href='javascript:void(0)'>Documentation Survey</a>
+            </li>
+          </ul>
+				</div>
