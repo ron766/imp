@@ -25,8 +25,20 @@ FTP PORTAL
 	- run redis -> sudo systemctl start redis
 
 	- NODE_ENV=localdev nodemon app
+
+	- if <shapshot issue> --> config set stop-writes-on-bgsave-error no 
 	
 	- ~/Codes/react/practice/tibco-docs-ftp-portal/public/ftp_portal/manage_portal$ gulp gulp-build
+
+
+
+
+
+
+
+
+
+
 
 
 
