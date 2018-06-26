@@ -43,3 +43,17 @@ DROP
                   <option value="saab">Saab</option>
                   <option value="opel">Opel</option>
                   <option value="audi">Audi</option>
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+  updateProductVersion(){
+    // console.log("namein func",this.state.data.name);
+    // var dropDownVersionToSave = this.selectVal.value
+    // console.log("selected val",dropDownVersionToSave)
+}
+
+<select className="drop-down" style={dropDownStyle} onChange={this.getVersionAndName} ref={(input) => this.selectVal = input}>
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
