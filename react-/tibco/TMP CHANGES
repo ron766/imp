@@ -57,3 +57,28 @@ DROP
 <select className="drop-down" style={dropDownStyle} onChange={this.getVersionAndName} ref={(input) => this.selectVal = input}>
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+
+edit-prod-version
+ 
+              <div className="versionDrop" style={dropDivStyle}>              
+                <select className="drop-down" style={dropDownStyle} onChange={this.getVersionAndName} id="matching-star">
+                  {/* <option value="saab"></option> */}
+                  {
+                    this.state.dropVersion ?
+                      this.state.dropVersion.map((data,index) => {
+                        if(this.state.dropVersion.length-1) {
+                          return (
+                            <option value="saab" selected>{data}</option>
+                          )
+                        }
+                        else {
+                          return (
+                            <option value="saab">{data}</option>
+                          )
+                        }
+                      })
+                    :
+                    null  
+                  }
+                </select>
+              </div>
