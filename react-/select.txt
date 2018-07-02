@@ -1,0 +1,19 @@
+value ={this.state.something}
+
+
+something=["6.1.1","6.2.2"]
+
+<Select2
+	value={inital value}
+	data={something}
+	onSelect={this.func}
+/>
+
+
+soemhting = [{"value":version,"label":version},{"value":version,"label":version}]
+
+<Select
+	value={}
+	options = {}
+	onChange ={this.func}
+/>
