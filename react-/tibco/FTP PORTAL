@@ -11,20 +11,20 @@ FTP PORTAL
 - download mongo dump
 
 - $ cd stagingCustomWebTool/ -->
+	$ mongo
+		- create dev-customapp
+		- use dev-customapp
 
 	$ mongorestore -d dev-customapp audits.bson
 
 	$ mongorestore -d dev-customapp users.bson
-
-	$ mongo
-		- use dev-customapp
 
 
 - to run -->
 	
 	- run redis -> sudo systemctl start redis
 
-	- NODE_ENV=localdev nodemon app
+	- UBUNTU = NODE_ENV=localdev nodemon app  ||  WINDOWS = set NODE_ENV=localdev <enter> nodemon app
 
 	- if <shapshot issue> --> config set stop-writes-on-bgsave-error no 
 	

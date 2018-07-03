@@ -10,9 +10,20 @@ TIBCO
 
 - copy 'categories_with_products.json' in this folder
 
+- install redis -> https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-redis-on-ubuntu-16-04
+
 - run redis -> sudo systemctl start redis
 
-- install redis -> https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-redis-on-ubuntu-16-04
+- create db tibcodocs
+
+- Restore db dump -->
+	$ mysql -p -u root tibcodocs < tibco_docs-21102016.sql 
+
+- mysql>
+	ALTER TABLE virtual_urls ADD created_from_ftp boolean;
+
+	ALTER TABLE virtual_urls ADD user_id varchar(255);
+
 
 
 FOR DEVELOPEMENT
