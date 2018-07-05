@@ -1,0 +1,6 @@
+install -->
+	- sudo apt-get install gnome-system-monitor
+
+run -->
+	- gnome-system-monitor
+
