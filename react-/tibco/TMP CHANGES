@@ -82,3 +82,43 @@ edit-prod-version
                   }
                 </select>
               </div>
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+SELECT2 deit-prod-ver-modal
+{
+                  data ?
+                    <Select2
+                      value={"2"}
+                      data={data}
+                      onSelect={this.handleChange}
+                      ref="versionBox"
+                    />
+                  :
+                  "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
