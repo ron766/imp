@@ -30,6 +30,12 @@ FTP PORTAL
 	
 	- ~/Codes/react/practice/tibco-docs-ftp-portal/public/ftp_portal/manage_portal$ gulp gulp-build
 
+--------------------------------------------------------------------------------------------------------------------
+FOR MANAGE PORTAL CSS EDIT
+- use manage.css
+- /root folder -->
+	gulp minify-css
+
 
 
 
