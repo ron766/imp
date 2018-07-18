@@ -1,0 +1,2 @@
+to set a specific revision -->
+	- git reset --hard revision no
