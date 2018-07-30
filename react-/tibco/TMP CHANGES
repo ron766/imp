@@ -97,6 +97,136 @@ SELECT2 deit-prod-ver-modal
                   "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
                 }
 
+----------------------------------------------------------------------------------------------------------------------------------------------
+faq page
+import React from 'react'
+import Header from '../views/header';
+import Banner from '../views/landing_page/banner';
+import Footer from '../views/footer';
+import ReactDOM from 'react-dom';
+
+import {
+    Accordion,
+    AccordionItem,
+    AccordionItemTitle,
+    AccordionItemBody,
+} from 'react-accessible-accordion';
+
+class NewFaqPage extends React.Component { 
+  render() {
+    return ( 
+      <div className = "faqq" >
+        <Header />
+        <Banner />
+          <div className = "container" >
+            <Accordion> 
+              { /*q 1*/ } 
+              <AccordionItem>
+                <AccordionItemTitle>
+                  <h3 className = "u-position-relative">
+                    What are the supported browsers ?
+                  <div className = "accordion__arrow" role = "presentation"/>
+                  </h3> 
+                </AccordionItemTitle> 
+                <AccordionItemBody>
+                  <p>
+                    This site is best viewed in the latest versions of Chrome, Firefox, Safari, and Edge.Internet Explorer is not supported. 
+                  </p> 
+                </AccordionItemBody> 
+              </AccordionItem> 
+              { /*q 2 */ } 
+              <AccordionItem>
+                <AccordionItemTitle>
+                  <h3 className = "u-position-relative">
+                    I'm not able to access product documentation. How can I get access to the docs?
+                  <div className = "accordion__arrow" role = "presentation"/>
+                  </h3> 
+                </AccordionItemTitle> 
+                <AccordionItemBody>
+                  <p>
+                  On the TIBCO Documentation site, some product documentation is not public and you must be a registered TIBCO customer or Partner to access these docs.
+ 
+                  If you are a registered TIBCO customer or Partner and still not able to access these documents, please check if you can login to <a>TIBCO Community</a> with your registered email id.
+                    <p className='bullet'>
+                      If yes, may be the domain is not added to the TIBCO Documentation site. To get the access, click Feedback from your registered email-id and request for an access. We will add your ID to the site and inform you.
+                    </p>
+                    <p className='bullet'>
+                      If you cannot login to TIBCommunity with your registered email id, you must register again by using the link:  
+                      <a href='https://docs.tibco.com/request_account' target='_blank'>
+                        https://docs.tibco.com/request_account.
+                      </a>
+                    </p>
+                  </p> 
+                </AccordionItemBody> 
+              </AccordionItem> 
+              { /*q 3 */ } 
+              <AccordionItem>
+                <AccordionItemTitle>
+                  <h3 className = "u-position-relative">
+                  How do I search for a product? Is it possible to search in all the documentation for a particular keyword?
+                  <div className = "accordion__arrow" role = "presentation"/>
+                  </h3> 
+                </AccordionItemTitle> 
+                <AccordionItemBody>
+                  <p>
+                  The search on the site <a href='https://docs.tibco.com' target='_blank'>https://docs.tibco.com</a> is an integrated search that allows you to search for a specific product as well as all the documents for a specific keyword.
+                  On the home page, enter the keyword in the Search field and wait for few seconds:
+                    <p className='bullet'>
+                      If the searched keyword is part of a product name, you can see those products under the <b>Products</b> menu in the drop-down list. You can click on More to get the complete list of these products.
+                    </p>
+                    <p className='bullet'>
+                      If you want to search all documents containing the keyword “BPM”, click <b>"Show all document results for keyword "<i>BPM</i>"</b> from the dropdown.
+                    </p>
+                  
+                  When you click <b>Show all document results for keyword "BPM"</b>, you will be taken to an advanced search page. You can refine your search by selecting the filters on the left panel or using the tabs on the top bar.
+                  You can filter the results further based on the following filters on the left panel:
+                    <p className='bullet'>Product Suite</p>
+                    <p className='bullet'>Product Name</p>
+                    <p className='bullet'>Version</p>
+                    <p className='bullet'>File Type</p>
+
+                  In addition, you can perform search on other TIBCO sites using the <b>Support Articles</b> or <b>User Community</b> tabs on the top bar.
+ 
+                  </p> 
+                </AccordionItemBody> 
+              </AccordionItem>
+              { /*q 4 */ } 
+              <AccordionItem>
+                <AccordionItemTitle>
+                  <h3 className = "u-position-relative">
+                    How do I read documentation without internet access?
+                  <div className = "accordion__arrow" role = "presentation"/>
+                  </h3> 
+                </AccordionItemTitle> 
+                <AccordionItemBody>
+                  <p>
+                    TIBCO provides documentation in both HTML and PDF formats. The documentation in both these formats are bundled in a .zip format and is made available as the <b>Download</b> All button on each product version page. You can download  a product documentation in a .zip format  by clicking the <b>Download</b> All button on each product page. You can extract the contents of the .zip file and refer to it offline.
+                  </p> 
+                </AccordionItemBody> 
+              </AccordionItem>  
+              
+
+
+              { /*if title needed with disc*/ } 
+              {/*<AccordionItem>
+                    <AccordionItemTitle>
+                        <h3>Complex title</h3>
+                        <div>With a bit of description</div>
+                    </AccordionItemTitle>
+                      <AccordionItemBody>
+                          <p>Body content</p>
+                      </AccordionItemBody>
+                  </AccordionItem>*/} 
+            </Accordion> 
+        </div>
+        {/* <Footer/>  */}
+      </div>
+    );
+  }
+}
+
+export default NewFaqPage;
+
 
 
 

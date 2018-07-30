@@ -1,2 +1,6 @@
-to set a specific revision -->
+to reset to a specific revision --> (dumps all mid changes)
 	- git reset --hard revision no
+
+
+to checkout a specific revision -->
+	- git checkout 'revision no'
