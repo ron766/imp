@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<!-- saved from url=(0083)https://da-14.com/blog/gulp-vs-grunt-vs-webpack-comparison-build-tools-task-runners -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="js"><head profile="http://www.w3.org/1999/xhtml/vocab"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <!--[if IE]><![endif]--><link rel="dns-prefetch" href="https://stats.g.doubleclick.net/"><link rel="dns-prefetch" href="https://static.addtoany.com/"><link rel="dns-prefetch" href="https://www.google-analytics.com/"><link rel="shortcut icon" href="https://da-14.com/sites/default/files/favicon-2_0.ico" type="image/vnd.microsoft.icon"><meta name="description" content="Only a few years ago, usage of JavaScript build tools would sound ridiculous, due to the fact that JS is interpreted by a browser and it isn’t compiled. However, projects’ complexity tends to increase exponentially with the scope and concerns regarding performance, maintenance and security have received wide publicity. Lately, the boom of single page applications (SPAs) has just added to the problem."><meta name="generator" content="Drupal 7 (http://drupal.org)"><link rel="canonical" href="https://da-14.com/blog/gulp-vs-grunt-vs-webpack-comparison-build-tools-task-runners"><meta name="yandex-verification" content="bde284bf5b414feb"><title>Gulp vs Grunt vs Webpack: Comparison of Build Tools / Task Runners | DA-14</title><link type="text/css" rel="stylesheet" href="./Gulp vs Grunt vs Webpack_ Comparison of Build Tools _ Task Runners _ DA-14_files/css__YmSO7yeAhqiFNip1oyhFZOWyTF2onAtKhp9zrso9Aqk__cMRc8O31MMQuBVFmKyvsLq5uyWdx3nzJbrQcmX-XXSY__I4y-ElLqYgcR4UGH1PkkllKoupgHgnOfeGNGOvnK4VQ.css" media="all"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script async="" src="./Gulp vs Grunt vs Webpack_ Comparison of Build Tools _ Task Runners _ DA-14_files/analytics.js"></script><script type="text/javascript">
+(function(u, t, c, s, r)
+{ !t[c] && (t[c] = { projectId: '0fb7bc22bb335b13ee479b6c3d2e377e'}) && (r = u.createElement(s)) && (r.src = 'https://unamo.net/unamo.js') && (u.head.appendChild(r)); })
+(document, window, 'Unamo Session Recording', 'script');
+/]]>/</script><script src="./Gulp vs Grunt vs Webpack_ Comparison of Build Tools _ Task Runners _ DA-14_files/unamo.js"></script>
+<meta class="foundation-mq"></head><body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-141 node-type-article i18n-en" cz-shortcut-listen="true" data-whatinput="keyboard" style=""><div id="skip-link"> <a href="https://da-14.com/blog/gulp-vs-grunt-vs-webpack-comparison-build-tools-task-runners#main-content" class="element-invisible element-focusable">Skip to main content</a></div><div id="page-wrapper"><div id="page"><div id="header" class="header"><div class="section header-wrapper clearfix"><div class="container"> <a href="https://da-14.com/" title="Home" rel="home" id="logo" class="logo"> <svg class="header-logo-img-black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.99 24.77"> <path class="cls-1" d="M83.17,19.6H80.6V4.15a1.31,1.31,0,0,0-2.24-.91L61.36,20a1.28,1.28,0,0,0,0,1.82,1.32,1.32,0,0,0,.93.38H78v3.88a1.31,1.31,0,0,0,2.62,0V22.18h2.56A1.29,1.29,0,1,0,83.17,19.6ZM78,19.6H65.46L78,7.26V19.6Zm-22-16.74H51.31a1.29,1.29,0,1,0,0,2.58h3.31V26.06a1.31,1.31,0,0,0,2.62,0V4.15A1.3,1.3,0,0,0,55.94,2.86ZM32.47,3L28,7.36A12.51,12.51,0,0,0,27,6.2a12.64,12.64,0,0,0-8.89-3.63H2.8A1.3,1.3,0,0,0,1.49,3.87s0,0.08,0,.11V26.06a1.31,1.31,0,0,0,2.61,0V5.16h14a10,10,0,0,1,7,2.87,9.9,9.9,0,0,1,1,1.17L9.94,25.14a1.28,1.28,0,0,0,0,1.82,1.33,1.33,0,0,0,1.85,0L27.43,11.57a9.64,9.64,0,0,1-2.29,10.32,10,10,0,0,1-7,2.87H15.72L13.1,27.35h5A12.65,12.65,0,0,0,27,23.72,12.2,12.2,0,0,0,29.42,9.61l4-3.92,20,19.72V21.77L34.33,3A1.32,1.32,0,0,0,32.47,3Z" transform="translate(-1.49 -2.58)"></path> </svg> </a><div class="region region-header"><div id="block-system-main-menu" class="block block-system hide-for-small-only block-menu"><div class="content"><ul class="menu"><li class="first leaf"><a href="https://da-14.com/services">Services</a></li><li class="leaf"><a href="https://da-14.com/portfolio">Portfolio</a></li><li class="leaf"><a href="https://da-14.com/about-us">About Us</a></li><li class="leaf"><a href="https://da-14.com/contact-us" class="contact-us">Contact Us</a></li><li class="last leaf active-trail"><a href="https://da-14.com/blog" class="blog active-trail">Blog</a></li></ul></div></div><div id="block-search-form" class="block block-search"><div class="content"><form action="https://da-14.com/blog/gulp-vs-grunt-vs-webpack-comparison-build-tools-task-runners" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline"><h2 class="element-invisible">Search form</h2><div class="form-item form-type-textfield form-item-search-block-form"> <label class="element-invisible" for="edit-search-block-form--2">Search </label> <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text"></div><div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit"></div><input type="hidden" name="form_build_id" value="form-EYTPeFSHMz9g-TmnqVl6kW6X43gwBF9JzG9iFfj4Tuo"><input type="hidden" name="form_id" value="search_block_form"></div></div></form></div></div></div> <a data-open="mainMenuModal" id="burgerMenu" class="menu-icon show-for-small-only" aria-controls="mainMenuModal" aria-haspopup="true" tabindex="0">Main menu</a></div></div></div><div id="main-wrapper"><div id="main" class="clearfix"><div id="content" class="column"><div class="section"><div id="socialFixed" class="social-fixed a2a_kit a2a_kit_size_32 a2a_default_style is-visible"><div class="wrapper-for-mobile"> <span>Share</span> <a class="a2a_button_facebook custom_button_facebook"></a> <a class="a2a_button_twitter custom_button_twitter"></a> <a class="a2a_button_linkedin custom_button_linkedin"></a> <a class="a2a_button_google_plus custom_button_google_plus"></a></div></div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+ <a id="main-content"></a><h1 class="title" id="page-title">Gulp vs Grunt vs Webpack: Comparison of Build Tools / Task Runners</h1><div class="tabs"></div><div class="region region-content"><div id="block-system-main" class="block block-system"><div class="content"><div about="/blog/gulp-vs-grunt-vs-webpack-comparison-build-tools-task-runners" typeof="sioc:Item foaf:Document" class="ds-1col node node-article view-mode-full clearfix"><div class="field field-name-post-date field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even">03/17/2017 - 18:02</div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p style="text-align: justify;">Only a few years ago, usage of JavaScript build tools would sound ridiculous, due to the fact that JS is interpreted by a browser and it isn’t compiled. However, projects’ complexity tends to increase exponentially with the scope and concerns regarding performance, maintenance and security have received wide publicity. Lately, the boom of single page applications (SPAs) has just added to the problem.</p><p style="text-align: justify;">Currently, starting the next JavaScript project, build system setup is among the top priority tasks. Though such variety of options often stands in the way of developing the app itself. To address the above-mentioned challenges, as well as automate tasks like static code analysis, test cases execution, etc. – task runners are used. Gulp vs Grunt is the most popular dilemma. They both automate tasks, use Node.js, and they are both powerful and efficient.</p><p style="text-align: justify;">On the other hand, Webpack is a bundler and it comes in handy when you need to pack multiple assets (images, fonts, etc.) together into a dependency graph. So how can Gulp vs Grunt vs Webpack be compared? Gulp and Webpack are commonly used together, but currently, there is a rising tendency to use the latter instead of gulp build tool, in particular among the Reactjs community. This is done for several reasons: this powerful tool can fulfil nearly all tasks that you’d perform through a task runner; it comes with minification options and bundle source maps; it can serve as middleware via the custom server, namely <em>webpack-dev-server</em>, which supports both hot and live reloading.</p><p style="text-align: justify;">But let’s get a better look.</p><h2 style="text-align: justify;"><span style="font-size:28px;">What is Grunt?</span></h2><p style="text-align:center"><a href="https://gruntjs.com/" target="_blank"><img alt="gulp-grunt-webpack-project-management-tasks-runner-web-development" src="./Gulp vs Grunt vs Webpack_ Comparison of Build Tools _ Task Runners _ DA-14_files/gulp-grunt-webpack-project-management-tasks-runner-web-development.jpg" style="margin: 1px;"></a></p><p style="text-align: justify;"><a href="https://gruntjs.com/" target="_blank">GruntJS</a>&nbsp;is a command-line tool for front-end developers to run predefined repetitive tasks. Whereas, tasks are defined declaratively with configuration objects, which are handled by plugins to keep the core package at a sufficient size. It is used to automate JavaScript workflows like concatenating and minifying JS files, carrying out tests, refreshing browser to upload script changes and so on.</p><p style="text-align: justify;"><strong>Pros:</strong></p><ul><li style="text-align: justify;">Huge ecosystem of plugins to perform various tasks at the same time (over 6010 items in Grunt plugin registry)</li></ul><p style="text-align: justify;"><strong>Cons</strong>:</p><ul><li style="text-align: justify;">Can become complicated as the configuration grows</li><li style="text-align: justify;">Lack of flexibility with uncommon tasks</li><li style="text-align: justify;">Tend to outdating</li></ul><h2 style="text-align: justify;"><span style="font-size:28px;">What is Gulp?</span></h2><p style="text-align:center"><a href="https://gulpjs.com/" target="_blank"><img alt="gulp-grunt-webpack-project-management-tasks-app-development" src="./Gulp vs Grunt vs Webpack_ Comparison of Build Tools _ Task Runners _ DA-14_files/gulp-grunt-webpack-project-management-tasks-app-development.jpg" style="margin: 1px;"></a></p><p style="text-align: justify;">Eighteen months later after Grunt, <a href="http://gulpjs.com/" target="_blank">GulpJS</a>&nbsp;was released. It is another toolkit for defining and running time-consuming tasks, but it takes a different approach. Comparing Grunt vs Gulp, the core difference is that where GruntJS uses configuration objects to define tasks declaratively, Gulp defines them as JavaScript functions. It builds on top of the piping concepts (sources, filters, sinks), similar to Unix operating systems.</p><p style="text-align: justify;"><strong>Pros:</strong></p><ul><li style="text-align: justify;">Greater clarity of current processes and more control over the flow</li><li style="text-align: justify;">Large ecosystem of Gulp plugins, while each of them can accomplish a particular task (over 2770 various plugins for different purposes)</li><li style="text-align: justify;"><a href="http://tech.tmw.co.uk/2014/01/speedtesting-gulp-and-grunt/" target="_blank">Faster</a>&nbsp;performance due to the stream usage and in-memory operations</li><li style="text-align: justify;">Requires less amount of code, comparing to Grunt</li></ul><p style="text-align: justify;"><strong>Cons:</strong></p><ul><li style="text-align: justify;">Initially streams and promises are hard to understand</li></ul><h2 style="text-align: justify;"><span style="font-size:28px;">Gulp.js vs Grunt.js: Code vs Configuration</span></h2><p style="text-align: justify;">This is one of the major differences in Gulp vs Grunt comparison; however, the dilemma may be less about configuration and coding, but about how comfortable your team is with node streams. Gulp is more about coding and usage of single-purpose plugins, while Grunt relies on configuration and multi-purpose plugins.</p><p style="text-align: justify;">If you are familiar with Node, then with gulpfile you will feel more comfortable. Due to the fact that it follows the CommonJS spec, it may seem easier to read, though users often state that Grunt is easier to write. The choice mainly depends on your team’s skill sets and working experience.</p><h2 style="text-align: justify;"><span style="font-size:28px;">What is Webpack?</span></h2><p style="text-align:center"><a href="https://webpack.js.org/" target="_blank"><img alt="gulp-grunt-webpack-project-management-tasks" src="./Gulp vs Grunt vs Webpack_ Comparison of Build Tools _ Task Runners _ DA-14_files/gulp-grunt-webpack-project-management-tasks.jpg"></a></p><p style="text-align: justify;">Initially, <a href="https://webpack.js.org/" target="_blank">Webpack</a>&nbsp;is a module bundler, though it is quite often used instead of Gulp or Grunt task runners. This advanced tool provides developers with control over how it splits the modules, allowing them to adjust builds to particular situations and workaround solutions that don’t function properly out of the box.</p><p style="text-align: justify;">Comparing Webpack vs Grunt, the first of those offers more flexibility and advanced functionality for modern front-end projects. It comes with a functional core and can be extended using particular loaders and plugins. Essentially it is used for bundling JavaScript modules with dependencies into files, but for complex JavaScript applications with lots of non-code assets (images, fonts, CSS, etc.) it can provide great benefits.</p><p style="text-align: justify;">Talking about Webpack vs Gulp vs Grunt performance, the two latter look into a defined path for files that match your configuration, while the Webpack analyzes the whole project. It looks through all the dependencies, processes them with loaders and produces a bundled JS file.</p><p style="text-align: justify;"><strong>Pros:</strong></p><ul><li style="text-align: justify;">The idea of dependency graph in Webpack ensures easier splitting of code, control over assets processing, and elimination of dead assets</li><li style="text-align: justify;">Multiple options and features right out of the box</li><li style="text-align: justify;">Webpack-dev-server supports hot and live reloading</li></ul><p style="text-align: justify;"><strong>Cons:</strong></p><ul><li style="text-align: justify;">Initially it is difficult to configure</li></ul><h2 style="text-align: justify;"><span style="font-size:28px;">Webpack vs Gulp vs Grunt Comparison</span></h2><div class="table-wrapper"><table align="center" border="1" cellpadding="1" cellspacing="1"><tbody><tr><td bgcolor="#E6E6E6" width="10%" style="border: 1px solid;">&nbsp;</td><td bgcolor="#6AB7FC" width="30%" style="border: 1px solid;"><h4 style="text-align: center;"><strong>Webpack</strong></h4></td><td bgcolor="#FF464F" width="30%" style="border: 1px solid;"><h4 style="text-align: center;"><strong>Gulp</strong></h4></td><td bgcolor="#FFB34B" width="30%" style="border: 1px solid;"><h4 style="text-align: center;"><strong>Grunt</strong></h4></td></tr><tr><td bgcolor="#E6E6E6" style="border: 1px solid;"><p style="text-align: center;"><strong>Definition</strong></p></td><td style="text-align: center; border: 1px solid;">Module bundler&nbsp;</td><td style="text-align: center; border: 1px solid;">Task runner</td><td style="text-align: center; border: 1px solid;">Task runner</td></tr><tr><td bgcolor="#E6E6E6" style="text-align: center; border: 1px solid;"><strong>Written in</strong></td><td style="text-align: center; border: 1px solid;">JavaScript</td><td style="text-align: center; border: 1px solid;">Node.js</td><td style="text-align: center; border: 1px solid;">Node.js</td></tr><tr><td bgcolor="#E6E6E6" style="text-align: center; border: 1px solid;"><strong>Initial release</strong></td><td style="text-align: center; border: 1px solid;">Mar 2012</td><td style="text-align: center; border: 1px solid;">Jul 2013&nbsp;</td><td style="text-align: center; border: 1px solid;">Jan 2012</td></tr><tr><td bgcolor="#E6E6E6" style="text-align: center; border: 1px solid;"><strong>License</strong></td><td style="text-align: center; border: 1px solid;">MIT</td><td style="text-align: center; border: 1px solid;">MIT</td><td style="text-align: center; border: 1px solid;">MIT</td></tr><tr><td bgcolor="#E6E6E6" style="text-align: center; border: 1px solid;"><strong>GitHub stars</strong></td><td style="text-align: center; border: 1px solid;">40766</td><td style="text-align: center; border: 1px solid;">29427</td><td style="text-align: center; border: 1px solid;">11796</td></tr><tr><td bgcolor="#E6E6E6" style="text-align: center; border: 1px solid;"><strong>GitHub links&nbsp;</strong></td><td style="text-align: center; border: 1px solid;"><a href="https://github.com/webpack/webpack" target="_blank">webpack / webpack</a></td><td style="text-align: center; border: 1px solid;"><a href="https://github.com/gulpjs/gulp%C2%A0" target="_blank">gulpjs / gulp</a></td><td style="text-align: center; border: 1px solid;"><a href="https://github.com/gruntjs/grunt%C2%A0" target="_blank">gruntjs / grunt</a></td></tr><tr><td bgcolor="#E6E6E6" style="text-align: center; border: 1px solid;"><strong>Weekly downloads (npm)</strong></td><td style="text-align: center; border: 1px solid;">3,385,392</td><td style="text-align: center; border: 1px solid;">816,228</td><td style="text-align: center; border: 1px solid;">478,876</td></tr><tr><td bgcolor="#E6E6E6" style="text-align: center; border: 1px solid;"><strong>Used by</strong></td><td style="text-align: justify; border: 1px solid;">9GAG, Pinterest, Soundcloud, Flipboard, Airbnb, Udemy, 99 Designs, Assembly, etc.</td><td style="text-align: justify; border: 1px solid;">Netflix, FashionUnited, Myntra, MakerBot, AdRoll, Ekimetrics, Trigger, CrowdFlower, etc.</td><td style="text-align: justify; border: 1px solid;">Twitter, Adobe, jQuery, Mozilla, Bootstrap, Cloudant, Bitovi, Opera, LiveChat, Walmart, etc.</td></tr></tbody></table></div><p style="text-align: justify;"><span style="font-size:28px;">Popularity of Webpack, Gulp and Grunt worldwide</span></p><div style="text-align: center;"><p style="text-align:center"><img alt="gulp-grunt-webpack-javascript-build-tools-comparison-2017-2018" src="./Gulp vs Grunt vs Webpack_ Comparison of Build Tools _ Task Runners _ DA-14_files/gulp-grunt-webpack-javascript-build-tools-comparison.jpg" style="margin: 1px; border-width: 1px; border-style: solid;"></p><p><em>Popularity of Grunt, Gulp, and Webpack over the last 12 months according to Google Trends</em></p><p class="rtejustify"><span style="font-size:28px;">Webpack vs Grunt vs Gulp 2017: what &amp; when to use?</span></p></div><p style="text-align: justify;">There is no the only right or wrong answer when it comes to the selection of build tools for your next projects. Your choice will mainly depend on the size of your project, your skill set and whether you are more interested in coding (Gulp task runner) or configuring (Grunt build tool &amp; Webpack). Moreover, personal preferences have a great bearing on your choice as well, like performance speed, project deadlines, types of plugins available, and so on.</p><p style="text-align: justify;">Moreover, the selection isn’t limited to these JavaScript build tools and there are lots of other alternatives, like Browserify, JSPM or Brunch, just to name a few.&nbsp;</p></div></div></div><div class="field field-name-social-buttons field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><a href="https://da-14.com/ask-question/nojs" data-open="exampleModal1" class="medium-button hire-us use-ajax ajax-processed">Let's work together</a></div></div></div><div id="prevnext-previous" class="prevnext"> <a href="https://da-14.com/blog/mongodb-vs-mysql-comparison-which-database-better">Previous</a></div><div id="prevnext-next" class="prevnext"> <a href="https://da-14.com/blog/top-5-most-popular-online-marketplaces-how-join-champions-league">Next</a></div></div></div></div></div><div class="go-up medium-button is-visible">↑ Go up</div></div></div></div></div> <section class="subscribe-form"><form action="https://da-14.us15.list-manage.com/subscribe/post?u=e723ab7d0c2dfdd99af30a10f&amp;id=91de3c2257" method="post" id="subscribeForm" target="_blank"><h2 class="content">INSPIRING IDEAS AND HOT TIPS ARE DELIVERED ON WEDNESDAYS!</h2><div class="wrap-subscribe-fields"> <label for="mailchimpEMAIL" class="subscribe-form-label">Your email:</label> <input type="text" value="" name="EMAIL" class="subscribe-form-input" id="mailchimpEMAIL"> <input type="submit" value="Subscribe" name="subscribe" id="submitSubscribeForm" class="subscribe-form-button"></div></form></section><div class="similar-post-blog"><h2 class="title-section">Similar post</h2><div class="latest-post-wrapper"><div class="view view-blog view-id-blog view-display-id-block_2 view-dom-id-7c5ef7055c962e96a7f6f2308e0f01bb"><div class="view-content"><div class="views-row views-row-1 views-row-odd views-row-first"><div class="wrapper-blog-image"><div class="recent-blog-image" style="background: url(https://da-14.com/sites/default/files/styles/blog_thumbnail/public/blog/budget-planning-app-development.jpg?itok=LVScl2oT) no-repeat center; background-size: cover;"></div></div> <a href="https://da-14.com/blog/budget-planning-app-development-stages-tips-and-hidden-threats" class="blog-link"><span class="date-post">07 . 17 . 2018</span><div class="title-wrapper"><h3 class="title">Budget Planning for App Development: Stages, Tips...</h3></div></a></div><div class="views-row views-row-2 views-row-even views-row-last"><div class="wrapper-blog-image"><div class="recent-blog-image" style="background: url(https://da-14.com/sites/default/files/styles/blog_thumbnail/public/blog/how-develop-music-streaming-app-mobile-engineering.jpg?itok=-dDyvcHY) no-repeat center; background-size: cover;"></div></div> <a href="https://da-14.com/blog/how-develop-music-streaming-app-users-love" class="blog-link"><span class="date-post">07 . 16 . 2018</span><div class="title-wrapper"><h3 class="title">How to Develop a Music Streaming App that Users...</h3></div></a></div></div></div></div></div> <footer id="footer" class="footer"><div class="section"><div class="contact-us"><h2>Contact Us</h2><div class="row columns large-12 social-container show-for-small-only"><h2>social</h2><ul class="social-wrapper"><li><a class="social-link" href="https://www.facebook.com/da14team" target="_blank"><svg class="icon-fb-footer" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg"> <circle class="cls-1" cx="18" cy="18" r="18"></circle> <path class="cls-2" d="M16.52 20.25v7.32h3.74v-7.34h2.31L23.2 17h-3v-2.3a.77.77 0 0 1 .65-.88h1.72l-.06-3.18h-3.36a3.14 3.14 0 0 0-2.63 3v3.4h-2.29v3.17h2.32z" transform="translate(-.5 -.5)"></path> </svg> </a></li><li><a class="social-link" href="https://twitter.com/da14_team" target="_blank"><svg class="icon-tw-footer" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg"> <circle class="cls-1" cx="18" cy="18" r="18"></circle> <path class="cls-2" d="M27.27 14.17a6.59 6.59 0 0 1-1.89.52 3.28 3.28 0 0 0 1.44-1.81 6.59 6.59 0 0 1-2.08.79 3.28 3.28 0 0 0-5.6 3 9.33 9.33 0 0 1-6.77-3.42 3.27 3.27 0 0 0 1 4.37 3.28 3.28 0 0 1-1.49-.41 3.28 3.28 0 0 0 2.63 3.21 3.3 3.3 0 0 1-.87.11 3.26 3.26 0 0 1-.62-.06 3.29 3.29 0 0 0 3.07 2.27A6.6 6.6 0 0 1 12 24.18a6.8 6.8 0 0 1-.78 0 9.34 9.34 0 0 0 14.38-7.84v-.42a6.66 6.66 0 0 0 1.64-1.69z" transform="translate(-.5 -.5)"></path> </svg> </a></li><li><a class="social-link" href="https://www.linkedin.com/company/da-14" target="_blank"><svg class="icon-in-footer" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg"> <circle class="cls-1" cx="18" cy="18" r="18"></circle> <path class="cls-2" d="M22.74 24.61v-4.95c0-1.17-.54-2-1.57-2a1.66 1.66 0 0 0-1.53 1.06 2 2 0 0 0 0 .68v5.19H17v-6.21a6.58 6.58 0 0 0-.52-2.59h2.6v1h.13a3.19 3.19 0 0 1 2.84-1.46c1.88 0 3.28 1.26 3.28 3.94v5.28h-2.6zm-10.41-8.82h3.12v8.82h-3.12v-8.82zm1.51-1.32a1.42 1.42 0 1 1 0-2.83 1.42 1.42 0 1 1 0 2.83z" transform="translate(-.5 -.5)"></path> </svg> </a></li><li><a class="social-link" href="https://www.instagram.com/da14_software_development/" target="_blank"><svg class="icon-inst-footer" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg"> <circle class="cls-1" cx="18" cy="18" r="18"></circle> <path class="cls-2" d="M25.72 12.06h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1zm-7 13a6 6 0 1 0-6-6A6 6 0 0 0 18.71 25zm0-9a3 3 0 1 1-3 3A3 3 0 0 1 18.71 16zm7 3a7 7 0 0 1-14 0h-7a14 14 0 0 0 28 0h-7z" transform="translate(-.5 -.5)"></path> </svg> </a></li><li><a class="social-link" href="https://jobs.dou.ua/companies/da-14/" target="_blank"><svg class="icon-dou-footer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"> <circle class="cls-1" cx="18" cy="18" r="18"></circle> <path class="cls-2" d="M10.37,14.14H7v8.42h3.25a4.25,4.25,0,0,0,4.07-3.73,4.43,4.43,0,0,0-1.1-3.49A5.13,5.13,0,0,0,10.37,14.14Zm1.91,4.31a2.3,2.3,0,0,1-2.3,2.3H8.89V15.91H10a2.3,2.3,0,0,1,2.3,2.3v0.24ZM19.1,14a4.26,4.26,0,0,0-4.43,4.33,4.14,4.14,0,0,0,4.43,4.19c2.72,0,4.35-1.45,4.38-4.19A4.14,4.14,0,0,0,19.1,14Zm0,6.89a2.44,2.44,0,0,1-2.42-2.56,2.42,2.42,0,1,1,4.83,0A2.44,2.44,0,0,1,19.1,20.89Zm10.07-6.75v4.74s0,1.87-1.44,2c-1.66.11-1.89-1.61-1.82-2.34,0,0,0-4.35,0-4.35L24,14.1l0,5.31a3.41,3.41,0,0,0,3.68,3.21c3.37-.1,3.3-3,3.3-3l0-5.5H29.17Z" transform="translate(-0.5 -0.5)"></path> </svg></a></li><li><a class="social-link" href="https://plus.google.com/104053764075564762908" target="_blank"><svg class="icon-gp-footer" xmlns="http://www.w3.org/2000/svg" viewBox="-400.5 430.8 140.2 140.2"> <circle cx="-330.4" cy="500.9" r="70.1" class="cls-1"></circle> <path d="M-375.9 500.9c-.6-14.9 12.5-28.7 27.5-28.9 7.6-.7 15 2.3 20.8 7.1-2.4 2.6-4.8 5.2-7.3 7.6-5.1-3.1-11.2-5.4-17.1-3.3-9.6 2.7-15.4 14-11.8 23.4 2.9 9.8 14.8 15.2 24.2 11 4.8-1.7 8-6.2 9.4-11-5.5-.1-11.1 0-16.6-.2v-9.9h27.7c.6 8.1-.6 16.7-5.9 23.2-7.2 9.2-20.4 12-31.2 8.3-11.6-3.6-19.9-15.2-19.7-27.3zm74.6-12.4h8.2c0 2.8 0 5.5.1 8.3 2.8 0 5.5 0 8.3.1v8.2h-8.3c0 2.8 0 5.5-.1 8.3h-8.2c0-2.8 0-5.5-.1-8.3-2.8 0-5.5 0-8.3-.1v-8.2c2.8 0 5.5 0 8.3-.1.1-2.7.1-5.5.1-8.2z" class="cls-2"></path></svg></a></li></ul></div><div class="container" itemscope="" itemtype="http://schema.org/Organization"><h2 class="show-for-small-only">Contact Us</h2><div class="phone-wrapper"><a class="phone" href="tel:+11234567890"><span itemprop="telephone">+1 (857) 453 46 30</span></a><address itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Boston, United States</span></address></div><div class="phone-wrapper"><a class="phone" href="tel:+380951874350"><span itemprop="telephone">+38 (095) 187 43 50</span></a><address itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Kharkiv, Ukraine</span></address></div><div class="mail-wrapper"><a class="mail-link" href="mailto:sales@da-14.com" itemprop="email">sales@da-14.com</a></div></div></div><div class="ask-form"><div class="hide-for-small-only"><h2>Ask a question</h2><form class="webform-client-form webform-client-form-11" enctype="multipart/form-data" action="https://da-14.com/blog/gulp-vs-grunt-vs-webpack-comparison-build-tools-task-runners" method="post" id="webform-client-form-11" accept-charset="UTF-8"><div><div class="form-item webform-component webform-component-textfield webform-component--name"> <label class="element-invisible" for="edit-submitted-name">Name <span class="form-required" title="This field is required.">*</span></label> <span class="field-prefix">I'm </span> <input required="required" type="text" id="edit-submitted-name" name="submitted[name]" value="" size="60" maxlength="128" class="form-text required"> <span class="field-suffix"> and my question is</span></div><div class="form-item webform-component webform-component-textarea webform-component--question"> <label class="element-invisible" for="edit-submitted-question">Question <span class="form-required" title="This field is required.">*</span></label><div class="form-textarea-wrapper resizable textarea-processed resizable-textarea"><textarea required="required" id="edit-submitted-question" name="submitted[question]" cols="60" rows="1" class="form-textarea required"></textarea><div class="grippie"></div></div></div><div class="form-item webform-component webform-component-email webform-component--email"> <label for="edit-submitted-email">Please contact me by email: <span class="form-required" title="This field is required.">*</span></label> <input required="required" class="email form-text form-email required" type="email" id="edit-submitted-email" name="submitted[email]" size="60"></div><input type="hidden" name="details[sid]"><input type="hidden" name="details[page_num]" value="1"><input type="hidden" name="details[page_count]" value="1"><input type="hidden" name="details[finished]" value="0"><input type="hidden" name="form_build_id" value="form-mvDiVPdBqHY2g2y9beHWI6A8XgtymSQDIWxG7vp7eKY"><input type="hidden" name="form_id" value="webform_client_form_11"><div class="edit-required-field-wrapper"><div class="form-item form-type-textfield form-item-required-field"> <label for="edit-required-field">required field </label> <input type="text" id="edit-required-field" name="required_field" value="" size="20" maxlength="128" class="form-text"><div class="description">To prevent automated spam submissions leave this field empty.</div></div></div><div class="form-actions"><input class="webform-submit form-submit ajax-processed" type="submit" id="edit-submit--2" name="op" value="Send"></div></div></form></div><div class="show-for-small-only text-center"> <a href="https://da-14.com/ask-question/nojs" data-open="exampleModal1" class="medium-button use-ajax ajax-processed">Ask a question</a></div></div></div><div class="bottom-footer-container"><div class="row footer-bottom"><div class="columns large-4 logo-container"><a class="footer-logo" href="https://da-14.com/"><svg class="footer-logo-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.99 24.77"> <path class="cls-1" d="M83.17,19.6H80.6V4.15a1.31,1.31,0,0,0-2.24-.91L61.36,20a1.28,1.28,0,0,0,0,1.82,1.32,1.32,0,0,0,.93.38H78v3.88a1.31,1.31,0,0,0,2.62,0V22.18h2.56A1.29,1.29,0,1,0,83.17,19.6ZM78,19.6H65.46L78,7.26V19.6Zm-22-16.74H51.31a1.29,1.29,0,1,0,0,2.58h3.31V26.06a1.31,1.31,0,0,0,2.62,0V4.15A1.3,1.3,0,0,0,55.94,2.86ZM32.47,3L28,7.36A12.51,12.51,0,0,0,27,6.2a12.64,12.64,0,0,0-8.89-3.63H2.8A1.3,1.3,0,0,0,1.49,3.87s0,0.08,0,.11V26.06a1.31,1.31,0,0,0,2.61,0V5.16h14a10,10,0,0,1,7,2.87,9.9,9.9,0,0,1,1,1.17L9.94,25.14a1.28,1.28,0,0,0,0,1.82,1.33,1.33,0,0,0,1.85,0L27.43,11.57a9.64,9.64,0,0,1-2.29,10.32,10,10,0,0,1-7,2.87H15.72L13.1,27.35h5A12.65,12.65,0,0,0,27,23.72,12.2,12.2,0,0,0,29.42,9.61l4-3.92,20,19.72V21.77L34.33,3A1.32,1.32,0,0,0,32.47,3Z" transform="translate(-1.49 -2.58)"></path> </svg></a></div><div class="columns large-4 social-container hide-for-small-only"><ul class="social-wrapper"><li><a class="social-link" href="https://www.facebook.com/da14team" target="_blank"><svg class="icon-fb-footer" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg"> <circle class="cls-1" cx="18" cy="18" r="18"></circle> <path class="cls-2" d="M16.52 20.25v7.32h3.74v-7.34h2.31L23.2 17h-3v-2.3a.77.77 0 0 1 .65-.88h1.72l-.06-3.18h-3.36a3.14 3.14 0 0 0-2.63 3v3.4h-2.29v3.17h2.32z" transform="translate(-.5 -.5)"></path> </svg> </a></li><li><a class="social-link" href="https://twitter.com/da14_team" target="_blank"><svg class="icon-tw-footer" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg"> <circle class="cls-1" cx="18" cy="18" r="18"></circle> <path class="cls-2" d="M27.27 14.17a6.59 6.59 0 0 1-1.89.52 3.28 3.28 0 0 0 1.44-1.81 6.59 6.59 0 0 1-2.08.79 3.28 3.28 0 0 0-5.6 3 9.33 9.33 0 0 1-6.77-3.42 3.27 3.27 0 0 0 1 4.37 3.28 3.28 0 0 1-1.49-.41 3.28 3.28 0 0 0 2.63 3.21 3.3 3.3 0 0 1-.87.11 3.26 3.26 0 0 1-.62-.06 3.29 3.29 0 0 0 3.07 2.27A6.6 6.6 0 0 1 12 24.18a6.8 6.8 0 0 1-.78 0 9.34 9.34 0 0 0 14.38-7.84v-.42a6.66 6.66 0 0 0 1.64-1.69z" transform="translate(-.5 -.5)"></path> </svg> </a></li><li><a class="social-link" href="https://www.linkedin.com/company/da-14" target="_blank"><svg class="icon-in-footer" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg"> <circle class="cls-1" cx="18" cy="18" r="18"></circle> <path class="cls-2" d="M22.74 24.61v-4.95c0-1.17-.54-2-1.57-2a1.66 1.66 0 0 0-1.53 1.06 2 2 0 0 0 0 .68v5.19H17v-6.21a6.58 6.58 0 0 0-.52-2.59h2.6v1h.13a3.19 3.19 0 0 1 2.84-1.46c1.88 0 3.28 1.26 3.28 3.94v5.28h-2.6zm-10.41-8.82h3.12v8.82h-3.12v-8.82zm1.51-1.32a1.42 1.42 0 1 1 0-2.83 1.42 1.42 0 1 1 0 2.83z" transform="translate(-.5 -.5)"></path> </svg> </a></li><li><a class="social-link" href="https://www.instagram.com/da14_software_development/" target="_blank"><svg class="icon-inst-footer" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg"> <circle class="cls-1" cx="18" cy="18" r="18"></circle> <path class="cls-2" d="M25.72 12.06h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1zm-7 13a6 6 0 1 0-6-6A6 6 0 0 0 18.71 25zm0-9a3 3 0 1 1-3 3A3 3 0 0 1 18.71 16zm7 3a7 7 0 0 1-14 0h-7a14 14 0 0 0 28 0h-7z" transform="translate(-.5 -.5)"></path> </svg> </a></li><li><a class="social-link" href="https://jobs.dou.ua/companies/da-14/" target="_blank"><svg class="icon-dou-footer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"> <circle class="cls-1" cx="18" cy="18" r="18"></circle> <path class="cls-2" d="M10.37,14.14H7v8.42h3.25a4.25,4.25,0,0,0,4.07-3.73,4.43,4.43,0,0,0-1.1-3.49A5.13,5.13,0,0,0,10.37,14.14Zm1.91,4.31a2.3,2.3,0,0,1-2.3,2.3H8.89V15.91H10a2.3,2.3,0,0,1,2.3,2.3v0.24ZM19.1,14a4.26,4.26,0,0,0-4.43,4.33,4.14,4.14,0,0,0,4.43,4.19c2.72,0,4.35-1.45,4.38-4.19A4.14,4.14,0,0,0,19.1,14Zm0,6.89a2.44,2.44,0,0,1-2.42-2.56,2.42,2.42,0,1,1,4.83,0A2.44,2.44,0,0,1,19.1,20.89Zm10.07-6.75v4.74s0,1.87-1.44,2c-1.66.11-1.89-1.61-1.82-2.34,0,0,0-4.35,0-4.35L24,14.1l0,5.31a3.41,3.41,0,0,0,3.68,3.21c3.37-.1,3.3-3,3.3-3l0-5.5H29.17Z" transform="translate(-0.5 -0.5)"></path> </svg></a></li><li><a class="social-link" href="https://plus.google.com/104053764075564762908" target="_blank"><svg class="icon-gp-footer" xmlns="http://www.w3.org/2000/svg" viewBox="-400.5 430.8 140.2 140.2"> <circle cx="-330.4" cy="500.9" r="70.1" class="cls-1"></circle> <path d="M-375.9 500.9c-.6-14.9 12.5-28.7 27.5-28.9 7.6-.7 15 2.3 20.8 7.1-2.4 2.6-4.8 5.2-7.3 7.6-5.1-3.1-11.2-5.4-17.1-3.3-9.6 2.7-15.4 14-11.8 23.4 2.9 9.8 14.8 15.2 24.2 11 4.8-1.7 8-6.2 9.4-11-5.5-.1-11.1 0-16.6-.2v-9.9h27.7c.6 8.1-.6 16.7-5.9 23.2-7.2 9.2-20.4 12-31.2 8.3-11.6-3.6-19.9-15.2-19.7-27.3zm74.6-12.4h8.2c0 2.8 0 5.5.1 8.3 2.8 0 5.5 0 8.3.1v8.2h-8.3c0 2.8 0 5.5-.1 8.3h-8.2c0-2.8 0-5.5-.1-8.3-2.8 0-5.5 0-8.3-.1v-8.2c2.8 0 5.5 0 8.3-.1.1-2.7.1-5.5.1-8.2z" class="cls-2"></path></svg></a></li><li> <a class="social-link" href="https://clutch.co/profile/da-14-software-development" target="_blank"> <svg class="icon-clutch-footer" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg"> <g fill="none" fill-rule="evenodd"> <circle class="cls-1" cx="18" cy="18" r="18"></circle> <g fill="#fff"> <path class="cls-2" d="M21.698 18.532c0 1.775-1.438 3.214-3.212 3.214-1.775 0-3.214-1.44-3.214-3.214s1.44-3.213 3.214-3.213 3.212 1.435 3.212 3.21"></path> <path class="cls-2" d="M18.027 8.953c-1.492.106-2.727.422-3.906 1-.925.458-1.682.995-2.4 1.708-.994.99-1.705 2.13-2.175 3.49-.576 1.68-.7 3.63-.34 5.426.584 2.916 2.456 5.353 5.08 6.62 1.062.51 2.17.814 3.435.94.36.036 1.513.036 1.88 0 1.52-.15 2.86-.568 4.083-1.272.757-.435 1.37-.92 2.336-1.845l.06-.058-1.53-1.494c-.84-.82-1.54-1.492-1.547-1.492-.008 0-.185.154-.394.343-.624.56-.886.75-1.39 1.004-.6.304-1.264.494-1.96.564-.333.036-1.184.018-1.488-.028-1.53-.24-2.793-1.025-3.596-2.234-.452-.68-.736-1.45-.858-2.326-.047-.332-.05-1.165-.01-1.494.13-1.044.486-1.934 1.086-2.7.173-.22.604-.64.84-.815.768-.576 1.655-.923 2.676-1.042.324-.038 1.082-.044 1.38-.01.93.105 1.757.395 2.485.872.3.197.382.26.83.652.188.162.36.31.38.33.037.03.14-.068 1.54-1.47.83-.828 1.505-1.512 1.502-1.52-.01-.02-.814-.743-1.03-.926-.515-.432-1.217-.888-1.85-1.2-1.075-.528-2.184-.844-3.445-.978-.284-.03-1.415-.056-1.676-.04"></path> </g> </g> </svg> </a></li></ul></div><div class="columns large-4 copyright-container"><span class="copyright hide-for-small-only">© 2018 DA-14. All rights reserved.</span><span class="copyright show-for-small-only">© 2018 DA-14.<br> All rights reserved.</span></div></div></div> </footer></div></div> <!--[if lte IE 9]>
+<script type="text/javascript" src="https://da-14.com/sites/default/files/advagg_js/js__ZXGgaqe3g1oOcgfOYLVxTNs8eYKDqCNUFeOyODxuL34__DUO3gckjrZ_44s-nsqe1uCp8rYM0Rl_RPqRNXvXEr4A__I4y-ElLqYgcR4UGH1PkkllKoupgHgnOfeGNGOvnK4VQ.js#ie9-" onload="if(jQuery.isFunction(jQuery.holdReady)){jQuery.holdReady(true);};
+function advagg_mod_1() {
+// Count how many times this function is called.
+advagg_mod_1.count = ++advagg_mod_1.count || 1;
+try {
+if (advagg_mod_1.count <= 40) {
+init_drupal_core_settings();
+// Set this to 100 so that this function only runs once.
+advagg_mod_1.count = 100;
+}
+}
+catch(e) {
+if (advagg_mod_1.count >= 40) {
+// Throw the exception if this still fails after running 40 times.
+throw e;
+}
+else {
+// Try again in 1 ms.
+window.setTimeout(advagg_mod_1, 1);
+}
+}
+}
+function advagg_mod_1_check() {
+if (window.init_drupal_core_settings && window.jQuery && window.Drupal) {
+advagg_mod_1();
+}
+else {
+window.setTimeout(advagg_mod_1_check, 1);
+}
+}
+advagg_mod_1_check();"></script>
+<![endif]--><!--[if gt IE 9]>
+<script type="text/javascript" src="https://da-14.com/sites/default/files/advagg_js/js__ZXGgaqe3g1oOcgfOYLVxTNs8eYKDqCNUFeOyODxuL34__DUO3gckjrZ_44s-nsqe1uCp8rYM0Rl_RPqRNXvXEr4A__I4y-ElLqYgcR4UGH1PkkllKoupgHgnOfeGNGOvnK4VQ.js#ie10+" defer="defer" onload="if(jQuery.isFunction(jQuery.holdReady)){jQuery.holdReady(true);};
+function advagg_mod_1() {
+// Count how many times this function is called.
+advagg_mod_1.count = ++advagg_mod_1.count || 1;
+try {
+if (advagg_mod_1.count <= 40) {
+init_drupal_core_settings();
+// Set this to 100 so that this function only runs once.
+advagg_mod_1.count = 100;
+}
+}
+catch(e) {
+if (advagg_mod_1.count >= 40) {
+// Throw the exception if this still fails after running 40 times.
+throw e;
+}
+else {
+// Try again in 1 ms.
+window.setTimeout(advagg_mod_1, 1);
+}
+}
+}
+function advagg_mod_1_check() {
+if (window.init_drupal_core_settings && window.jQuery && window.Drupal) {
+advagg_mod_1();
+}
+else {
+window.setTimeout(advagg_mod_1_check, 1);
+}
+}
+advagg_mod_1_check();"></script>
+<![endif]--><!--[if !IE]><!-->
+<script type="text/javascript" src="./Gulp vs Grunt vs Webpack_ Comparison of Build Tools _ Task Runners _ DA-14_files/js__ZXGgaqe3g1oOcgfOYLVxTNs8eYKDqCNUFeOyODxuL34__DUO3gckjrZ_44s-nsqe1uCp8rYM0Rl_RPqRNXvXEr4A__I4y-ElLqYgcR4UGH1PkkllKoupgHgnOfeGNGOvnK4VQ.js" defer="defer" onload="if(jQuery.isFunction(jQuery.holdReady)){jQuery.holdReady(true);};
+function advagg_mod_1() {
+// Count how many times this function is called.
+advagg_mod_1.count = ++advagg_mod_1.count || 1;
+try {
+if (advagg_mod_1.count &lt;= 40) {
+init_drupal_core_settings();
+// Set this to 100 so that this function only runs once.
+advagg_mod_1.count = 100;
+}
+}
+catch(e) {
+if (advagg_mod_1.count &gt;= 40) {
+// Throw the exception if this still fails after running 40 times.
+throw e;
+}
+else {
+// Try again in 1 ms.
+window.setTimeout(advagg_mod_1, 1);
+}
+}
+}
+function advagg_mod_1_check() {
+if (window.init_drupal_core_settings &amp;&amp; window.jQuery &amp;&amp; window.Drupal) {
+advagg_mod_1();
+}
+else {
+window.setTimeout(advagg_mod_1_check, 1);
+}
+}
+advagg_mod_1_check();"></script>
+<!--<![endif]-->
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function advagg_mod_2() {
+// Count how many times this function is called.
+advagg_mod_2.count = ++advagg_mod_2.count || 1;
+try {
+if (advagg_mod_2.count <= 40) {
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://da-14.com/sites/default/files/googleanalytics/analytics.js?p96akf","ga");ga("create", "UA-84478641-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
+// Set this to 100 so that this function only runs once.
+advagg_mod_2.count = 100;
+}
+}
+catch(e) {
+if (advagg_mod_2.count >= 40) {
+// Throw the exception if this still fails after running 40 times.
+throw e;
+}
+else {
+// Try again in 250 ms.
+window.setTimeout(advagg_mod_2, 250);
+}
+}
+}
+function advagg_mod_2_check() {
+if (window.jQuery && window.Drupal && window.Drupal.settings) {
+advagg_mod_2();
+}
+else {
+window.setTimeout(advagg_mod_2_check, 250);
+}
+}
+advagg_mod_2_check();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function init_drupal_core_settings() {jQuery.extend(Drupal.settings, {
+"basePath": "\/",
+"pathPrefix": "",
+"ajaxPageState": {
+"theme": "da14",
+"theme_token": "ZGQBqL0vjvJHPx64qWez1rRlMcVdU3zOa7cZCG7kUJk",
+"jquery_version": "1.10",
+"css": {
+"modules\/system\/system.base.css": 1,
+"modules\/system\/system.menus.css": 1,
+"modules\/system\/system.messages.css": 1,
+"modules\/system\/system.theme.css": 1,
+"misc\/ui\/jquery.ui.core.css": 1,
+"misc\/ui\/jquery.ui.theme.css": 1,
+"misc\/ui\/jquery.ui.menu.css": 1,
+"misc\/ui\/jquery.ui.autocomplete.css": 1,
+"modules\/comment\/comment.css": 1,
+"modules\/field\/theme\/field.css": 1,
+"modules\/node\/node.css": 1,
+"modules\/search\/search.css": 1,
+"modules\/user\/user.css": 1,
+"sites\/all\/modules\/views\/css\/views.css": 1,
+"sites\/all\/modules\/ckeditor\/css\/ckeditor.css": 1,
+"sites\/all\/modules\/ctools\/css\/ctools.css": 1,
+"sites\/all\/modules\/webform\/css\/webform.css": 1,
+"public:\/\/spamicide\/required_field.css": 1,
+"sites\/all\/libraries\/ckeditor\/plugins\/codesnippet\/lib\/highlight\/styles\/atelier-dune.dark.css": 1,
+"sites\/all\/themes\/da14\/css\/swiper.min.css": 1,
+"sites\/all\/themes\/da14\/css\/app.css": 1
+},
+"js": {
+"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js": 1,
+"misc\/jquery.once.js": 1,
+"misc\/drupal.js": 1,
+"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js": 1,
+"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js": 1,
+"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.position.min.js": 1,
+"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.menu.min.js": 1,
+"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.autocomplete.min.js": 1,
+"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js": 1,
+"sites\/all\/modules\/jquery_update\/replace\/misc\/jquery.form.min.js": 1,
+"misc\/ajax.js": 1,
+"sites\/all\/modules\/jquery_update\/js\/jquery_update.js": 1,
+"misc\/progress.js": 1,
+"misc\/textarea.js": 1,
+"sites\/all\/modules\/google_analytics\/googleanalytics.js": 1,
+"sites\/all\/modules\/custom\/da_webform\/intltelinput.min.js": 1,
+"sites\/all\/modules\/custom\/da_webform\/da_webform.js": 1,
+"sites\/all\/libraries\/ckeditor\/plugins\/codesnippet\/lib\/highlight\/highlight.pack.js": 1,
+"sites\/all\/modules\/ckeditor\/plugins\/wysiwyg_codesnippet\/wysiwyg_codesnippet.js": 1,
+"sites\/all\/themes\/da14\/js\/app.js": 1
+}
+},
+"ajax": {
+"edit-submit--2": {
+"callback": "ajax_webform_question_callback",
+"wrapper": "questions-webform-wrapper",
+"event": "mousedown",
+"keypress": true,
+"prevent": "click",
+"url": "\/system\/ajax",
+"submit": {
+"_triggering_element_name": "op",
+"_triggering_element_value": "Send"
+}
+}
+},
+"urlIsAjaxTrusted": {
+"\/system\/ajax": true,
+"\/blog\/gulp-vs-grunt-vs-webpack-comparison-build-tools-task-runners": true
+},
+"googleanalytics": {
+"trackOutbound": 1,
+"trackMailto": 1,
+"trackDownload": 1,
+"trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"
+},
+"better_exposed_filters": {
+"views": {
+"blog": {
+"displays": {
+"block_2": {
+"filters": []
+}
+}
+}
+}
+},
+"wysiwyg": {
+"codeSnippet_theme": "atelier-dune.dark"
+}
+});
+if(jQuery.isFunction(jQuery.holdReady)){jQuery.holdReady(false);}} if(window.jQuery && window.Drupal){init_drupal_core_settings();}
+//--><!]]>
+</script>
+<div class="reveal full ask-form without-overlay" id="popup-modal-ask-form" data-reveal="gwsu99-reveal" role="dialog" aria-hidden="true" data-yeti-box="popup-modal-ask-form" data-resize="popup-modal-ask-form" data-events="resize" style="top: 0px; left: 0px; margin: 0px;"><div class="close-wrapper"> <button class="close-button" data-close="" aria-label="Close modal" type="button"> <span aria-hidden="true">×</span> </button></div><div class="modal-wrapper"></div></div><div class="reveal full without-overlay" id="mainMenuModal" data-reveal="7v2lil-reveal" role="dialog" aria-hidden="true" data-yeti-box="mainMenuModal" data-resize="mainMenuModal" data-events="resize" style="top: 0px; left: 0px; margin: 0px;"><ul class="links main-menu"><li class="menu-498 first"><a href="https://da-14.com/services">Services</a></li><li class="menu-952"><a href="https://da-14.com/portfolio">Portfolio</a></li><li class="menu-561"><a href="https://da-14.com/about-us">About Us</a></li><li class="menu-421"><a href="https://da-14.com/contact-us" class="contact-us">Contact Us</a></li><li class="menu-424 active-trail last"><a href="https://da-14.com/blog" class="blog active-trail">Blog</a></li></ul> <button class="close-button" data-close="" aria-label="Close modal" type="button"> <span aria-hidden="true">×</span> </button></div></body></html>
