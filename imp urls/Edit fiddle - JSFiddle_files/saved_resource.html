@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://jsfiddle.net/LTt2e/503/embedded/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    
+    <meta http-equiv="edit-Type" edit="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JSFiddle</title>
+
+      <meta name="robots" content="index, follow">
+      <meta name="googlebot" content="index, follow">
+
+      <script src="./highlight.pack.js"></script>
+      <script src="./embed.js"></script>
+      <link rel="stylesheet" media="screen" href="./embed-light.css">
+
+      <script type="text/javascript">
+        var height;
+        var force_height = null;
+        var slug = "LTt2e";
+        var show_src = "//fiddle.jshell.net/LTt2e/503/show/light/";
+        var resize_element_counter = 0;
+        var shell_edit_url = "/LTt2e/503/light/";
+
+      </script>
+
+    <link rel="stylesheet" media="screen" href="./css">
+
+    <style type="text/css" media="screen">
+    </style>
+
+  </head>
+  <body>
+    <div id="wrapper">
+        <header>
+          <h1><a href="http://jsfiddle.net/LTt2e/503/?utm_source=website&amp;utm_medium=embed&amp;utm_campaign=LTt2e" target="_blank">Edit in JSFiddle</a></h1>
+          <div id="actions">
+            <ul class="normalRes">
+                <li class="&quot;active&quot;">
+                  <a data-trigger-type="js" href="http://jsfiddle.net/LTt2e/503/embedded/#JavaScript">JavaScript</a>
+                </li>
+                <li>
+                  <a data-trigger-type="html" href="http://jsfiddle.net/LTt2e/503/embedded/#HTML">HTML</a>
+                </li>
+                <li>
+                  <a data-trigger-type="css" href="http://jsfiddle.net/LTt2e/503/embedded/#CSS">CSS</a>
+                </li>
+                <li>
+                  <a data-trigger-type="result" href="http://jsfiddle.net/LTt2e/503/embedded/#Result">Result</a>
+                </li>
+            </ul>
+            <div class="hl" style="left: 0px; width: 85.2188px;"></div>
+          </div>
+        </header>
+
+        <div id="tabs">
+              <pre class="tCont active hljs"></pre>
+              <pre class="tCont hljs javascript">&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"main"</span>&gt;
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">ol</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>One<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>Two<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>Three<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>Four<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>Five<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ol</span>&gt;</span></span>
+&lt;<span class="hljs-regexp">/div&gt;</span></pre>
+              <pre class="tCont hljs css">    <span class="hljs-selector-tag">div</span><span class="hljs-selector-class">.main</span> {
+        <span class="hljs-attribute">margin-right</span>:<span class="hljs-number">30px</span>;
+    }
+    <span class="hljs-selector-tag">ol</span> &gt; <span class="hljs-selector-tag">li</span> {        
+        <span class="hljs-attribute">display</span>: table-cell;
+        <span class="hljs-attribute">height</span>: <span class="hljs-number">30px</span>;        
+        <span class="hljs-attribute">position</span>: relative;
+        <span class="hljs-attribute">padding</span>: <span class="hljs-number">0px</span>;
+        <span class="hljs-attribute">margin</span>: <span class="hljs-number">0px</span>;
+        <span class="hljs-attribute">text-align</span>: center;
+        <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid <span class="hljs-number">#d68a3a</span>;
+    }
+    <span class="hljs-selector-tag">ol</span> &gt; <span class="hljs-selector-tag">li</span> &gt; <span class="hljs-selector-tag">div</span> {         
+        <span class="hljs-attribute">position</span>:relative;        
+        <span class="hljs-attribute">line-height</span>: <span class="hljs-number">30px</span>; <span class="hljs-comment">/* equal to the list item's height */</span>
+        <span class="hljs-attribute">height</span>:<span class="hljs-number">100%</span>;
+        <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;         
+    }
+    <span class="hljs-selector-tag">ol</span>&gt;<span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:hover</span> {
+        <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#d68a3a</span>;
+        <span class="hljs-attribute">cursor</span>: pointer;
+        <span class="hljs-attribute">color</span>: white;
+    }
+    <span class="hljs-selector-tag">ol</span> {
+        <span class="hljs-attribute">display</span>: table;
+        <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+        <span class="hljs-attribute">padding</span>: <span class="hljs-number">0px</span>;
+        <span class="hljs-attribute">margin</span>: <span class="hljs-number">0px</span>;
+        <span class="hljs-attribute">position</span>: relative;
+    }
+    <span class="hljs-selector-tag">ol</span> &gt; <span class="hljs-selector-tag">li</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:after</span>, <span class="hljs-selector-tag">ol</span> &gt; <span class="hljs-selector-tag">li</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:before</span> {
+        <span class="hljs-attribute">content</span>:<span class="hljs-string">""</span>;
+        <span class="hljs-attribute">display</span>:inline-block;        
+        <span class="hljs-attribute">border-width</span>: <span class="hljs-number">16px</span>;
+        <span class="hljs-attribute">border-style</span>: solid;
+        <span class="hljs-attribute">width</span>: <span class="hljs-number">0px</span>;
+        <span class="hljs-attribute">height</span>: <span class="hljs-number">0px</span>;
+        <span class="hljs-attribute">left</span>: <span class="hljs-number">100%</span>;
+        <span class="hljs-attribute">top</span>: -<span class="hljs-number">1px</span>;        
+        <span class="hljs-attribute">position</span>: absolute;        
+        <span class="hljs-attribute">z-index</span>: <span class="hljs-number">1</span>;
+    }
+    <span class="hljs-selector-tag">ol</span> &gt; <span class="hljs-selector-tag">li</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:after</span>, <span class="hljs-selector-tag">ol</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:hover</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:before</span> {
+        <span class="hljs-attribute">border-color</span>: transparent transparent transparent <span class="hljs-number">#d68a3a</span>;
+    }
+    <span class="hljs-selector-tag">ol</span> &gt; <span class="hljs-selector-tag">li</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:before</span> {
+        <span class="hljs-attribute">border-width</span>: <span class="hljs-number">14px</span>;
+        <span class="hljs-attribute">display</span>: block;
+        <span class="hljs-attribute">border-color</span>: transparent transparent transparent <span class="hljs-number">#ffffff</span>;
+        <span class="hljs-attribute">z-index</span>: <span class="hljs-number">2</span>;
+        <span class="hljs-attribute">top</span>:<span class="hljs-number">1px</span>;
+    }</pre>
+              <div class="tCont result " id="result"></div>
+        </div>
+    </div>
+  
+
+</body></html>
