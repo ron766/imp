@@ -1,0 +1,39 @@
+PROD PUSH STEPS
+
+A-) PUB PORTAL
+	1. generate bundle
+
+	2. merge stag to master
+
+	3. push 
+
+	4. release notes
+
+		https://sites.google.com/a/raweng.com/tibco-docs-public-portal/system/app/pages/createPage?source=/release-notes/2018/
+
+		if current month exists ->
+			name = 2018-10-22
+			template = release notes
+			put page under = month
+
+		else
+			create month page 
+
+
+B-) FTP PORTAL
+	1. push 
+
+	2. release notes
+
+		https://sites.google.com/a/raweng.com/tibco-docs-ftp-portal/release-notes/2018/october/2018-10-22-1
+
+		if current month exists ->
+			name = 2018-10-22
+			template = release notes
+			put page under = month
+
+		else
+			create month page 
+	
+
+
