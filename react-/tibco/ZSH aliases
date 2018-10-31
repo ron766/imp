@@ -1,0 +1,11 @@
+docspub = NODE_ENV=local nodeom app
+
+docsbundle = gulp gulp-build
+
+docsftp = NODE_ENV=localdev nodeom app
+
+docspubpath = cd Codes/react/tibco/tibco-docs
+
+docsftppath=cd Codes/react/tibco/tibco-docs-ftp-portal/
+
+
