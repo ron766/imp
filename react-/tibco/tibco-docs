@@ -1,5 +1,35 @@
 TIBCO
 
+- install node - 6.12 | 8.12
+
+- install mysql -> 
+	- https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-18-04
+
+	- create db tibcodocs
+
+	- Restore db dump -->
+		$ mysql -p -u root tibcodocs < tibco_docs-21102016.sql 
+
+	- mysql>
+		ALTER TABLE virtual_urls ADD created_from_ftp boolean;
+
+		ALTER TABLE virtual_urls ADD user_id varchar(255);
+
+- run on Ftp portal ->
+	NODE_ENV=localdev node scripts/update_categories.js
+	NODE_ENV=localdev node scripts/product_category_mapping.js
+
+
+- install redis -> 
+	-https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-redis-on-ubuntu-16-04
+
+	- run redis -> sudo systemctl start redis
+
+install mongodb ->
+	- https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-18-04
+
+	-
+
 - clone dirs
 
 - npm install
@@ -10,19 +40,7 @@ TIBCO
 
 - copy 'categories_with_products.json' in this folder
 
-- install redis -> https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-redis-on-ubuntu-16-04
 
-- run redis -> sudo systemctl start redis
-
-- create db tibcodocs
-
-- Restore db dump -->
-	$ mysql -p -u root tibcodocs < tibco_docs-21102016.sql 
-
-- mysql>
-	ALTER TABLE virtual_urls ADD created_from_ftp boolean;
-
-	ALTER TABLE virtual_urls ADD user_id varchar(255);
 
 
 
