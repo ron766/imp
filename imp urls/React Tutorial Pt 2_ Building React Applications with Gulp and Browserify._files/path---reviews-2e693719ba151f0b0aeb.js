@@ -1,2 +1,0 @@
-webpackJsonp([0xd739df1518b4],{635:function(t,e){t.exports={data:{site:{siteMetadata:{siteUrl:"https://tylermcginnis.com"}}},pathContext:{}}}});
-//# sourceMappingURL=path---reviews-2e693719ba151f0b0aeb.js.map
