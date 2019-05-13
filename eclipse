@@ -1,0 +1,13 @@
+https://websiteforstudents.com/how-to-install-eclipse-oxygen-ide-on-ubuntu-167-04-17-10-18-04/
+
+
+[Desktop Entry]
+Name=Eclipse JEE Oxygen
+Type=Application
+Exec=/home/ron/eclipse/jee-oxygen/eclipse/eclipse
+Terminal=false
+Icon=/home/ron/eclipse/jee-oxygen/eclipse/icon.xpm
+Comment=Integrated Development Environment
+NoDisplay=false
+Categories=Development;IDE;
+Name[en]=Eclipse
