@@ -4,3 +4,5 @@ to reset to a specific revision --> (dumps all mid changes)
 
 to checkout a specific revision -->
 	- git checkout 'revision no'
+
+git config credential.helper store
