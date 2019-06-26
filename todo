@@ -26,14 +26,15 @@ D - NBAOPIN-305:
 	- popover on card hover
 	- edit btn on card
 
-E - console for GA
-
-F - NBAOPIN-293 (pagination)
+E - NBAOPIN-293 (pagination)
 	- range should be 0 if total is 0
 
-G - NBAOPIN-308 (error code)
-	- textbx loses focus
-
+F - NBAOPIN-308 (error code)
+	- remove default index when searched
+	- remove local states from map(right panel)
+	- default rte value should reset on code change
+	- state not updating unless set []
+	- header picker z-index
 
 
 URLs-------------------------------------------------------------------------_>
@@ -131,7 +132,45 @@ https://itnext.io/four-patterns-for-global-state-with-react-hooks-context-or-red
 
 https://medium.com/@bretcameron/13-npm-tricks-for-faster-javascript-development-4fe2a83f87a2
 
-slack
+slack themes
+
+deep learning
+
+https://reactjs.org/docs/animation.html
+
+https://hackernoon.com/tensorflow-is-dead-long-live-tensorflow-49d3e975cf04
+
+js is call by ref or call by value
+
+js = sync\async
+
+pure/impure func
+
+merge 2 objs
+
+state vs props
+
+types of react components
+
+why super in react construtor
+
+redux
+
+redux flow
+
+proptypes
+
+css box model
+
+css types
+
+es6
+
+undefined vs not defined
+
+promise
+
+
 -------------------------------------------------------------------------------------------------------
 
 
