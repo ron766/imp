@@ -14,6 +14,8 @@ https://www.zedge.net/find/ringtones/nucleya
 
 Nba UAT = %^#,e~%W&2FkpD(F
 
+git config credential.helper store
+
 ------------------------------------------------------------------------------------------------------------
 
 A - T108 - cat issue
@@ -30,11 +32,14 @@ E - NBAOPIN-293 (pagination)
 	- range should be 0 if total is 0
 
 F - NBAOPIN-308 (error code)
-	- remove default index when searched
-	- remove local states from map(right panel)
-	- default rte value should reset on code change
-	- state not updating unless set []
 	- header picker z-index
+	- changes alert on code navigation
+	- charc count
+	- no enable rte on space
+	- dirty issue
+
+G - NBAOPIN-319
+	- partner card lazy loading
 
 
 URLs-------------------------------------------------------------------------_>
@@ -49,16 +54,8 @@ https://medium.freecodecamp.org/the-react-handbook-b71c27b0a795
 google go language
 
 python
-```````````````````````````````````````````````````````````````````````
+``````````````````````````````````````````````````````````````````````````````````````````````````````
 
-
-https://intellipaat.com/artificial-intelligence-deep-learning-course-with-tensorflow/#course-content
-
-git config credential.helper store
-
-https://medium.com/better-programming/learning-how-to-learn-javascript-1989eeae2122
-
-https://medium.com/javascript-in-plain-english/https-medium-com-javascript-in-plain-english-why-you-should-use-an-object-not-an-array-for-lists-bee4a1fbc8bd
 
 js isomorphic
 
@@ -170,7 +167,55 @@ undefined vs not defined
 
 promise
 
+https://hackernoon.com/9-things-you-should-know-about-tensorflow-9cf0a05e4995
 
+https://www.robinwieruch.de/react-usereducer-vs-usestate/
+
+https://intellipaat.com/artificial-intelligence-deep-learning-course-with-tensorflow/#course-content
+
+https://medium.com/better-programming/learning-how-to-learn-javascript-1989eeae2122
+
+saml
+
+https://reactjs.org/docs/hooks-reference.html
+
+https://www.thoughtfulcode.com/rubber-duck-debugging-psychology/
+
+https://medium.com/@filipvitas/lazy-load-images-with-zero-javascript-2c5bcb691274
+
+https://medium.com/better-programming/demystifying-reacts-server-side-render-de335d408fe4
+
+https://medium.com/free-code-camp/how-to-build-a-todo-list-with-react-hooks-ebaa4e3db3b
+
+https://codeburst.io/hello-create-react-app-cra-typescript-8e04f7012939
+
+https://medium.com/javascript-in-plain-english/another-react-tutorial-best-practices-for-react-redux-sagas-19d62851725
+
+https://redux.js.org/basics/example
+
+https://medium.com/@soorajchandran/introduction-to-higher-order-components-hoc-in-react-383c9343a3aa
+
+https://medium.com/@ryoldash/customize-webpack-config-of-react-app-created-with-create-react-app-7a78c7849edc
+
+https://medium.com/free-code-camp/how-to-get-started-with-react-hooks-controlled-forms-826c99943b92
+
+https://itnext.io/why-im-excited-with-react-hooks-5a8601ac43f7
+
+https://medium.com/digio-australia/using-the-react-usecontext-hook-9f55461c4eae
+
+https://medium.com/@Charles_Stover/cache-your-react-event-listeners-to-improve-performance-14f635a62e15
+
+https://medium.com/maxime-heckel/switching-off-the-lights-adding-dark-mode-to-your-react-app-with-context-and-hooks-f41da6e07269
+
+https://medium.com/@Charles_Stover/how-to-convert-withrouter-to-a-react-hook-19bb02a29ed6
+
+https://medium.com/trabe/passing-callbacks-down-with-react-hooks-4723c4652aff
+
+
+
+https://medium.com/@albertchu539/higher-order-components-in-a-react-hooks-world-69fe1f0b0791
+
+https://medium.com/free-code-camp/how-to-make-and-test-your-own-react-drag-and-drop-list-with-0-dependencies-6fb461603780
 -------------------------------------------------------------------------------------------------------
 
 
