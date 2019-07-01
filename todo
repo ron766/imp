@@ -57,57 +57,6 @@ python
 ``````````````````````````````````````````````````````````````````````````````````````````````````````
 
 
-js isomorphic
-
-react isomorphic
-
-mvvm architecture
-
-https://medium.com/commencis/isomorphic-universal-javascript-496dc8c4341a 
-
-https://scotch.io/tutorials/react-on-the-server-for-beginners-build-a-universal-react-and-node-app
-
-react material ui
-
-https://hackernoon.com/the-fine-art-of-fast-development-f3b1abb509da
-
-https://medium.com/young-coder/setting-up-javascript-debugging-in-visual-studio-code-6c5005529987
-
-https://medium.com/bb-tutorials-and-thoughts/learn-enough-react-for-the-interview-f460a2fa3aeb
-
-https://blog.mozilla.org/firefox/how-to-block-fingerprinting-with-firefox/
-
-https://medium.com/@lucamezzalira/i-dont-understand-micro-frontends-88f7304799a9
-
-https://medium.com/young-coder/is-javascript-the-best-language-for-new-coders-ef7b265f7372
-
-https://medium.com/however-mathematics/the-beauties-hidden-in-pi-%CF%80-1c614e636426
-
-Move Over Redux: Apollo-Client as a State Management Solution
-
-How mcb works
-
-https://medium.com/searchencrypt/i-found-this-flaw-in-duckduckgo-9558877ae170
-
-https://medium.com/better-programming/cache-your-react-event-listeners-to-improve-performance-769bf74d3a4f
-
-https://hackernoon.com/absolute-imports-with-create-react-app-4c6cfb66c35d
-
-https://medium.com/@samerbuna/all-the-javascript-you-need-to-know-before-starting-with-react-abe2ebffb067
-
-https://medium.com/better-programming/the-role-of-javascript-in-the-modern-web-ff0f6961829a
-
-https://codeburst.io/react-js-understanding-functional-class-components-e65d723e909
-
-https://codeburst.io/the-7-most-used-javascript-topics-you-should-know-bd242aca41a0
-
-https://medium.com/dailyjs/parseint-mystery-7c4368ef7b21
-
-https://medium.com/better-programming/no-boilerplate-global-state-management-in-react-38dcdf2483ac
-
-zsh
-
-font
 
 theme
 
@@ -144,6 +93,8 @@ js = sync\async
 pure/impure func
 
 merge 2 objs
+	- let merged = {...obj1, ...obj2};
+	- Object.assign(o1, o2);
 
 state vs props
 
@@ -211,11 +162,39 @@ https://medium.com/@Charles_Stover/how-to-convert-withrouter-to-a-react-hook-19b
 
 https://medium.com/trabe/passing-callbacks-down-with-react-hooks-4723c4652aff
 
-
-
 https://medium.com/@albertchu539/higher-order-components-in-a-react-hooks-world-69fe1f0b0791
 
 https://medium.com/free-code-camp/how-to-make-and-test-your-own-react-drag-and-drop-list-with-0-dependencies-6fb461603780
+
+setTimeout()
+
+setInterval()
+
+callbacks
+
+higher order functions
+
+promise chaining
+
+spread operator
+
+virtual dom
+
+synthetic events react
+
+onclick vs onClick
+
+why setState is async
+
+setState callback
+
+nested routes
+
+react router switch
+
+router exact
+
+prop drilling
 -------------------------------------------------------------------------------------------------------
 
 
