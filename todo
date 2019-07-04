@@ -7,7 +7,7 @@ https://developers.google.com/speed/pagespeed
 
 TIBCO zoom call link  =  https://tibco.zoom.us/j/130316841
 
-===================ZOHO=====================    
+===================ZOHO=====================      
 'fira code retina'  
 
 https://www.zedge.net/find/ringtones/nucleya
@@ -41,6 +41,8 @@ F - NBAOPIN-308 (error code)
 G - NBAOPIN-319
 	- partner card lazy loading
 
+H - coveo issue
+
 
 URLs-------------------------------------------------------------------------_>
 
@@ -55,66 +57,7 @@ google go language
 
 python
 ``````````````````````````````````````````````````````````````````````````````````````````````````````
-
-
-
-theme
-
-kubuntu
-
-https://codeburst.io/demystifying-react-hooks-a0b56a6254c2
-
-fingerprint
-
-https://medium.com/better-programming/improve-performance-in-react-js-using-hooks-3d0ebbad6956
-
-react working
-
-multiple states with same names
-
-type of component react
-
-https://itnext.io/four-patterns-for-global-state-with-react-hooks-context-or-redux-cbc2dc787380
-
-https://medium.com/@bretcameron/13-npm-tricks-for-faster-javascript-development-4fe2a83f87a2
-
-slack themes
-
-deep learning
-
-https://reactjs.org/docs/animation.html
-
-https://hackernoon.com/tensorflow-is-dead-long-live-tensorflow-49d3e975cf04
-
-js is call by ref or call by value
-
-js = sync\async
-
-pure/impure func
-
-merge 2 objs
-	- let merged = {...obj1, ...obj2};
-	- Object.assign(o1, o2);
-
-state vs props
-
-types of react components
-
-why super in react construtor
-
-redux
-
-redux flow
-
-proptypes
-
-css box model
-
-css types
-
-es6
-
-undefined vs not defined
+	
 
 promise
 
@@ -195,6 +138,72 @@ react router switch
 router exact
 
 prop drilling
+
+https://medium.com/free-code-camp/how-to-clone-an-array-in-javascript-1d3183468f6a
+
+https://hackernoon.com/useredux-state-management-pattern-with-react-hooks-fa8e1413b9f1
+
+https://medium.com/wineofbits/use-redux-in-your-react-app-in-just-10-minutes-8da6e9f043c5
+
+https://medium.com/better-programming/passing-data-to-props-children-in-react-5399baea0356
+
+https://medium.com/@agoiabeladeyemi/the-complete-guide-to-forms-in-react-d2ba93f32825
+
+https://medium.com/free-code-camp/how-to-set-up-deploy-your-react-app-from-scratch-using-webpack-and-babel-a669891033d4
+
+https://medium.com/@dschnr/better-reusable-react-components-with-the-overrides-pattern-9eca2339f646
+
+https://medium.com/walmartlabs/lazy-loading-images-intersectionobserver-8c5bff730920
+
+https://medium.com/free-code-camp/how-to-customize-service-workers-with-create-react-app-4424dda6210c
+
+https://medium.com/@jackyef/react-hooks-why-we-should-embrace-it-86e408663ad6
+
+https://medium.com/better-programming/how-to-use-async-await-with-axios-in-react-e07daac2905f
+
+Using Chrome as a Local Web Server
+
+The Simple Guide to “This” in JavaScript
+
+theme
+
+typescript
+
+react context
+
+react memo
+
+react heap
+
+graphql
+
+fingerprint
+
+slack themes
+
+spread operator
+
+spread vs rest	
+
+css box model
+
+webgl
+
+pixijs
+
+react protect routes
+
+react router switch (need ?)
+
+tibco manage code clean
+
+middleware
+
+fetch api
+
+rest api
+
+es6 - modules
 -------------------------------------------------------------------------------------------------------
 
 

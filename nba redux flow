@@ -1,0 +1,12 @@
+api
+
+service
+
+action type
+
+reducer & reducer-index
+
+action
+
+
+(uid) => `/classes/additional_filters/objects/${uid}`
