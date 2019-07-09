@@ -7,7 +7,7 @@ https://developers.google.com/speed/pagespeed
 
 TIBCO zoom call link  =  https://tibco.zoom.us/j/130316841
 
-===================ZOHO=====================      
+===================ZOHO=====================       nba-meet 1h \\ 1h vm meet/mail dscss \\ 359 
 'fira code retina'  
 
 https://www.zedge.net/find/ringtones/nucleya
@@ -20,28 +20,28 @@ git config credential.helper store
 
 A - T108 - cat issue
 
-B - ftp warnings
+B - dropdown for edit-user ftp
 
-C - dropdown for edit-user ftp
-
-D - NBAOPIN-305: 
+C - NBAOPIN-305: 
 	- popover on card hover
 	- edit btn on card
 
-E - NBAOPIN-293 (pagination)
+D - NBAOPIN-293 (pagination)
 	- range should be 0 if total is 0
 
-F - NBAOPIN-308 (error code)
+E - NBAOPIN-308 (error code)
 	- header picker z-index
 	- changes alert on code navigation
 	- charc count
 	- no enable rte on space
 	- dirty issue
 
-G - NBAOPIN-319
+F - NBAOPIN-319
 	- partner card lazy loading
 
-H - coveo issue
+G - coveo issue
+
+H - NBAOPIN-359
 
 
 URLs-------------------------------------------------------------------------_>
@@ -59,7 +59,6 @@ python
 ``````````````````````````````````````````````````````````````````````````````````````````````````````
 	
 
-promise
 
 https://hackernoon.com/9-things-you-should-know-about-tensorflow-9cf0a05e4995
 
@@ -204,6 +203,34 @@ fetch api
 rest api
 
 es6 - modules
+
+promise
+
+https://blog.cloudboost.io/getting-the-most-out-of-styled-components-7-must-know-features-acba3cc15b5
+
+https://codeburst.io/5-steps-to-speed-up-your-image-heavy-website-65c874a86966
+
+https://medium.com/jeremy-gottfrieds-tech-blog/tutorial-how-to-build-a-webpack-app-with-vanilla-js-or-react-72ca2cc7e14
+
+https://medium.com/@shoya_moosavi/react-lazy-load-images-with-cloudinary-and-intersection-observers-a1f97fdbdaef
+
+https://medium.com/warsawjs/css-in-js-in-real-life-e0b50bbbd740
+
+https://hackernoon.com/everything-you-need-to-know-about-reacts-context-api-e5c8c32ef202
+
+https://medium.com/@magyarn/simple-carousel-with-vanilla-js-3dd10a143ff2
+
+https://medium.com/@toastui/a-deep-dive-into-the-react-hoc-1-fb431c131866
+
+https://itnext.io/async-react-using-react-router-suspense-a86ade1176dc
+
+https://medium.com/airbnb-engineering/server-rendering-code-splitting-and-lazy-loading-with-react-router-v4-bfe596a6af70
+
+https://itnext.io/javascript-fundamentals-mastering-loops-6788687a9293
+
+https://www.datacamp.com/community/tutorials/tensorflow-tutorial?utm_source=adwords_ppc&utm_campaignid=1455363063&utm_adgroupid=65083631748&utm_device=c&utm_keyword=&utm_matchtype=b&utm_network=g&utm_adpostion=1t1&utm_creative=332602034361&utm_targetid=dsa-498578051924&utm_loc_interest_ms=&utm_loc_physical_ms=9040242&gclid=EAIaIQobChMIyIKbrcWn4wIVgQsrCh2KqAayEAAYASAAEgKLH_D_BwE
+
+
 -------------------------------------------------------------------------------------------------------
 
 
