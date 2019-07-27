@@ -10,3 +10,15 @@ action
 
 
 (uid) => `/classes/additional_filters/objects/${uid}`
+
+
+
+
+
+import action
+
+mapDispatchToProps
+
+mapStateToProps
+
+

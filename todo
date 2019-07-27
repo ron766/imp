@@ -3,11 +3,11 @@ ZOHO
 
 https://developers.google.com/speed/pagespeed
 
-172.16.0.175:8001
+172.16.0.198:8001
 
 TIBCO zoom call link  =  https://tibco.zoom.us/j/130316841
 
-===================ZOHO=====================       nba-meet 1h \\ 1h vm meet/mail dscss \\ 359 
+===================ZOHO=====================    1h tibco nba
 'fira code retina'  
 
 https://www.zedge.net/find/ringtones/nucleya
@@ -16,9 +16,11 @@ Nba UAT = %^#,e~%W&2FkpD(F
 
 git config credential.helper store
 
+let filteredSpaceName = $(el).find('input[name=name]').val().replace(/  +/g, ' ')
+
 ------------------------------------------------------------------------------------------------------------
 
-A - T108 - cat issue
+A - T108 - cat issue   = nba SelectDropDownTag
 
 B - dropdown for edit-user ftp
 
@@ -35,13 +37,46 @@ E - NBAOPIN-308 (error code)
 	- charc count
 	- no enable rte on space
 	- dirty issue
+	- if trans[] obj is blank
+	- add onClick on li instead on <a>
+	- remove extra select code operations
+	- correct addParterErrorCode=trans
+	- delete paertner code issue [right sub]
 
 F - NBAOPIN-319
 	- partner card lazy loading
 
 G - coveo issue
 
-H - NBAOPIN-359
+H - NBAOPIN-359 - Codes + additional translation + Discount + SKU-int + SKU-ext 
+	- add partner code modal css and validations
+	- add partner code modal name field issue
+	- edit partner code modal name dropdown defaultVal
+	- edit partner code not updating
+	- You are passing the `delta` object from the `onChange` event back as `value`. [ISSUE]
+	- make toggle component
+	- destructure
+	- PartnerSystemErrorCodeTranslations
+		- getErrorCodeList
+		- get 
+		- add
+		- update
+		- delete
+	- use init to club mount methods
+	- pass params from redux to actions (getStates())
+	- make payload in action and pass conditional api to service
+	- refer deviceGroupAction & FiltrationCriteriaService
+	- EDIT-UPDATE-DELETE btn issue
+	- check empty conditions
+	- check loader condition
+	- SKU::::-
+		- edit name not updating
+	 	- reducer
+		- OPiN SKU ID issue
+		- default dropdown value	
+
+
+I - tibco validation
 
 
 URLs-------------------------------------------------------------------------_>
@@ -59,30 +94,6 @@ python
 ``````````````````````````````````````````````````````````````````````````````````````````````````````
 	
 
-
-https://hackernoon.com/9-things-you-should-know-about-tensorflow-9cf0a05e4995
-
-https://www.robinwieruch.de/react-usereducer-vs-usestate/
-
-https://intellipaat.com/artificial-intelligence-deep-learning-course-with-tensorflow/#course-content
-
-https://medium.com/better-programming/learning-how-to-learn-javascript-1989eeae2122
-
-saml
-
-https://reactjs.org/docs/hooks-reference.html
-
-https://www.thoughtfulcode.com/rubber-duck-debugging-psychology/
-
-https://medium.com/@filipvitas/lazy-load-images-with-zero-javascript-2c5bcb691274
-
-https://medium.com/better-programming/demystifying-reacts-server-side-render-de335d408fe4
-
-https://medium.com/free-code-camp/how-to-build-a-todo-list-with-react-hooks-ebaa4e3db3b
-
-https://codeburst.io/hello-create-react-app-cra-typescript-8e04f7012939
-
-https://medium.com/javascript-in-plain-english/another-react-tutorial-best-practices-for-react-redux-sagas-19d62851725
 
 https://redux.js.org/basics/example
 
@@ -230,10 +241,115 @@ https://itnext.io/javascript-fundamentals-mastering-loops-6788687a9293
 
 https://www.datacamp.com/community/tutorials/tensorflow-tutorial?utm_source=adwords_ppc&utm_campaignid=1455363063&utm_adgroupid=65083631748&utm_device=c&utm_keyword=&utm_matchtype=b&utm_network=g&utm_adpostion=1t1&utm_creative=332602034361&utm_targetid=dsa-498578051924&utm_loc_interest_ms=&utm_loc_physical_ms=9040242&gclid=EAIaIQobChMIyIKbrcWn4wIVgQsrCh2KqAayEAAYASAAEgKLH_D_BwE
 
+https://hackernoon.com/9-things-you-should-know-about-tensorflow-9cf0a05e4995
+
+https://medium.com/yld-engineering-blog/rolling-your-own-redux-with-react-hooks-and-context-bbeea18b1253
+
+https://codeburst.io/how-to-use-html5-form-validations-with-react-4052eda9a1d4
+
+https://itnext.io/javascript-fundamentals-mastering-functions-351594da10f5
+
+https://itnext.io/how-to-properly-define-state-in-react-components-47544eb4c15d
+
+https://medium.com/recraftrelic/building-a-react-component-as-a-npm-module-18308d4ccde9
+
+https://medium.com/@blackb8r/react-context-api-and-lazy-loading-4c4b0a48f696
+
+https://open.nytimes.com/flexible-icons-with-react-svg-973f310e6382
+
+https://humanparts.medium.com/the-gifts-of-fatness-c7430002eedd
+
+redux
+
+https://usehooks.com/
+
+https://medium.com/capbase-engineering/asynchronous-functional-programming-using-react-hooks-e51a748e6869
+
+https://uxdesign.cc/position-stuck-96c9f55d9526
+
+https://medium.com/free-code-camp/how-to-understand-a-components-lifecycle-methods-in-reactjs-e1a609840630
+
+https://medium.com/@prestonwallace/3-ways-improve-react-seo-without-isomorphic-app-a6354595e400
+
+https://medium.com/@Joe_Pal50/how-to-create-a-component-slider-with-react-spring-cc3d8881376b
+
+https://itnext.io/front-end-development-with-javascript-using-reactjs-redux-sass-and-webpack-1a2fdd46daba
+
+https://medium.com/trabe/document-your-react-components-using-docz-1b8bd888ebe3
+
+https://medium.com/@dzhurovivan/es6-development-environment-made-easy-with-babel-gulp-and-webpack-a4017bd96c30
+
+https://codeburst.io/learn-how-to-create-custom-bash-commands-in-less-than-4-minutes-6d4ceadd9590
+
+https://medium.com/front-end-weekly/tested-react-lets-build-a-data-table-a76aa100d23f
+
+https://medium.com/@jordan.eckowitz/reach-router-react-routing-made-easy-aac7b46cd53c
+
+https://dev.to/theactualgivens/testing-react-hook-state-changes-2oga
+
+https://micro-frontends.org/
+
+https://medium.com/hackernoon/how-graphql-replaces-redux-3fff8289221d
+
+https://medium.com/better-programming/how-to-detect-the-location-of-your-websites-visitor-using-javascript-92f9e91c095f
+
+https://medium.com/@crazypixel/mastering-drag-drop-with-reactjs-part-01-39bed3d40a03
+
+https://itnext.io/how-to-write-a-frontend-javascript-plugin-using-es6-sass-webpack-a1c6d6fdeb71
+
+https://medium.com/@pshrmn/react-hook-gotchas-e6ca52f49328
+
+https://www.youtube.com/watch?v=H3_ZqnqLyVo&feature=youtu.be
+
+https://medium.com/free-code-camp/how-to-minify-images-with-gulp-gulp-imagemin-and-boost-your-sites-performance-6c226046e08e
+
+https://medium.com/free-code-camp/how-to-undo-changes-in-git-e1da7930afdb
+
+https://blog.usejournal.com/integrate-react-with-other-applications-and-frameworks-94d443e3cc3f
+
+https://medium.com/better-programming/rendering-components-in-onclick-events-in-react-bc0d7b54e1cd
+
+https://itnext.io/pug-js-to-make-your-life-easier-with-html-templates-9c62273626e0
+
+https://medium.com/trabe/react-usereducer-hook-2b1331bb768
+
+https://www.edureka.co/blog/interview-questions/javascript-interview-questions/
+
+https://medium.com/free-code-camp/how-i-added-dark-mode-to-my-website-484bc3cb0318
+
+https://levelup.gitconnected.com/overview-of-proxy-server-and-how-we-use-them-in-react-bf67c062b929
+
+https://medium.com/homeaway-tech-blog/profiling-react-server-side-rendering-to-free-the-node-js-event-loop-7f0fe455a901
+
+https://hackernoon.com/terms-you-need-to-know-as-js-developer-28c2adfd2bb5
+
+https://medium.com/@whoisryosuke/automating-react-documentation-using-react-docgen-%EF%B8%8F-3e1b2e2b0c0b
+
+https://dev.to/jsmanifest/21-vscode-shortcuts-to-make-coding-faster-and-more-fun-3b4m
+
+https://www.youtube.com/watch?v=783ccP__No8
+
+https://medium.com/@zellwk/an-introduction-to-javascripts-async-and-await-edb313356677
+
+https://medium.com/@martin_hotell/build-100-type-safe-react-apps-in-vanilla-javascript-bd29a8364078
+
+https://blog.cloudboost.io/reactjs-unit-testing-with-storybook-jest-2c3ac5ff37ba
+
+https://www.thoughtfulcode.com/rubber-duck-debugging-psychology/
+
+https://medium.com/@filipvitas/lazy-load-images-with-zero-javascript-2c5bcb691274
+
+https://medium.com/better-programming/demystifying-reacts-server-side-render-de335d408fe4
+
+https://medium.com/free-code-camp/how-to-build-a-todo-list-with-react-hooks-ebaa4e3db3b
+
+https://codeburst.io/hello-create-react-app-cra-typescript-8e04f7012939
+
+https://medium.com/hackernoon/github-vs-gitlab-which-is-better-for-open-source-projects-31c45d464be0
+
+https://medium.com/dailyjs/what-is-actually-css-in-js-f2f529a2757
 
 -------------------------------------------------------------------------------------------------------
-
-
 
 
 
