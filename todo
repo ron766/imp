@@ -7,7 +7,7 @@ https://developers.google.com/speed/pagespeed
 
 TIBCO zoom call link  =  https://tibco.zoom.us/j/130316841
 
-===================ZOHO=====================    3h vm // 30m tibco // 
+===================ZOHO=====================    1h vm \\ 1h tib
 'fira code retina'  
 
 https://www.zedge.net/find/ringtones/nucleya
@@ -16,8 +16,7 @@ Nba UAT = %^#,e~%W&2FkpD(F
 
 git config credential.helper store
 
-let filteredSpaceName = $(el).find('input[name=name]').val().replace(/  +/g, ' ')
-
+Raw@76426
 ------------------------------------------------------------------------------------------------------------
 
 A - T108 - cat issue   = nba SelectDropDownTag
@@ -40,7 +39,7 @@ E - NBAOPIN-308 (error code)
 	- if trans[] obj is blank
 	- add onClick on li instead on <a>
 	- remove extra select code operations
-	- correct addParterErrorCode=trans
+	- correct addParterErrorCode=transj
 	- delete paertner code issue [right sub]
 
 F - NBAOPIN-319
@@ -79,6 +78,8 @@ H - NBAOPIN-359 - Codes + additional translation + Discount + SKU-int + SKU-ext
 
 
 I - tibco validation
+
+J - videos 503
 
 
 URLs-------------------------------------------------------------------------_>
@@ -379,8 +380,89 @@ figure tag
 
 pseudo elements
 
--------------------------------------------------------------------------------------------------------
+Scrum master
 
+https://medium.com/trabe/document-your-react-components-using-docz-1b8bd888ebe3
+
+https://medium.com/better-marketing/21-behaviors-that-will-make-you-brilliant-at-creativity-relationships-c5bdb3d58a28
+
+https://towardsdatascience.com/passing-data-between-react-components-parent-children-siblings-a64f89e24ecf
+
+doctype in html
+
+async and differ srcipt tag attributes
+
+typeof null
+
+hosting
+
+closure
+
+foreach vs map
+
+componentDidCatch
+
+setState vs replaceState
+
+provider in redux
+
+createStore()
+
+how many reducer u can pass in createStore()
+
+subscribe() in redux
+
+js is single/ multi threaded
+
+https://medium.com/@barisozcetin/using-composition-and-render-props-instead-of-context-api-e431b1cbbc3b
+
+https://medium.com/trabe/react-usereducer-hook-2b1331bb768
+
+https://levelup.gitconnected.com/overview-of-proxy-server-and-how-we-use-them-in-react-bf67c062b929
+
+redux saga
+
+generator function
+
+browser object model vs dom
+
+2 way data binding
+
+prod build vs dev build
+
+download a file using express
+
+middleware
+
+protect a particular section of APIs
+
+delete a cookie 
+
+docker
+
+https://stackoverflow.com/questions/912479/what-is-the-difference-between-javascript-and-ecmascript/30113184
+
+https://www.robinwieruch.de/react-warning-cant-call-setstate-on-an-unmounted-component/
+
+https://stackoverflow.com/questions/53949393/cant-perform-a-react-state-update-on-an-unmounted-component
+
+https://medium.com/free-code-camp/javascript-async-and-await-in-loops-30ecc5fb3939
+
+https://www.taniarascia.com/using-context-api-in-react/
+
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data
+
+https://jsmanifest.com/22-miraculous-tools-for-react-developers-in-2019/
+
+https://nickcraver.com/blog/2019/08/06/stack-overflow-how-we-do-app-caching/
+
+https://ultimatecourses.com/blog/everything-you-wanted-to-know-about-javascript-scope
+
+let var const = hoisting
+
+https://reactjs.org/docs/render-props.html
+
+-------------------------------------------------------------------------------------------------------
 
 
 

@@ -1,0 +1,63 @@
+html=======================================================
+browser object model vs dom
+doctype
+html5 features
+sessionStorage
+
+css========================================================
+css framework
+
+
+js==========================================================
+What is 'this' keyword in JavaScript
+closure
+currying
+hoisting
+typeof null
+undefined vs not defined
+cll by value or ref
+length or a object
+unshift  vs push  arrin js
+event bubbling
+setTimeout()
+setInterval()
+callbacks
+higher order functions
+promise chaining
+spread operator
+virtual dom
+synthetic events react
+spread operator
+foreach vs map
+js is single/ multi threaded
+2 way data binding
+prod build vs dev build
+find
+filter
+map
+foreach vs map
+
+REACT ========================================================
+jsx
+components in react
+lifecycle
+state vs prop
+statefull vs stateless
+why setState is async
+setState callback
+nested routes
+react router switch
+router exact
+prop drilling
+componentDidCatch
+setState vs replaceState
+provider in redux
+createStore()
+hoc
+What is the purpose of using super constructor with props argumentl
+
+NODE==========================================================
+prod build vs dev build
+download a file using express
+middleware
+protect a particular section of APIs
