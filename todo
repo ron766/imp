@@ -6,8 +6,10 @@ https://developers.google.com/speed/pagespeed
 172.16.0.198:8001
 
 TIBCO zoom call link  =  https://tibco.zoom.us/j/130316841
+Raw(Aamond) zoom call link = https://rawengineering.zoom.us/j/2220002928
+MY = https://zoom.us/j/7222591052
 
-===================ZOHO=====================    1h vm \\ 1h tib
+===================ZOHO=====================  454 || 479 || 495 || 444 || 442 \\  
 'fira code retina'  
 
 https://www.zedge.net/find/ringtones/nucleya
@@ -17,37 +19,14 @@ Nba UAT = %^#,e~%W&2FkpD(F
 git config credential.helper store
 
 Raw@76426
+
 ------------------------------------------------------------------------------------------------------------
 
 A - T108 - cat issue   = nba SelectDropDownTag
 
 B - dropdown for edit-user ftp
 
-C - NBAOPIN-305: 
-	- popover on card hover
-	- edit btn on card
-
-D - NBAOPIN-293 (pagination)
-	- range should be 0 if total is 0
-
-E - NBAOPIN-308 (error code)
-	- header picker z-index
-	- changes alert on code navigation
-	- charc count
-	- no enable rte on space
-	- dirty issue
-	- if trans[] obj is blank
-	- add onClick on li instead on <a>
-	- remove extra select code operations
-	- correct addParterErrorCode=transj
-	- delete paertner code issue [right sub]
-
-F - NBAOPIN-319
-	- partner card lazy loading
-
-G - coveo issue
-
-H - NBAOPIN-359 - Codes + additional translation + Discount + SKU-int + SKU-ext 
+C - NBAOPIN-359 - Codes + additional translation + Discount + SKU-int + SKU-ext 
 	- add partner code modal css and validations
 	- add partner code modal name field issue
 	- edit partner code modal name dropdown defaultVal
@@ -61,7 +40,7 @@ H - NBAOPIN-359 - Codes + additional translation + Discount + SKU-int + SKU-ext
 		- add
 		- update
 		- delete
-	- use init to club mount methods
+	- use init to club mount methodsok
 	- pass params from redux to actions (getStates())
 	- make payload in action and pass conditional api to service
 	- refer deviceGroupAction & FiltrationCriteriaService
@@ -76,10 +55,11 @@ H - NBAOPIN-359 - Codes + additional translation + Discount + SKU-int + SKU-ext
 	- DISCOUNT::::-
 		- right sub css issue	
 
+D - tibco support articles issue
 
-I - tibco validation
+E - tibco coveo refresh issue
 
-J - videos 503
+
 
 
 URLs-------------------------------------------------------------------------_>
@@ -98,13 +78,6 @@ python
 	
 
 
-https://redux.js.org/basics/example
-
-https://medium.com/@soorajchandran/introduction-to-higher-order-components-hoc-in-react-383c9343a3aa
-
-https://medium.com/@ryoldash/customize-webpack-config-of-react-app-created-with-create-react-app-7a78c7849edc
-
-https://medium.com/free-code-camp/how-to-get-started-with-react-hooks-controlled-forms-826c99943b92
 
 https://itnext.io/why-im-excited-with-react-hooks-5a8601ac43f7
 
@@ -462,7 +435,104 @@ let var const = hoisting
 
 https://reactjs.org/docs/render-props.html
 
+https://www.xda-developers.com/5-must-know-programming-languages-and-how-to-master-them/
+
+https://medium.appbase.io/part1-getting-started-with-react-and-nextjs-4f28a6a0c38e
+
+https://medium.com/@Zwenza/functional-vs-class-components-in-react-231e3fbd7108
+
+https://auth0.com/blog/speedy-introduction-to-web-workers/
+
+https://www.inc.com/benjamin-p-hardy/if-you-dont-believe-in-setting-goals-its-because-y_1.html
+
+https://medium.com/jsguru/javascript-functional-programming-map-filter-and-reduce-846ff9ba492d
+
+https://medium.com/edge-coders/coding-tip-try-to-code-without-if-statements-d06799eed231
+
+https://itnext.io/whats-new-in-javascript-google-i-o-2019-summary-d16bd2308412
+
+https://medium.com/@jordan.eckowitz/reach-router-react-routing-made-easy-aac7b46cd53c
+
+https://medium.com/@magyarn/simple-carousel-with-vanilla-js-3dd10a143ff2
+
+https://medium.com/javascript-in-plain-english/its-time-for-you-to-learn-webpack-45d2b08ae754
+
+https://www.fastcompany.com/90325898/how-to-stop-email-trackers-pixels
+
+https://itnext.io/upgrading-to-react-hooks-parcel-web-animations-and-react-hooks-3a3cd044a6b9
+
+https://medium.com/free-code-camp/how-to-understand-a-components-lifecycle-methods-in-reactjs-e1a609840630
+
+https://medium.com/@sagiv.bengiat/integrate-react-with-other-applications-and-frameworks-94d443e3cc3f
+
+https://itnext.io/3-small-tips-for-better-redux-performance-in-a-react-app-9cde549df6af
+
+https://medium.com/@gokulnk/understanding-npm-in-nodejs-fca157586c98
+
+https://www.gungorbudak.com/blog/2018/06/28/capture-full-size-screenshot-on-chrome-without-extension/
+
+https://medium.com/deliveredtechnologies/the-difference-between-jr-mid-level-and-senior-software-developers-9ae833534f41
+
+https://sunscrapers.com/blog/using-render-props-to-limit-prop-drilling/
+
+https://www.fastcompany.com/90331449/how-to-find-hidden-cameras-in-your-airbnb-and-anywhere-else
+
+https://levelup.gitconnected.com/getting-started-with-the-facebook-libra-programming-language-a1d21aa837e0
+
+https://www.codebeast.dev/react-memoize-hooks-useRef-useCallback-useMemo/
+
+https://medium.com/@blackb8r/react-context-api-and-lazy-loading-4c4b0a48f696
+
+https://www.robinwieruch.de/react-hooks-fetch-data/
+
+http://jamesknelson.com/grokking-es6-promises-the-four-functions-you-need-to-avoid-callback-hell/
+
+https://itnext.io/manage-react-state-without-redux-a1d03403d360
+
+https://www.quora.com/What-are-some-cool-JavaScript-tricks
+
+https://medium.com/@pearlmcphee/selectors-react-redux-reselect-9ab984688dd4
+
+https://levelup.gitconnected.com/animate-react-component-with-configurable-frame-rate-6e916572d0af
+
+https://zellwk.com/blog/best-time-to-npm-init/
+
+https://sizzy.co/
+
+https://medium.com/@ryardley/react-hooks-not-magic-just-arrays-cd4f1857236e
+
+https://www.freecodecamp.org/news/tips-to-enhance-the-performance-of-your-react-app/
+
+https://itnext.io/what-to-do-when-your-react-app-feels-slow-3744c966ddf
+
+https://medium.com/the-guild/under-the-hood-of-reacts-hooks-system-eb59638c9dba
+
+https://medium.com/vena-engineering/optimizing-react-rendering-61a10e741edb
+
+https://medium.com/@andrea.chiarelli/the-functional-side-of-react-229bdb26d9a6
+
+https://reactgo.com/react-useref-hook-example/
+
+https://rangle.io/blog/improving-your-mental-model-of-useeffect/
+
+https://medium.com/@zellwk/an-introduction-to-javascripts-async-and-await-edb313356677
+
+https://medium.com/backticks-tildes/javascript-prototypes-ee46810e4866
+
+https://redux.js.org/basics/example
+
+https://medium.com/@soorajchandran/introduction-to-higher-order-components-hoc-in-react-383c9343a3aa
+
+https://medium.com/ideas-at-igenius/some-beginner-tips-for-concurrency-with-async-await-and-promise-all-dc28b5a4411e
+
+https://dzone.com/articles/how-to-connect-your-react-application-with-redux
+
+https://redux.js.org/recipes/configuring-your-store
+
+https://medium.com/better-programming/22-miraculous-tools-for-react-developers-in-2019-7d72054e2306
+
 -------------------------------------------------------------------------------------------------------
+
 
 
 

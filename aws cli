@@ -1,0 +1,20 @@
+sudo apt-get install awscli
+
+aws configure
+
+aws s3 cp "FILENAME" s3://vmware-govcloud-build/staging/ 
+
+vmware-govcloud-sap
+
+
+aws s3 cp vmware-govcloud-sap.zip s3://vmware-govcloud-build/staging/ 
+
+
+
+
+
+
+
+
+
+
