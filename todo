@@ -9,7 +9,7 @@ TIBCO zoom call link  =  https://tibco.zoom.us/j/130316841
 Raw(Aamond) zoom call link = https://rawengineering.zoom.us/j/2220002928
 MY = https://zoom.us/j/7222591052
 
-===================ZOHO=====================  454 || 479 || 495 || 444 || 442 \\  
+===================ZOHO=====================  454 || 462 || 463 || 590 || 608 || 607 || 603 || 597 \\    modal ht n wdth   
 'fira code retina'  
 
 https://www.zedge.net/find/ringtones/nucleya
@@ -26,38 +26,9 @@ A - T108 - cat issue   = nba SelectDropDownTag
 
 B - dropdown for edit-user ftp
 
-C - NBAOPIN-359 - Codes + additional translation + Discount + SKU-int + SKU-ext 
-	- add partner code modal css and validations
-	- add partner code modal name field issue
-	- edit partner code modal name dropdown defaultVal
-	- edit partner code not updating
-	- You are passing the `delta` object from the `onChange` event back as `value`. [ISSUE]
-	- make toggle component
-	- destructure
-	- PartnerSystemErrorCodeTranslations
-		- getErrorCodeList
-		- get 
-		- add
-		- update
-		- delete
-	- use init to club mount methodsok
-	- pass params from redux to actions (getStates())
-	- make payload in action and pass conditional api to service
-	- refer deviceGroupAction & FiltrationCriteriaService
-	- EDIT-UPDATE-DELETE btn issue
-	- check empty conditions
-	- check loader condition
-	- SKU::::-
-		- edit name not updating
-	 	- reducer
-		- OPiN SKU ID issue
-		- default dropdown value
-	- DISCOUNT::::-
-		- right sub css issue	
+C - tibco support articles issue
 
-D - tibco support articles issue
-
-E - tibco coveo refresh issue
+D - tibco coveo refresh issue
 
 
 
@@ -530,6 +501,50 @@ https://dzone.com/articles/how-to-connect-your-react-application-with-redux
 https://redux.js.org/recipes/configuring-your-store
 
 https://medium.com/better-programming/22-miraculous-tools-for-react-developers-in-2019-7d72054e2306
+
+https://medium.com/better-programming/object-creation-patterns-in-javascript-8922d52fad2c
+
+https://stackoverflow.com/questions/3079887/javascript-inheritance-with-object-create
+
+https://reactjs.org/docs/portals.html
+
+https://www.script-tutorials.com/a-look-into-html6-what-is-it-and-what-it-has-to-offer/
+
+https://stackoverflow.com/questions/30782948/why-calling-react-setstate-method-doesnt-mutate-the-state-immediately
+
+https://maksimivanov.com/posts/how-to-localize-react-application-using-react-intl/
+
+sequalize
+
+saml
+
+https://medium.com/vena-engineering/optimizing-react-rendering-61a10e741edb
+
+https://medium.com/the-guild/under-the-hood-of-reacts-hooks-system-eb59638c9dba
+
+https://dev.to/jsmanifest/8-miraculous-ways-to-bolster-your-react-apps-273
+
+https://javascript.info/array
+
+babel pollyfill
+
+https://javascript.info/destructuring-assignment
+
+https://graphqlmastery.com/blog/react-hooks-in-apollo-client-for-graphql-queries-and-mutations
+
+https://codeburst.io/javascript-es-2017-learn-async-await-by-example-48acc58bad65
+
+https://www.robinwieruch.de/react-warning-cant-call-setstate-on-an-unmounted-component
+
+https://stackoverflow.com/questions/54930197/react-hooks-dispatch-action-from-useeffect
+
+http://blog.cebit.com.au/programming-languages-of-the-future
+
+https://medium.com/free-code-camp/a-quick-introduction-to-block-element-modifiers-bem-9df46d29b64c
+
+https://itnext.io/the-secret-to-using-redux-createnamespacereducer-d3fed2ccca4a
+
+https://alligator.io/js/flat-flatmap/
 
 -------------------------------------------------------------------------------------------------------
 
