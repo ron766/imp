@@ -13,7 +13,7 @@ What is 'this' keyword in JavaScript
 closure
 currying
 hoisting
-typeof null
+typeof null is obj
 undefined vs not defined
 cll by value or ref
 length or a object
@@ -36,6 +36,10 @@ find
 filter
 map
 foreach vs map
+stop setInterval
+v	ar vs let
+reduce()
+xhr
 
 REACT ========================================================
 jsx
@@ -61,3 +65,11 @@ prod build vs dev build
 download a file using express
 middleware
 protect a particular section of APIs
+
+SERVER========================================================
+aws
+aws services
+
+DB============================================================
+sharding
+join vs views

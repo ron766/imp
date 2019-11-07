@@ -6,7 +6,7 @@ action type
 
 reducer & reducer-index
 
-action
+action	
 
 
 (uid) => `/classes/additional_filters/objects/${uid}`

@@ -3,13 +3,14 @@ ZOHO
 
 https://developers.google.com/speed/pagespeed
 
-172.16.0.198:8001
+172.16.0.198:8001/
 
 TIBCO zoom call link  =  https://tibco.zoom.us/j/130316841
 Raw(Aamond) zoom call link = https://rawengineering.zoom.us/j/2220002928
 MY = https://zoom.us/j/7222591052
 
-===================ZOHO=====================  454 || 462 || 463 || 435 || 570 || 617 || 615 || 511 || 521 || 596 || 571 || 556 \\     
+===================ZOHO=====================  487  \\   
+
 'fira code retina'  
 
 https://www.zedge.net/find/ringtones/nucleya
@@ -22,13 +23,19 @@ Raw@76426
 
 ------------------------------------------------------------------------------------------------------------
 
-A - T108 - cat issue   = nba SelectDropDownTag
 
-B - dropdown for edit-user ftp
+B - tibco coveo refresh issue
 
-C - tibco support articles issue
+C - prod landing -> no results on first time search
 
-D - tibco coveo refresh issue
+D - TDOCS-134 - Nam-lang doc
+
+E - no res for tibco spotfire
+
+L - TDOCS-170
+
+M - 487 - date validation [1y]
+
 
 
 
@@ -50,31 +57,6 @@ python
 
 
 
-https://itnext.io/why-im-excited-with-react-hooks-5a8601ac43f7
-
-https://medium.com/digio-australia/using-the-react-usecontext-hook-9f55461c4eae
-
-https://medium.com/@Charles_Stover/cache-your-react-event-listeners-to-improve-performance-14f635a62e15
-
-https://medium.com/maxime-heckel/switching-off-the-lights-adding-dark-mode-to-your-react-app-with-context-and-hooks-f41da6e07269
-
-https://medium.com/@Charles_Stover/how-to-convert-withrouter-to-a-react-hook-19bb02a29ed6
-
-https://medium.com/trabe/passing-callbacks-down-with-react-hooks-4723c4652aff
-
-https://medium.com/@albertchu539/higher-order-components-in-a-react-hooks-world-69fe1f0b0791
-
-https://medium.com/free-code-camp/how-to-make-and-test-your-own-react-drag-and-drop-list-with-0-dependencies-6fb461603780
-
-setTimeout()
-
-setInterval()
-
-callbacks
-
-higher order functions
-
-promise chaining
 
 spread operator
 
@@ -571,6 +553,232 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/I
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap
 
 https://youtu.be/FcsX_dlx4DU
+
+nba redux setup n flow
+
+https://www.gravitywell.co.uk/insights/the-power-of-react-hooks-part-1/
+
+https://itnext.io/scalable-redux-architecture-for-react-projects-with-redux-saga-and-typescript-f6afe1dece9b
+
+https://www.cio.com/article/3156998/agile-project-management-a-beginners-guide.html
+
+https://reactjs.org/docs/hooks-custom.html
+
+https://www.geeksforgeeks.org/prototype-in-javascript/
+
+https://dev.to/mwarger/aws-amplify-graphql-queries-with-typescript-and-hooks-part-2-custom-hooks-57ho
+
+https://codeburst.io/javascript-double-equals-vs-triple-equals-61d4ce5a121a
+
+https://medium.com/serverlessguru/deploy-reactjs-app-with-s3-static-hosting-f640cb49d7e6
+
+Mixins
+
+https://medium.com/appsflyer/10-tips-for-javascript-debugging-like-a-pro-with-console-7140027eb5f6
+
+https://stackify.com/node-js-debugging-tips/
+
+https://jsmanifest.com/enhance-your-react-app-with-undo-reset-abilities/
+
+https://medium.com/@wei.surya/demystify-the-multi-threading-in-node-js-4ff07eae9abe
+
+https://uxdesign.cc/10-best-chrome-extensions-for-designers-a76540b93836
+
+https://itnext.io/whats-new-in-javascript-google-i-o-2019-summary-d16bd2308412
+
+https://dev.to/ilonacodes/5-bad-habits-for-software-developers-2fmo
+
+https://scotch.io/bar-talk/22-best-visual-studio-code-extensions-for-web-development
+
+https://about.gitlab.com/devops-tools/github-vs-gitlab.html
+
+https://medium.com/building-crowdriff/how-to-fix-your-react-app-when-it-secretly-hates-you-8532ffbcc7f9
+
+https://blog.logrocket.com/why-use-redux-reasons-with-clear-examples-d21bffd5835/
+
+https://dev.to/sunnysingh/demystifying-const-variables-in-javascript-2jfo
+
+https://dev.to/promhize/what-you-need-to-know-about-javascripts-implicit-coercion-e23
+
+https://nadeesha.github.io/resolving-deeply-nested-typescript-nullable-values-idx/
+
+micro frontends
+
+https://itnext.io/why-im-excited-with-react-hooks-5a8601ac43f7
+
+https://medium.com/digio-australia/using-the-react-usecontext-hook-9f55461c4eae
+
+https://medium.com/@Charles_Stover/cache-your-react-event-listeners-to-improve-performance-14f635a62e15
+
+higher order functions
+
+social engineering
+
+tailgating
+
+vishing
+
+smishing
+
+https://blog.hackages.io/react-hooks-usecallback-and-usememo-8d5bb2b67231
+
+https://davidtang.io/2019/03/09/flattening-arrays-in-javascript-with-flat-and-flatMap.html
+
+https://medium.com/javascript-in-plain-english/the-real-difference-between-single-quotes-and-double-quotes-in-javascript-3d00bf720bcd
+
+https://medium.com/@.gc/front-end-frameworks-in-2019-d853d15acec3
+
+https://medium.com/@rsrajan1/how-to-achieve-work-life-balance-as-a-developer-1df51dae5425
+
+https://medium.com/better-programming/recursion-inside-javascript-cde90a37e934
+
+https://medium.com/swlh/javascript-function-chaining-8b2fbef76f7f
+
+https://codeburst.io/why-should-i-even-bother-with-full-stack-development-142b9c4c7c3f
+
+https://medium.com/better-programming/why-you-need-to-stop-using-else-statements-5b1fd09dea9e
+
+https://medium.com/better-programming/the-basics-of-javascript-generators-f89c9b0e8d72
+
+https://medium.com/@rsrajan1/how-to-be-a-good-agile-developer-6eda2436ce3d
+
+https://medium.com/better-programming/the-most-common-pitfalls-for-an-inexperienced-developer-c3636a1b5656
+
+https://towardsdatascience.com/react-vs-vue-which-is-better-for-2020-c484f22c67a8
+
+https://medium.com/javascript-in-plain-english/are-backticks-slower-than-other-strings-in-javascript-ce4abf9b9fa
+
+https://itnext.io/spread-rest-parameters-javascript-es6-feature-series-pt-4-c9e9f0c0228f
+
+https://medium.com/javascript-in-plain-english/the-real-difference-between-single-quotes-and-double-quotes-in-javascript-3d00bf720bcd
+
+https://medium.com/better-programming/the-power-of-higher-order-functions-in-javascript-91fc8edc3a7a
+
+https://medium.com/better-programming/127-helpful-javascript-snippets-you-can-learn-in-30-seconds-or-less-part-2-of-6-6d3871a602eb
+
+https://medium.com/better-programming/javascript-variables-the-difference-between-var-let-and-const-10efef5d2728
+
+https://medium.com/better-programming/the-observer-pattern-in-javascript-4f4e0b908d5e
+
+https://medium.com/dailyjs/javascript-promises-zero-to-hero-plus-cheat-sheet-64d75051cffa
+
+https://medium.com/swlh/11-things-you-should-know-about-scrum-and-agile-8332e753eb1b
+
+https://medium.com/young-coder/what-replaces-javascript-a6493b4e2d6e
+
+https://medium.com/better-programming/127-helpful-javascript-snippets-you-can-learn-in-30-seconds-or-less-part-1-of-6-bc2bc890dfe5
+
+https://learning.getpostman.com/docs/postman/sending_api_requests/visualizer/
+
+https://medium.com/better-programming/why-you-shouldnt-use-json-stringify-to-compare-objects-in-javascript-c9a16b7331e
+
+https://medium.com/javascript-in-plain-english/i-created-the-exact-same-app-with-react-and-redux-here-are-the-differences-6d8d5fb98222
+
+https://www.telerik.com/blogs/tree-shaking-basics-for-react-applications
+
+promise chaining
+
+https://medium.com/better-programming/introduction-to-rxjs-3f17e1009527
+
+https://medium.com/javascript-in-plain-english/how-to-check-for-a-string-in-javascript-a16b196915ff
+
+https://medium.com/better-programming/why-you-need-to-stop-using-else-statements-5b1fd09dea9e
+
+https://medium.com/better-programming/how-to-market-yourself-as-a-programmer-e145635ba534
+
+https://codeburst.io/why-should-i-even-bother-with-full-stack-development-142b9c4c7c3f
+
+https://medium.com/better-programming/how-to-animate-elements-on-your-page-as-you-scroll-22941134591d
+
+https://medium.com/coding-in-simple-english/what-are-truthy-values-in-javascript-e037bdfa76f8
+
+https://medium.com/javascript-in-plain-english/how-to-check-for-null-in-javascript-dffab64d8ed5
+
+https://medium.com/better-programming/dynamodb-vs-hadoop-vs-mongodb-4f05714312b2
+
+kde plasma for ubuntu
+
+https://medium.com/better-programming/compiling-vs-polyfilling-in-javascript-6bbc5707a253
+
+https://medium.com/grapecity/what-to-expect-in-angular-9-a82810069000
+
+https://medium.com/better-programming/string-template-literals-javascript-es6-feature-series-pt-5-a40e55a5485b
+
+https://towardsdatascience.com/analysis-of-tweets-about-the-joker-2019-film-in-python-df9996aa5fb1
+
+https://medium.com/better-programming/how-you-can-improve-your-programming-skills-a439d47c26a4
+
+https://blog.usejournal.com/3-foods-you-should-throw-away-forever-3eb7b5f38075
+
+https://levelup.gitconnected.com/how-to-be-a-creative-programmer-4067da4b9349
+
+https://medium.com/personal-growth/how-to-train-your-brain-to-remember-almost-anything-77cb653a0c04
+
+https://medium.com/better-programming/everything-you-need-to-know-about-the-github-package-registry-b6e91c321bfd
+
+https://levelup.gitconnected.com/moving-beyond-console-log-8-console-methods-you-should-use-when-debugging-javascript-and-node-25f6ac840ada
+
+https://medium.com/javascript-in-plain-english/react-custom-hook-useonesubmit-b10be17245d8
+
+https://thebittheories.com/the-3-advantages-of-backtick-literals-in-javascript-f6beade4a9cf
+
+https://medium.com/better-programming/here-are-6-frontend-challenges-to-code-9952190c97cc
+
+https://medium.com/better-programming/comments-in-your-code-730cfd1dde02
+
+https://medium.com/javascript-in-plain-english/usetime-react-hook-f57979338de
+
+https://medium.com/young-coder/what-replaces-javascript-a6493b4e2d6e
+
+https://medium.com/better-programming/7-react-libraries-that-will-make-your-life-easier-1c760a6cd1cf
+
+https://medium.com/javascript-in-plain-english/comparing-objects-in-javascript-ce2dc1f3de7f
+
+https://medium.com/better-programming/the-mediator-pattern-in-javascript-2bd2ff244447
+
+https://medium.com/javascript-in-plain-english/how-to-check-for-a-string-in-javascript-a16b196915ff
+
+https://medium.com/better-programming/how-you-can-improve-your-programming-skills-a439d47c26a4
+
+https://medium.com/better-programming/127-helpful-javascript-snippets-you-can-learn-in-30-seconds-or-less-part-2-of-6-6d3871a602eb
+
+https://medium.com/better-programming/most-useful-javascript-methods-355139f96d75
+
+https://itnext.io/async-await-without-try-catch-in-javascript-6dcdf705f8b1
+
+https://morioh.com/p/1b9a6ac284b7?fbclid=IwAR3ue1Ndw0lhLG1PNvF4r80tgpetq1-avdzsUt44WS4lxZX0i1o1eeFrdAc
+
+https://medium.com/better-programming/here-are-6-awesome-react-hooks-2ff0c0b35218
+
+https://medium.com/better-programming/127-helpful-javascript-snippets-you-can-learn-in-30-seconds-or-less-part-1-of-6-bc2bc890dfe5
+
+https://codeburst.io/node-js-mysql-and-async-await-6fb25b01b628
+
+https://medium.com/javascript-in-plain-english/how-to-deep-copy-objects-and-arrays-in-javascript-7c911359b089
+
+https://medium.com/better-programming/tutorial-create-a-graphql-api-with-node-mongoose-and-express-67d0b29f9634
+
+https://medium.com/better-programming/how-to-build-your-first-circleci-ci-cd-pipeline-for-a-dockerised-node-app-3e935f351103
+
+https://medium.com/swlh/a-helpful-alternative-to-console-log-7a2c5c91a8cf
+
+https://medium.com/javascript-in-plain-english/upcoming-new-javascript-features-you-should-know-if-you-use-javascript-everyday-8208b477b7a2
+
+https://medium.com/dailyjs/converting-object-to-an-array-in-javascript-c7147f2ff750
+
+https://blog.usejournal.com/3-foods-you-should-throw-away-forever-3eb7b5f38075
+
+https://medium.com/swlh/why-defensive-programming-is-the-best-way-for-robust-coding-cfa790fe04cd
+
+https://forge.medium.com/4-tips-to-quit-multitasking-190fbed54572
+
+https://medium.com/better-programming/the-lost-art-of-vanilla-javascript-c11519720244
+
+sharding
+
+xhr
+
+webpack
 
 -------------------------------------------------------------------------------------------------------
 
