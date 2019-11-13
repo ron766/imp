@@ -24,17 +24,13 @@ Raw@76426
 ------------------------------------------------------------------------------------------------------------
 
 
-B - tibco coveo refresh issue
+- 487
 
-C - prod landing -> no results on first time search
+- https://raweng.atlassian.net/browse/NBASKU-4
 
-D - TDOCS-134 - Nam-lang doc
+- https://raweng.atlassian.net/browse/TDOCS-176
 
-E - no res for tibco spotfire
 
-L - TDOCS-170
-
-M - 487 - date validation [1y]
 
 
 
@@ -779,6 +775,26 @@ sharding
 xhr
 
 webpack
+
+https://css-tricks.com/how-react-reconciliation-works/
+
+https://medium.com/better-programming/compiling-vs-polyfilling-in-javascript-6bbc5707a253
+
+https://medium.com/better-programming/the-observer-pattern-in-javascript-4f4e0b908d5e
+
+https://medium.com/frontend-digest/axios-vs-fetch-which-to-use-in-2019-6678c083c5c
+
+https://medium.com/better-programming/127-helpful-javascript-snippets-you-can-learn-in-30-seconds-or-less-part-3-of-6-b7eaf1c21e46
+
+https://morioh.com/p/1b9a6ac284b7?fbclid=IwAR3ue1Ndw0lhLG1PNvF4r80tgpetq1-avdzsUt44WS4lxZX0i1o1eeFrdAc
+
+https://medium.com/better-programming/developers-here-are-8-questions-you-should-ask-your-employer-before-taking-the-job-3e3cc67a855d
+
+https://medium.com/better-programming/here-are-11-console-commands-every-developer-should-know-54e348ef22fa
+
+https://medium.com/dailyjs/number-truncation-in-javascript-196c067b0d55
+
+https://medium.com/better-programming/object-keys-values-and-entries-javascript-es6-feature-series-part-9-d71268791089
 
 -------------------------------------------------------------------------------------------------------
 
