@@ -1,0 +1,31 @@
+cra setup
+
+linting
+- choose airbnb
+- install eslint
+- eslint --init
+
+redux
+- yarn add react-redux
+- npm install redux --save
+- npm install redux-thunk --save  (Middleware)
+- folders
+	- action
+	- actionTypes
+	- apiStore
+	- reducers
+	- service
+	- store
+
+router
+- npm i react-router-dom
+- npm i react-router 
+
+css
+- assets folder
+- 
+
+
+
+
+

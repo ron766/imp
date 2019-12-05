@@ -24,7 +24,6 @@ setInterval()
 callbacks
 higher order functions
 promise chaining
-spread operator
 virtual dom
 synthetic events react
 spread operator
@@ -43,6 +42,7 @@ xhr
 
 REACT ========================================================
 jsx
+reconciliation
 components in react
 lifecycle
 state vs prop

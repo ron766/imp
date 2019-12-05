@@ -9,7 +9,7 @@ TIBCO zoom call link  =  https://tibco.zoom.us/j/130316841
 Raw(Aamond) zoom call link = https://rawengineering.zoom.us/j/2220002928
 MY = https://zoom.us/j/7222591052
 
-===================ZOHO=====================  487  \\   
+===================ZOHO=====================  
 
 'fira code retina'  
 
@@ -24,11 +24,15 @@ Raw@76426
 ------------------------------------------------------------------------------------------------------------
 
 
-- 487
-
-- https://raweng.atlassian.net/browse/NBASKU-4
-
 - https://raweng.atlassian.net/browse/TDOCS-176
+
+- https://raweng.atlassian.net/browse/TDOCS-193
+
+- https://raweng.atlassian.net/browse/TDOCS-193
+
+- https://raweng.atlassian.net/browse/NBASKU-26
+
+- https://raweng.atlassian.net/browse/TDOCS-198
 
 
 
@@ -51,14 +55,6 @@ python
 ``````````````````````````````````````````````````````````````````````````````````````````````````````
 	
 
-
-
-
-spread operator
-
-virtual dom
-
-synthetic events react
 
 onclick vs onClick
 
@@ -795,6 +791,56 @@ https://medium.com/better-programming/here-are-11-console-commands-every-develop
 https://medium.com/dailyjs/number-truncation-in-javascript-196c067b0d55
 
 https://medium.com/better-programming/object-keys-values-and-entries-javascript-es6-feature-series-part-9-d71268791089
+
+https://medium.com/better-programming/new-features-in-es2019-72f4aa1f03f7
+
+https://itnext.io/hooked-on-react-10affe4cca3c
+
+https://web.dev/
+
+https://medium.com/better-programming/common-javascript-mistakes-part-1-73e1654a26c
+
+https://medium.com/better-programming/working-with-ecmascript-2019-asynchronous-iteration-using-for-of-b9d3e14621ea
+
+https://www.youtube.com/watch?v=ff4fgQxPaO0
+
+https://waverleysoftware.com/blog/yarn-vs-npm/
+
+https://towardsdatascience.com/top-3-pandas-functions-you-dont-know-about-probably-5ae9e1c964c8
+
+https://medium.com/coding-at-dawn/es6-object-is-vs-in-javascript-7ce873064719
+
+https://medium.com/better-programming/different-ways-to-duplicate-objects-in-javascript-c199be34ecb7
+
+https://levelup.gitconnected.com/comparing-non-english-strings-with-javascript-collators-dcce6845c878
+
+https://uxdesign.cc/whats-the-next-ui-design-trend-75c8b61f5c7c
+
+https://medium.com/kaizen-habits/psychologists-explain-how-to-stop-overthinking-everything-e527962a393
+
+https://medium.com/better-programming/react-hooks-vs-classes-add2676a32f2
+
+https://codeburst.io/how-to-create-and-deploy-a-serverless-react-app-af40aee52420
+
+https://www.geeksforgeeks.org/10-projects-that-every-developer-should-lay-their-hands-on/
+
+https://medium.com/better-programming/how-to-negotiate-your-compensation-as-a-programmer-every-year-2dcdebe61030
+
+https://medium.com/better-programming/why-do-we-need-strict-mode-in-javascript-df34771eb950
+
+https://medium.com/better-programming/what-is-the-difference-between-map-and-foreach-in-javascript-9bc49afa2703
+
+https://medium.com/better-programming/10-extremely-helpful-visual-studio-code-plugins-for-programmers-c8520a3dc4b8
+
+https://medium.com/better-programming/callbacks-vs-promises-in-javascript-1f074e93a3b5
+
+https://levelup.gitconnected.com/javascript-algorithm-time-conversion-71dc15dd13b8
+
+https://levelup.gitconnected.com/new-features-of-javascript-that-we-can-use-soon-or-now-6199981bd2f
+
+https://medium.com/javascript-in-plain-english/how-i-reduced-the-amount-of-code-in-my-redux-app-by-using-redux-hooks-b19c926419ea
+
+https://medium.com/better-programming/clean-code-applied-to-javascript-part-1-9f3badd5715
 
 -------------------------------------------------------------------------------------------------------
 
