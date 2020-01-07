@@ -24,13 +24,59 @@ Raw@76426
 ------------------------------------------------------------------------------------------------------------
 
 
-- https://raweng.atlassian.net/browse/TDOCS-176
 
 - https://raweng.atlassian.net/browse/TDOCS-193
 
-- https://raweng.atlassian.net/browse/TDOCS-193
+PPPPPOOOOOOOOCCCCCCC
 
-- https://raweng.atlassian.net/browse/NBASKU-26
+
+
+
+disable get data btn after get
+
+show individual form & hide rest
+
+Log sub bar effect
+
+Stick info line --
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+Use switch case in handleSectionAdittion method (file- right pane.jsx) && page builder.jsx
+
+Visible state refreshing page
+
+Show no data if no data
+
+Page builder scroll
+
+Error pg
+
+Grid pck sort order (from grid)    
+
+Grid cell sorting
+
+Drop-down open fix             =================
+
+
+
+
+
+
+===============
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -928,6 +974,98 @@ https://medium.com/better-programming/developer-tools-to-increase-your-productiv
 https://medium.com/the-ascent/how-to-use-solomons-paradox-to-make-better-decisions-f7f443c7d4df
 
 https://medium.com/better-programming/functional-programming-and-the-pipe-function-in-javascript-c92833052057
+
+https://dev.to/marcbeaujean/coding-is-30-of-the-job-1088
+
+https://medium.com/better-programming/here-are-5-frontend-challenges-nov-2019-edition-44d8133ab988
+
+https://medium.com/better-programming/using-the-javascript-number-object-57632a492db0
+
+https://medium.com/better-programming/do-you-know-how-to-solve-these-programming-problems-18d04defc05e
+
+https://medium.com/better-programming/new-features-in-es2019-72f4aa1f03f7
+
+https://uxdesign.cc/design-better-buttons-a5c90a113280
+
+https://towardsdatascience.com/top-7-modern-programming-language-to-learn-now-156863bd1eec
+
+https://medium.com/better-programming/my-7-favorite-vs-code-extensions-that-everyone-hasnt-mentioned-yet-4f3945d82be5
+
+https://levelup.gitconnected.com/a-recap-of-frontend-development-in-2019-1e7d07966d6c
+
+https://itnext.io/js-underrated-features-5adc9d30de82
+
+https://medium.com/javascript-in-plain-english/master-these-11-core-reactjs-concepts-to-conquer-your-next-interview-61637b61881c
+
+https://medium.com/swlh/what-you-need-to-know-about-vue3-in-2020-b36a2feb5dad
+
+https://medium.com/javascript-in-plain-english/is-typescript-the-way-forward-659caa2cb10f
+
+https://medium.com/javascript-in-plain-english/overriding-tostring-function-of-javascript-objects-dd3545ba6254
+
+https://medium.com/tech-explained/10-of-the-most-awesome-macos-catalina-features-386ca15f43f4
+
+https://uxdesign.cc/8-things-i-learned-in-my-first-2-months-as-a-ux-designer-at-google-b9b9fc569f62
+
+https://medium.com/better-programming/what-is-the-difference-between-for-in-and-for-of-in-javascript-650952654e97
+
+https://medium.com/better-programming/a-list-of-interesting-operators-in-javascript-22fdacfbbce9
+
+https://levelup.gitconnected.com/javascript-array-some-vs-every-vs-foreach-knowledge-scoops-81dfe43369c6
+
+https://itnext.io/javascript-international-methods-b70a2de09d92
+
+https://levelup.gitconnected.com/some-simple-and-amazing-javascript-tricks-292e1962b1f6
+
+https://medium.com/better-programming/implementing-a-queue-in-javascript-59b332c7ff0d
+
+https://medium.com/javascript-in-plain-english/mastering-js-console-log-like-a-pro-1c634e6393f9
+
+https://medium.com/better-programming/how-to-create-meaningful-names-in-code-20d7476537d4
+
+https://levelup.gitconnected.com/15-vs-code-extension-to-save-your-time-and-make-you-a-better-developer-506f79baec53
+
+https://medium.com/better-programming/11-extremely-useful-javascript-tips-4484429a5655
+
+https://medium.com/javascript-in-plain-english/why-i-always-use-typescript-2cf2ad43d897
+
+https://medium.com/better-programming/3-reasons-to-avoid-using-immutablejs-with-redux-b0109d0123e8
+
+https://medium.com/javascript-in-plain-english/exploring-javascript-promises-in-depth-d07541c8ca9f
+
+https://medium.com/better-programming/how-to-remove-a-particular-value-from-an-array-in-javascript-b5bf4ad42a58
+
+https://medium.com/better-programming/here-are-7-useful-node-packages-open-source-and-free-to-use-260bd17bc735
+
+https://medium.com/better-programming/127-helpful-javascript-snippets-you-can-learn-in-30-seconds-or-less-part-3-of-6-b7eaf1c21e46
+
+https://medium.com/better-programming/the-power-of-simplifying-large-components-in-react-c0d15fa88f70
+
+https://medium.com/better-programming/twelve-es10-features-in-twelve-simple-examples-6e8cc109f3d3
+
+https://medium.com/javascript-in-plain-english/learn-javascript-functional-programming-from-avengers-36fc40fca7ab
+
+https://medium.com/better-programming/a-basic-interview-question-can-you-explain-every-part-of-a-url-41fec140f80d
+
+https://itnext.io/javascript-fundamentals-an-introduction-to-rest-apis-7cbe8a809d3b
+
+https://medium.com/swlh/using-three-of-the-top-nodejs-web-rest-api-frameworks-d1d6dac021ee
+
+https://levelup.gitconnected.com/a-guide-to-service-workers-in-react-js-82aec1d6a22d
+
+https://medium.com/better-programming/advanced-cli-commands-you-should-know-as-a-developer-7bc48c752a5e
+
+https://medium.com/javascript-scene/top-javascript-frameworks-and-topics-to-learn-in-2020-and-the-new-decade-ced6e9d812f9
+
+https://medium.com/better-programming/different-ways-to-duplicate-objects-in-javascript-c199be34ecb7
+
+https://medium.com/better-programming/here-are-5-frontend-challenges-nov-2019-edition-44d8133ab988
+
+https://itnext.io/javascript-new-features-for-the-next-2020-7be2200d4995
+
+https://medium.com/better-programming/5-more-vs-code-extensions-thatll-change-your-dev-life-16da5d563dbc
+
+https://blog.bitsrc.io/features-of-javascript-you-probably-never-used-4c117ba3f025
 
 -------------------------------------------------------------------------------------------------------
 
