@@ -39,6 +39,7 @@ stop setInterval
 v	ar vs let
 reduce()
 xhr
+Clone arr
 
 REACT ========================================================
 jsx
@@ -52,13 +53,14 @@ setState callback
 nested routes
 react router switch
 router exact
-prop drilling
 componentDidCatch
 setState vs replaceState
 provider in redux
 createStore()
 hoc
 What is the purpose of using super constructor with props argumentl
+prop drilling
+Service worker
 
 NODE==========================================================
 prod build vs dev build

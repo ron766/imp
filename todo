@@ -21,35 +21,28 @@ git config credential.helper store
 
 Raw@76426
 
+172.16.0.98
+
+
+dev-lpsku
+Rp2qFk73Eoqs8Vs
+
+
 ------------------------------------------------------------------------------------------------------------
 
 
 
 - https://raweng.atlassian.net/browse/TDOCS-193
 
-PPPPPOOOOOOOOCCCCCCC
 
-
-
-
-disable get data btn after get
 
 show individual form & hide rest
 
 Log sub bar effect
 
-Stick info line --
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-
-Use switch case in handleSectionAdittion method (file- right pane.jsx) && page builder.jsx
-
 Visible state refreshing page
 
 Show no data if no data
-
-Page builder scroll
 
 Error pg
 
@@ -59,19 +52,11 @@ Grid cell sorting
 
 Drop-down open fix             =================
 
+expand animation css
 
 
-
-
-
-===============
-
-
-
-
-
-
-
+topBar = remove position: absolute; */
+rigthPanelTopBar = remove padding and     /* height: 80px;
 
 
 
@@ -99,51 +84,11 @@ python
 	
 
 
-onclick vs onClick
 
-why setState is async
 
-setState callback
 
-nested routes
 
-react router switch
-
-router exact
-
-prop drilling
-
-https://medium.com/free-code-camp/how-to-clone-an-array-in-javascript-1d3183468f6a
-
-https://hackernoon.com/useredux-state-management-pattern-with-react-hooks-fa8e1413b9f1
-
-https://medium.com/wineofbits/use-redux-in-your-react-app-in-just-10-minutes-8da6e9f043c5
-
-https://medium.com/better-programming/passing-data-to-props-children-in-react-5399baea0356
-
-https://medium.com/@agoiabeladeyemi/the-complete-guide-to-forms-in-react-d2ba93f32825
-
-https://medium.com/free-code-camp/how-to-set-up-deploy-your-react-app-from-scratch-using-webpack-and-babel-a669891033d4
-
-https://medium.com/@dschnr/better-reusable-react-components-with-the-overrides-pattern-9eca2339f646
-
-https://medium.com/walmartlabs/lazy-loading-images-intersectionobserver-8c5bff730920
-
-https://medium.com/free-code-camp/how-to-customize-service-workers-with-create-react-app-4424dda6210c
-
-https://medium.com/@jackyef/react-hooks-why-we-should-embrace-it-86e408663ad6
-
-https://medium.com/better-programming/how-to-use-async-await-with-axios-in-react-e07daac2905f
-
-Using Chrome as a Local Web Server
-
-The Simple Guide to “This” in JavaScript
-
-theme
-
-typescript
-
-react context
+https://www.smashingmagazine.com/2020/01/introduction-react-context-api/
 
 react memo
 
@@ -1066,6 +1011,150 @@ https://itnext.io/javascript-new-features-for-the-next-2020-7be2200d4995
 https://medium.com/better-programming/5-more-vs-code-extensions-thatll-change-your-dev-life-16da5d563dbc
 
 https://blog.bitsrc.io/features-of-javascript-you-probably-never-used-4c117ba3f025
+
+react router switch
+
+router exact
+
+https://node.green/
+
+https://futurestud.io/tutorials/pm2-use-npm-to-start-your-app
+
+https://medium.com/wineofbits/use-redux-in-your-react-app-in-just-10-minutes-8da6e9f043c5
+
+https://medium.com/@agoiabeladeyemi/the-complete-guide-to-forms-in-react-d2ba93f32825
+
+https://medium.com/free-code-camp/how-to-set-up-deploy-your-react-app-from-scratch-using-webpack-and-babel-a669891033d4
+
+https://uxdesign.cc/neumorphism-will-not-be-a-huge-trend-in-2020-67a8c35e52cc
+
+https://medium.com/better-programming/deep-and-shallow-copy-in-javascript-110f395330c5
+
+https://medium.com/better-programming/learn-to-create-your-own-usefetch-react-hook-9cc31b038e53
+
+https://medium.com/better-programming/javascript-equality-comparison-algorithm-d827917fec6a
+
+https://medium.com/better-programming/the-prototype-pattern-in-javascript-bfe9ff433e6c
+
+https://medium.com/javascript-in-plain-english/new-features-in-es2020-you-should-check-b4974d9d7edc
+
+https://medium.com/javascript-in-plain-english/reactivity-in-web-frameworks-part-1-ef1f7bde9c02
+
+https://medium.com/better-programming/10-vscode-practices-to-speed-up-your-react-development-flow-81252a3587ff
+
+golang
+
+https://medium.com/better-programming/object-keys-values-and-entries-javascript-es6-feature-series-part-9-d71268791089
+
+https://levelup.gitconnected.com/5-tips-to-speed-up-your-macbook-productivity-9ef834d62201
+
+https://medium.com/swlh/using-three-of-the-top-nodejs-web-rest-api-frameworks-d1d6dac021ee
+
+https://medium.com/javascript-in-plain-english/learn-javascript-functional-programming-from-avengers-36fc40fca7ab
+
+https://medium.com/javascript-in-plain-english/javascript-interview-questions-you-need-to-know-part-iii-2374a32c53b9
+
+https://medium.com/javascript-in-plain-english/please-stop-using-classes-in-javascript-and-become-a-better-developer-a185c9fbede1
+
+https://medium.com/swlh/the-8-8-8-rule-f6c98fe87be6
+
+https://medium.com/better-programming/deep-and-shallow-copy-in-javascript-110f395330c5
+
+https://medium.com/better-programming/2020-001-full-stack-pronounced-dead-355d7f78e733
+
+https://medium.com/better-programming/be-the-master-of-the-event-loop-in-javascript-part-1-6804cdf6608f
+
+https://itnext.io/what-is-props-and-how-to-use-it-in-react-da307f500da0
+
+Python
+
+https://medium.com/better-programming/32-tips-for-every-web-developer-in-2020-782fd6554f0d
+
+https://uxdesign.cc/10-rules-of-thumb-in-ui-design-aa5f91885444
+
+https://medium.com/dailyjs/5-chrome-devtools-utilities-you-need-to-know-5bfe58c75773
+
+https://medium.com/better-programming/10-awesome-javascript-libraries-for-front-end-developers-in-2020-d450b9ed66d1
+
+https://blog.bitsrc.io/6-handy-regular-expressions-every-front-end-developer-should-know-ac9e0c514b71
+
+https://medium.com/better-programming/5-rules-of-code-6970a55a444b
+
+https://medium.com/javascript-in-plain-english/javascript-interview-questions-you-need-to-know-26fbdda23d6e
+
+https://humanparts.medium.com/people-who-use-drugs-cannot-possibly-make-good-choices-or-can-they-303e7a8085c9
+
+https://humanparts.medium.com/what-i-didnt-inherit-spook-dbd73716162b
+
+https://medium.com/better-programming/are-early-returns-any-good-eed4b4d03866
+
+https://levelup.gitconnected.com/5-tips-to-speed-up-your-macbook-productivity-9ef834d62201
+
+https://medium.com/the-non-traditional-developer/stop-writing-reusable-react-components-bd649cba2700
+
+https://levelup.gitconnected.com/the-simplest-way-to-add-swagger-to-a-node-js-project-c2a4aa895a3c
+
+https://medium.com/better-programming/create-a-tooltip-component-using-react-hooks-cb9fd00a2ff0
+
+https://medium.com/better-programming/10-awesome-github-repos-every-web-developer-should-know-15288c8533f1
+
+https://hackernoon.com/23-best-react-ui-component-libraries-and-frameworks-250a81b2ac42
+
+https://medium.com/swlh/how-cors-cross-origin-resource-sharing-works-79f959a84f0e
+
+https://elemental.medium.com/the-average-human-body-temperature-is-no-longer-98-6-f-c88c19716852
+
+https://medium.com/better-programming/8-vs-code-extensions-to-help-you-write-better-code-3f3fa56a3a52
+
+https://medium.com/better-programming/stop-putting-so-many-if-statements-in-your-javascript-3b65aaa4b86b
+
+https://medium.com/javascript-in-plain-english/how-i-learned-react-js-as-a-noob-ultimate-react-js-starter-guide-36a05ab9495e
+
+https://blog.bitsrc.io/what-i-learned-by-transitioning-from-backend-to-frontend-development-2fc15ead30fe
+
+https://medium.com/@alexkatrompas/the-fall-of-the-software-engineer-the-rise-of-the-programmer-technician-451a572d28b0
+
+https://medium.com/code-artistry/10-javascript-concepts-you-need-to-master-react-cheatsheet-4801f85e8e7e
+
+https://medium.com/better-programming/write-more-robust-javascript-7-best-practices-8346ed5ab5c7
+
+https://towardsdatascience.com/20-predictions-about-software-development-trends-in-2020-afb8b110d9a0
+
+Composition vs Inheritance = react
+
+https://blog.bitsrc.io/features-of-javascript-you-probably-never-used-4c117ba3f025
+
+https://levelup.gitconnected.com/javascript-mistakes-constructors-and-scopes-12e3eab8235a
+
+https://uxdesign.cc/a-curated-list-with-5-frontend-ui-kits-for-your-next-web-app-46b00acd2fe3
+
+https://medium.com/javascript-scene/top-javascript-frameworks-and-topics-to-learn-in-2020-and-the-new-decade-ced6e9d812f9
+
+http://osxdaily.com/2016/07/13/disable-enable-turbo-boost-mac/
+
+https://www.rugarciap.com/turbo-boost-switcher-for-os-x/
+
+https://medium.com/better-programming/the-myths-and-misconceptions-about-serverless-7b271b8f0dda
+
+https://medium.com/javascript-in-plain-english/you-must-understand-these-14-javasript-functions-1f4fa1c620e2
+
+https://medium.com/better-programming/why-should-we-stop-using-objects-as-maps-in-javascript-19c0275da72f
+
+https://medium.com/swlh/hooked-on-hooks-637f53ba9323
+
+https://medium.com/better-programming/react-router-architecture-thats-simple-scalable-and-protected-da896827f946
+
+The Simple Guide to “This” in JavaScript
+
+typescript
+
+https://www.freecodecamp.org/news/5-react-projects-you-need-in-your-portfolio/
+
+https://levelup.gitconnected.com/3-javascript-refactoring-techniques-for-clean-code-c356be1abbcb
+
+https://medium.com/dailyjs/how-to-usestate-in-an-isomorphic-react-app-ce0f9836ad37
+
+Iterm
 
 -------------------------------------------------------------------------------------------------------
 
