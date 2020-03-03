@@ -3,7 +3,7 @@ ZOHO
 
 https://developers.google.com/speed/pagespeed
 
-172.16.0.198:8001/
+172.16.20.173:8001/
 
 TIBCO zoom call link  =  https://tibco.zoom.us/j/130316841
 Raw(Aamond) zoom call link = https://rawengineering.zoom.us/j/2220002928
@@ -21,11 +21,12 @@ git config credential.helper store
 
 Raw@76426
 
-172.16.0.98
+Cyber@766
 
 
-dev-lpsku
-Rp2qFk73Eoqs8Vs
+	
+stag-lpsku
+Sa0rSr3g8Nxl84Hz			
 
 
 ------------------------------------------------------------------------------------------------------------
@@ -55,8 +56,41 @@ Drop-down open fix             =================
 expand animation css
 
 
+SSSSSSKKKKKKKUUUUUUU=========================
 topBar = remove position: absolute; */
 rigthPanelTopBar = remove padding and     /* height: 80px;
+
+
+
+Sku list smooth animation          -----------------------                     
+
+Fonts
+
+Filters animation
+
+Dropdown fade effect.        
+
+Disable meatballs for INPROGRESS & DELETED
+
+Pricing state rerender flicker issue temp fix = placeholder
+
+Work on errored sku
+
+Update download files
+
+https://www.npmjs.com/package/country-codes
+
+Search val saves searched val while saving
+
+Increase delay if error = notification
+
+Modal title ellipsis
+
+https://www.pluralsight.com/guides/re-render-react-component-on-window-resize
+
+Use sku_id for update instead of _id
+
+
 
 
 
@@ -88,17 +122,7 @@ python
 
 
 
-https://www.smashingmagazine.com/2020/01/introduction-react-context-api/
-
-react memo
-
-react heap
-
 graphql
-
-fingerprint
-
-slack themes
 
 spread operator
 
@@ -1155,6 +1179,156 @@ https://levelup.gitconnected.com/3-javascript-refactoring-techniques-for-clean-c
 https://medium.com/dailyjs/how-to-usestate-in-an-isomorphic-react-app-ce0f9836ad37
 
 Iterm
+
+rust language
+
+deno
+
+https://medium.com/mind-body-soul/why-do-we-gain-weight-each-year-science-explains-2111d8eddba5
+
+https://medium.com/javascript-in-plain-english/interviewing-at-google-javascript-assessment-questions-f9bf0c0df157
+
+https://medium.com/better-humans/how-to-overcome-your-phone-addiction-with-mindfulness-a48e2eae72ef
+
+https://bitbucket.org/blog/an-introduction-to-bitbucket-pipelines?utm_source=newsletter-email&utm_medium=email&utm_campaign=january2020-BB-digest_EML-6129&jobid=104513285&subid=1453223401
+
+https://uxdesign.cc/9-simple-tips-to-improve-your-ui-designs-fast-377c5113ac82
+
+https://medium.com/better-programming/5-more-vs-code-extensions-thatll-change-your-dev-life-16da5d563dbc
+
+https://medium.com/javascript-in-plain-english/master-these-11-core-reactjs-concepts-to-conquer-your-next-interview-61637b61881c
+
+https://medium.com/javascript-in-plain-english/micro-frontends-made-easy-e49acceea536
+
+https://medium.com/javascript-in-plain-english/javascript-type-checking-with-flow-classes-877e3e4a85f4
+
+https://medium.com/better-programming/5-javascript-tips-to-make-you-a-better-coder-f5de38cf782b
+
+https://reactjs.org/docs/create-a-new-react-app.html
+
+https://medium.com/@Mashable/please-use-ethernet-cables-whenever-you-can-please-5af30f7df91d
+
+https://medium.com/swlh/what-software-engineers-dont-tell-you-5e9660b87fe6
+
+redis
+
+aws s3
+
+call by value | call by ref
+
+https://itnext.io/javascript-new-features-for-the-next-2020-7be2200d4995
+
+https://uxdesign.cc/neumorphism-will-not-be-a-huge-trend-in-2020-67a8c35e52cc
+
+https://medium.com/dailyjs/how-to-use-javascript-computed-properties-8f6f096379e3
+
+https://medium.com/javascript-in-plain-english/how-i-improve-my-javascript-coding-skill-every-day-37ccf2feacf4
+
+https://towardsdatascience.com/top-10-technology-trends-for-2020-4a179fdd53b1
+
+youtube.com/watch?v=9emXNzqCKyg
+
+https://www.youtube.com/watch?v=Mus_vwhTCq0
+
+https://medium.com/better-programming/software-developer-trends-of-2020-and-beyond-d1b955bc46b8
+
+https://towardsdatascience.com/deep-learning-isnt-hard-anymore-26db0d4749d7
+
+https://medium.com/better-programming/32-tips-for-every-web-developer-in-2020-782fd6554f0d
+
+https://medium.com/javascript-in-plain-english/clean-up-your-code-by-removing-if-else-statements-31102fe3b083
+
+https://medium.com/@robinpokorny/index-as-a-key-is-an-anti-pattern-e0349aece318
+
+https://www.theverge.com/platform/amp/2020/2/10/21130800/arm-new-edge-ai-chips-processing-npu-cortex-m55-u55-iot
+
+https://medium.com/better-programming/5-javascript-tips-to-make-you-a-better-coder-f5de38cf782b
+
+https://medium.com/dailyjs/5-ways-to-convert-a-value-to-string-in-javascript-6b334b2fc778
+
+https://medium.com/better-programming/array-splice-and-array-slice-in-javascript-e53006d4d6fb
+
+https://medium.com/better-programming/write-more-robust-javascript-7-best-practices-8346ed5ab5c7
+
+Live wallpaper Mac
+
+https://medium.com/better-programming/10-vscode-practices-to-speed-up-your-react-development-flow-81252a3587ff
+
+https://medium.com/refinery29/what-is-a-blind-vagina-what-are-the-symptoms-84f84dda5708
+
+Git tags
+
+https://medium.com/better-programming/javascript-equality-comparison-algorithm-d827917fec6a
+
+https://medium.com/dailyjs/better-array-check-with-array-isarray-dae0283263be
+
+https://medium.com/javascript-in-plain-english/10-javascript-interview-questions-for-2020-697b40de9480
+
+Synthwave x fluoromachine
+
+https://www.youtube.com/watch?v=U_gANjtv28g
+
+- BundlePhobia https://bundlephobia.com/
+- CloudCraft https://cloudcraft.co/
+- Figma https://www.figma.com
+- Fontflipper https://fontflipper.com/
+- Visbug https://github.com/GoogleChromeLabs/P...
+- Insomnia https://insomnia.rest/
+- Flare https://www.2dimensions.com/about-flare
+
+https://towardsdatascience.com/20-predictions-about-software-development-trends-in-2020-afb8b110d9a0
+
+https://towardsdatascience.com/top-10-in-demand-programming-languages-to-learn-in-2020-4462eb7d8d3e
+
+https://medium.com/better-programming/stop-using-everywhere-fd025342132d
+
+https://medium.com/javascript-in-plain-english/5-secret-features-of-json-stringify-c699340f9f27
+
+https://medium.com/dailyjs/dot-notation-vs-bracket-notation-eedea5fa8572
+
+React’s Context API
+
+https://medium.com/better-programming/10-insider-vs-code-extensions-for-web-developers-in-2020-91bdef1658c6
+
+https://medium.com/javascript-in-plain-english/5-secret-features-of-json-stringify-c699340f9f27
+
+https://medium.com/javascript-in-plain-english/5-secret-features-of-json-stringify-c699340f9f27
+
+https://medium.com/better-programming/9-projects-to-inspire-front-end-developers-in-2020-a404545f6369
+
+https://medium.com/better-programming/build-an-arcade-game-with-vanilla-javascript-d318fc94832b
+
+https://medium.com/javascript-in-plain-english/javascript-es2019-es10-in-a-nutshell-cae6f7524519
+
+https://medium.com/the-non-traditional-developer/understanding-javascripts-data-types-fb57982d7a4a
+
+React.forwardRef
+
+https://medium.com/better-programming/the-builder-pattern-in-javascript-6f3d85c3ae4a
+
+https://medium.com/javascript-in-plain-english/do-you-know-why-this-x-is-undefined-when-x-is-declared-with-const-or-let-8f6e00dcd490
+
+https://levelup.gitconnected.com/javascript-array-some-vs-every-vs-foreach-knowledge-scoops-81dfe43369c6
+
+Vue js
+
+https://uxdesign.cc/biggest-design-trends-for-2020-8988bf2d5caa
+
+https://medium.com/swlh/javascript-is-weird-554c3dac0c98
+
+https://medium.com/javascript-in-plain-english/what-does-a-worker-do-in-javascript-25b9449f22f1
+
+https://medium.com/javascript-in-plain-english/you-must-understand-these-14-javasript-functions-1f4fa1c620e2
+
+https://medium.com/better-programming/javascript-interviews-whats-the-difference-between-a-variable-that-s-null-undefined-or-cb1c8f41e6c3
+
+https://medium.com/javascript-in-plain-english/7-javascript-utility-functions-to-improve-your-efficiency-79d27132f186
+
+react memo
+
+Agenda
+
+slack themes
 
 -------------------------------------------------------------------------------------------------------
 
