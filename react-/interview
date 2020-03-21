@@ -36,7 +36,7 @@ filter
 map
 foreach vs map
 stop setInterval
-v	ar vs let
+var vs let
 reduce()
 xhr
 Clone arr
@@ -67,6 +67,12 @@ prod build vs dev build
 download a file using express
 middleware
 protect a particular section of APIs
+Event-driven programming
+Event loop in Node.js
+callback vs promises
+callback hel
+ESLint
+
 
 SERVER========================================================
 aws

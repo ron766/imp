@@ -5,15 +5,13 @@ https://developers.google.com/speed/pagespeed
 
 172.16.20.173:8001/
 
-TIBCO zoom call link  =  https://tibco.zoom.us/j/130316841
-Raw(Aamond) zoom call link = https://rawengineering.zoom.us/j/2220002928
-MY = https://zoom.us/j/7222591052
+MySql =  docker start 39410149a50a
 
 ===================ZOHO=====================  
 
 'fira code retina'  
 
-https://www.zedge.net/find/ringtones/nucleya
+https://www.zedge.net/find/ringtones/nucleya 
 
 Nba UAT = %^#,e~%W&2FkpD(F
 
@@ -24,7 +22,8 @@ Raw@76426
 Cyber@766
 
 
-	
+dev-lpsku
+Rp2qFk73Eoqs8Vs
 stag-lpsku
 Sa0rSr3g8Nxl84Hz			
 
@@ -56,40 +55,57 @@ Drop-down open fix             =================
 expand animation css
 
 
-SSSSSSKKKKKKKUUUUUUU=========================
+SSSSSSKKKKKKKUUUUUUU=============================================
 topBar = remove position: absolute; */
 rigthPanelTopBar = remove padding and     /* height: 80px;
 
 
 
-Sku list smooth animation          -----------------------                     
+Sku list smooth animation                               
 
 Fonts
 
 Filters animation
 
-Dropdown fade effect.        
-
-Disable meatballs for INPROGRESS & DELETED
+Disable meatballs for INPROGRESS & DELETED & PENDING
 
 Pricing state rerender flicker issue temp fix = placeholder
 
-Work on errored sku
+Search val saves searched val while saving            
 
-Update download files
+Set error and pricing condition for  DELETED, IN-PROGRESS & PENDING
 
-https://www.npmjs.com/package/country-codes
+New Status check
 
-Search val saves searched val while saving
+Android changes
+	- us tier prices for all prices
+	- fixed countries
+	- single edit for any country
+	- Remove Free trial for everything except Auto-renew (ios) & subscription (android)
 
-Increase delay if error = notification
+Error / errors = parseError
 
-Modal title ellipsis
 
-https://www.pluralsight.com/guides/re-render-react-component-on-window-resize
+Jsdoc to all
 
-Use sku_id for update instead of _id
+Upload android
 
+Reset android pricing        -----------------
+
+Clean project
+
+Duration column changes for sku list view
+
+1. success msg on put :DONE
+2. min-max values
+3. edit vr status draft vhaila paije :DONE
+4. history: DONE
+5. Validations
+6. upload android sku
+7. delete android sku : DONE
+8. confirm & restore: DONE
+
+subscriptionPeriod for type subscription
 
 
 
@@ -114,135 +130,15 @@ https://medium.freecodecamp.org/the-react-handbook-b71c27b0a795
 google go language
 
 python
+
+https://dev.to/theactualgivens/testing-react-hook-state-changes-2oga
 ``````````````````````````````````````````````````````````````````````````````````````````````````````
 	
 
 
 
 
-
-
-graphql
-
-spread operator
-
-spread vs rest	
-
-css box model
-
-webgl
-
-pixijs
-
-react protect routes
-
-react router switch (need ?)
-
-tibco manage code clean
-
-middleware
-
-fetch api
-
-rest api
-
-es6 - modules
-
-promise
-
-https://blog.cloudboost.io/getting-the-most-out-of-styled-components-7-must-know-features-acba3cc15b5
-
-https://codeburst.io/5-steps-to-speed-up-your-image-heavy-website-65c874a86966
-
-https://medium.com/jeremy-gottfrieds-tech-blog/tutorial-how-to-build-a-webpack-app-with-vanilla-js-or-react-72ca2cc7e14
-
-https://medium.com/@shoya_moosavi/react-lazy-load-images-with-cloudinary-and-intersection-observers-a1f97fdbdaef
-
-https://medium.com/warsawjs/css-in-js-in-real-life-e0b50bbbd740
-
-https://hackernoon.com/everything-you-need-to-know-about-reacts-context-api-e5c8c32ef202
-
-https://medium.com/@magyarn/simple-carousel-with-vanilla-js-3dd10a143ff2
-
-https://medium.com/@toastui/a-deep-dive-into-the-react-hoc-1-fb431c131866
-
-https://itnext.io/async-react-using-react-router-suspense-a86ade1176dc
-
-https://medium.com/airbnb-engineering/server-rendering-code-splitting-and-lazy-loading-with-react-router-v4-bfe596a6af70
-
-https://itnext.io/javascript-fundamentals-mastering-loops-6788687a9293
-
-https://www.datacamp.com/community/tutorials/tensorflow-tutorial?utm_source=adwords_ppc&utm_campaignid=1455363063&utm_adgroupid=65083631748&utm_device=c&utm_keyword=&utm_matchtype=b&utm_network=g&utm_adpostion=1t1&utm_creative=332602034361&utm_targetid=dsa-498578051924&utm_loc_interest_ms=&utm_loc_physical_ms=9040242&gclid=EAIaIQobChMIyIKbrcWn4wIVgQsrCh2KqAayEAAYASAAEgKLH_D_BwE
-
-https://hackernoon.com/9-things-you-should-know-about-tensorflow-9cf0a05e4995
-
-https://medium.com/yld-engineering-blog/rolling-your-own-redux-with-react-hooks-and-context-bbeea18b1253
-
-https://codeburst.io/how-to-use-html5-form-validations-with-react-4052eda9a1d4
-
-https://itnext.io/javascript-fundamentals-mastering-functions-351594da10f5
-
-https://itnext.io/how-to-properly-define-state-in-react-components-47544eb4c15d
-
-https://medium.com/recraftrelic/building-a-react-component-as-a-npm-module-18308d4ccde9
-
-https://medium.com/@blackb8r/react-context-api-and-lazy-loading-4c4b0a48f696
-
-https://open.nytimes.com/flexible-icons-with-react-svg-973f310e6382
-
-https://humanparts.medium.com/the-gifts-of-fatness-c7430002eedd
-
-redux
-
-https://usehooks.com/
-
-https://medium.com/capbase-engineering/asynchronous-functional-programming-using-react-hooks-e51a748e6869
-
-https://uxdesign.cc/position-stuck-96c9f55d9526
-
-https://medium.com/free-code-camp/how-to-understand-a-components-lifecycle-methods-in-reactjs-e1a609840630
-
-https://medium.com/@prestonwallace/3-ways-improve-react-seo-without-isomorphic-app-a6354595e400
-
-https://medium.com/@Joe_Pal50/how-to-create-a-component-slider-with-react-spring-cc3d8881376b
-
-https://itnext.io/front-end-development-with-javascript-using-reactjs-redux-sass-and-webpack-1a2fdd46daba
-
-https://medium.com/trabe/document-your-react-components-using-docz-1b8bd888ebe3
-
-https://medium.com/@dzhurovivan/es6-development-environment-made-easy-with-babel-gulp-and-webpack-a4017bd96c30
-
-https://codeburst.io/learn-how-to-create-custom-bash-commands-in-less-than-4-minutes-6d4ceadd9590
-
-https://medium.com/front-end-weekly/tested-react-lets-build-a-data-table-a76aa100d23f
-
-https://medium.com/@jordan.eckowitz/reach-router-react-routing-made-easy-aac7b46cd53c
-
-https://dev.to/theactualgivens/testing-react-hook-state-changes-2oga
-
-https://micro-frontends.org/
-
-https://medium.com/hackernoon/how-graphql-replaces-redux-3fff8289221d
-
-https://medium.com/better-programming/how-to-detect-the-location-of-your-websites-visitor-using-javascript-92f9e91c095f
-
-https://medium.com/@crazypixel/mastering-drag-drop-with-reactjs-part-01-39bed3d40a03
-
-https://itnext.io/how-to-write-a-frontend-javascript-plugin-using-es6-sass-webpack-a1c6d6fdeb71
-
-https://medium.com/@pshrmn/react-hook-gotchas-e6ca52f49328
-
-https://www.youtube.com/watch?v=H3_ZqnqLyVo&feature=youtu.be
-
-https://medium.com/free-code-camp/how-to-minify-images-with-gulp-gulp-imagemin-and-boost-your-sites-performance-6c226046e08e
-
-https://medium.com/free-code-camp/how-to-undo-changes-in-git-e1da7930afdb
-
-https://blog.usejournal.com/integrate-react-with-other-applications-and-frameworks-94d443e3cc3f
-
-https://medium.com/better-programming/rendering-components-in-onclick-events-in-react-bc0d7b54e1cd
-
-https://itnext.io/pug-js-to-make-your-life-easier-with-html-templates-9c62273626e0
+https://golang.org/doc/code.html
 
 https://medium.com/trabe/react-usereducer-hook-2b1331bb768
 
@@ -1329,6 +1225,122 @@ react memo
 Agenda
 
 slack themes
+
+tibco manage code clean
+
+https://medium.com/javascript-in-plain-english/javascript-es2019-es10-in-a-nutshell-cae6f7524519
+
+https://medium.com/better-programming/make-your-javascript-objects-more-predictable-by-creating-maps-20ac1a795442
+
+https://medium.com/swlh/is-vue-js-going-to-take-over-react-in-2020-929c19806ac
+
+https://medium.com/better-programming/react-router-v6-in-two-minutes-a7a2963e2340
+
+https://nextjs.org/learn/basics/getting-started
+
+https://www.gatsbyjs.org/docs/
+
+https://medium.com/javascript-in-plain-english/javascript-top-level-await-in-a-nutshell-4e352b3fc8c8
+
+https://medium.com/javascript-in-plain-english/comma-operator-in-javascript-cfe170f5b4d3
+
+graphql
+
+https://medium.com/jeremy-gottfrieds-tech-blog/tutorial-how-to-build-a-webpack-app-with-vanilla-js-or-react-72ca2cc7e14
+
+https://hackernoon.com/everything-you-need-to-know-about-reacts-context-api-e5c8c32ef202
+
+https://medium.com/@toastui/a-deep-dive-into-the-react-hoc-1-fb431c131866
+
+https://itnext.io/async-react-using-react-router-suspense-a86ade1176dc
+
+https://medium.com/airbnb-engineering/server-rendering-code-splitting-and-lazy-loading-with-react-router-v4-bfe596a6af70
+
+https://itnext.io/javascript-fundamentals-mastering-loops-6788687a9293
+
+https://www.datacamp.com/community/tutorials/tensorflow-tutorial?utm_source=adwords_ppc&utm_campaignid=1455363063&utm_adgroupid=65083631748&utm_device=c&utm_keyword=&utm_matchtype=b&utm_network=g&utm_adpostion=1t1&utm_creative=332602034361&utm_targetid=dsa-498578051924&utm_loc_interest_ms=&utm_loc_physical_ms=9040242&gclid=EAIaIQobChMIyIKbrcWn4wIVgQsrCh2KqAayEAAYASAAEgKLH_D_BwE
+
+https://hackernoon.com/9-things-you-should-know-about-tensorflow-9cf0a05e4995
+
+https://medium.com/yld-engineering-blog/rolling-your-own-redux-with-react-hooks-and-context-bbeea18b1253
+
+https://codeburst.io/how-to-use-html5-form-validations-with-react-4052eda9a1d4
+
+https://itnext.io/javascript-fundamentals-mastering-functions-351594da10f5
+
+https://medium.com/recraftrelic/building-a-react-component-as-a-npm-module-18308d4ccde9
+
+https://medium.com/@blackb8r/react-context-api-and-lazy-loading-4c4b0a48f696
+
+https://medium.com/better-programming/the-power-of-the-composite-design-pattern-in-javascript-51eef5eaaa05
+
+https://medium.com/the-non-traditional-developer/safely-extending-the-javascript-set-object-using-proxies-3ce25702b8c3
+
+https://medium.com/javascript-in-plain-english/what-does-a-worker-do-in-javascript-25b9449f22f1
+
+https://medium.com/better-programming/6-must-use-tools-for-front-end-development-643f50c9161
+
+https://levelup.gitconnected.com/javascript-best-practice-replacing-old-with-new-dd7a6c8228fb
+
+https://web.dev/external-anchors-use-rel-noopener/
+
+redux
+
+https://usehooks.com/
+
+https://medium.com/capbase-engineering/asynchronous-functional-programming-using-react-hooks-e51a748e6869
+
+https://medium.com/@prestonwallace/3-ways-improve-react-seo-without-isomorphic-app-a6354595e400
+
+https://edgeconsult.me/lib/Software%20Development/Web/React/the-road-to-learn-react.pdf
+
+https://www.npmjs.com/package/bluebird
+
+https://www.edureka.co/blog/interview-questions/top-node-js-interview-questions-2016/
+
+https://medium.com/javascript-in-plain-english/stop-using-the-else-keyword-in-your-code-907e82b3054a
+
+https://medium.com/dailyjs/a-realworld-comparison-of-front-end-frameworks-2020-4e50655fe4c1
+
+https://levelup.gitconnected.com/javascript-clean-code-objects-and-classes-49eb5a30e242
+
+https://medium.com/dailyjs/dot-notation-vs-bracket-notation-eedea5fa8572
+
+https://levelup.gitconnected.com/javascript-best-practices-performance-a549bc87ed20
+
+https://medium.com/javascript-in-plain-english/new-javascript-features-in-es2020-c2d76acf9c5a
+
+https://medium.com/javascript-in-plain-english/top-5-in-demand-javascript-frameworks-for-front-end-development-in-2020-a59c4340d082
+
+https://medium.com/better-programming/why-we-stopped-using-so-called-best-practices-in-our-ci-cd-process-2ff09811f633
+
+https://medium.com/javascript-in-plain-english/google-javascript-technical-interview-question-callback-promise-await-async-74b8dda2e331
+
+https://stackoverflow.com/questions/287903/what-is-the-preferred-syntax-for-defining-enums-in-javascript
+
+https://stackoverflow.com/questions/33124058/object-freeze-vs-const
+
+http://blog.npmjs.org/post/612764866888007680/next-phase-montage
+
+https://medium.com/javascript-in-plain-english/comparing-different-ways-to-make-http-requests-in-javascript-39ab0f090788
+
+https://levelup.gitconnected.com/5-javascript-tricks-that-are-good-to-know-78045dea6678
+
+https://medium.com/better-programming/2020-001-full-stack-pronounced-dead-355d7f78e733
+
+https://medium.com/better-programming/10-must-know-features-of-chrome-devtools-94e4a4e530c5
+
+https://medium.com/better-programming/7-great-utility-libraries-for-data-visualization-with-javascript-30621445d784
+
+https://itnext.io/how-to-write-a-frontend-javascript-plugin-using-es6-sass-webpack-a1c6d6fdeb71
+
+https://medium.com/better-programming/how-to-build-a-node-js-api-cache-with-redis-ac0aa54dee48
+
+https://medium.com/better-programming/8-awesome-react-hooks-2cb31aed4f3d
+
+https://www.sitepoint.com/essential-react-tools/
+
+https://golang.org/doc/code.html
 
 -------------------------------------------------------------------------------------------------------
 
