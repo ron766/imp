@@ -7,6 +7,8 @@ https://developers.google.com/speed/pagespeed
 
 MySql =  docker start 39410149a50a
 
+Tibco FTP prod = Tdocs@#2012
+
 ===================ZOHO=====================  
 
 'fira code retina'  
@@ -38,8 +40,6 @@ Sa0rSr3g8Nxl84Hz
 
 show individual form & hide rest
 
-Log sub bar effect
-
 Visible state refreshing page
 
 Show no data if no data
@@ -56,57 +56,19 @@ expand animation css
 
 
 SSSSSSKKKKKKKUUUUUUU=============================================
-topBar = remove position: absolute; */
-rigthPanelTopBar = remove padding and     /* height: 80px;
-
-
-
-Sku list smooth animation                               
+v3.1.2.4 or v3.0.2.4
 
 Fonts
 
-Filters animation
-
 Disable meatballs for INPROGRESS & DELETED & PENDING
-
-Pricing state rerender flicker issue temp fix = placeholder
 
 Search val saves searched val while saving            
 
-Set error and pricing condition for  DELETED, IN-PROGRESS & PENDING
-
-New Status check
-
-Android changes
-	- us tier prices for all prices
-	- fixed countries
-	- single edit for any country
-	- Remove Free trial for everything except Auto-renew (ios) & subscription (android)
-
-Error / errors = parseError
+Set error and pricing condition for  DELETED, IN-PROGRESS & PENDING                                
 
 
-Jsdoc to all
-
-Upload android
-
-Reset android pricing        -----------------
-
-Clean project
-
-Duration column changes for sku list view
-
-1. success msg on put :DONE
-2. min-max values
-3. edit vr status draft vhaila paije :DONE
-4. history: DONE
-5. Validations
-6. upload android sku
-7. delete android sku : DONE
-8. confirm & restore: DONE
-
-subscriptionPeriod for type subscription
-
+====== GO ==========================================================
+Static page
 
 
 
@@ -132,75 +94,20 @@ google go language
 python
 
 https://dev.to/theactualgivens/testing-react-hook-state-changes-2oga
+
+https://blog.golang.org/declaration-syntax
+
 ``````````````````````````````````````````````````````````````````````````````````````````````````````
 	
 
 
 
 
+https://tour.golang.org/flowcontrol/3
+
 https://golang.org/doc/code.html
 
-https://medium.com/trabe/react-usereducer-hook-2b1331bb768
 
-https://www.edureka.co/blog/interview-questions/javascript-interview-questions/
-
-https://medium.com/free-code-camp/how-i-added-dark-mode-to-my-website-484bc3cb0318
-
-https://levelup.gitconnected.com/overview-of-proxy-server-and-how-we-use-them-in-react-bf67c062b929
-
-https://medium.com/homeaway-tech-blog/profiling-react-server-side-rendering-to-free-the-node-js-event-loop-7f0fe455a901
-
-https://hackernoon.com/terms-you-need-to-know-as-js-developer-28c2adfd2bb5
-
-https://medium.com/@whoisryosuke/automating-react-documentation-using-react-docgen-%EF%B8%8F-3e1b2e2b0c0b
-
-https://dev.to/jsmanifest/21-vscode-shortcuts-to-make-coding-faster-and-more-fun-3b4m
-
-https://www.youtube.com/watch?v=783ccP__No8
-
-https://medium.com/@zellwk/an-introduction-to-javascripts-async-and-await-edb313356677
-
-https://medium.com/@martin_hotell/build-100-type-safe-react-apps-in-vanilla-javascript-bd29a8364078
-
-https://blog.cloudboost.io/reactjs-unit-testing-with-storybook-jest-2c3ac5ff37ba
-
-https://www.thoughtfulcode.com/rubber-duck-debugging-psychology/
-
-https://medium.com/@filipvitas/lazy-load-images-with-zero-javascript-2c5bcb691274
-
-https://medium.com/better-programming/demystifying-reacts-server-side-render-de335d408fe4
-
-https://medium.com/free-code-camp/how-to-build-a-todo-list-with-react-hooks-ebaa4e3db3b
-
-https://codeburst.io/hello-create-react-app-cra-typescript-8e04f7012939
-
-https://medium.com/hackernoon/github-vs-gitlab-which-is-better-for-open-source-projects-31c45d464be0
-
-https://medium.com/dailyjs/what-is-actually-css-in-js-f2f529a2757
-
-https://itnext.io/why-i-wrote-33-vscode-extensions-and-how-i-manage-them-cb61df05e154
-
-https://blog.usejournal.com/integrate-react-with-other-applications-and-frameworks-94d443e3cc3f
-
-https://medium.com/free-code-camp/how-to-undo-changes-in-git-e1da7930afdb
-
-https://medium.com/@prestonwallace/3-ways-improve-react-seo-without-isomorphic-app-a6354595e400
-
-https://medium.com/glitch/github-glitch-and-the-future-of-social-coding-5e6faa45c8f2
-
-https://medium.com/@ryoldash/customize-webpack-config-of-react-app-created-with-create-react-app-7a78c7849edc
-
-https://medium.com/@soorajchandran/introduction-to-higher-order-components-hoc-in-react-383c9343a3aa
-
-https://www.freecodecamp.org/news/first-steps-into-continuous-integration-with-circle-ci-emberjs-and-github-1e273ea62f0c/
-
-https://medium.com/free-code-camp/javascript-async-and-await-in-loops-30ecc5fb3939
-
-https://medium.com/better-programming/9-productivity-browser-extensions-for-developers-2020-edition-eb84cda6f038
-
-es6
-
-html5 features
 
 figure tag
 
@@ -1341,6 +1248,82 @@ https://medium.com/better-programming/8-awesome-react-hooks-2cb31aed4f3d
 https://www.sitepoint.com/essential-react-tools/
 
 https://golang.org/doc/code.html
+
+https://levelup.gitconnected.com/javascript-clean-code-vertical-formatting-d15097f5f30e
+
+https://medium.com/better-programming/react-router-architecture-thats-simple-scalable-and-protected-da896827f946
+
+https://www.hackerone.com/start-hacking
+
+https://fauna.com/features
+
+https://medium.com/@PepsRyuu/monorepos-in-javascript-anti-pattern-917603da59c8
+
+https://medium.com/javascript-in-plain-english/creating-a-todo-chrome-extension-with-react-custom-hooks-and-local-storage-f8f8d8910ee
+
+Next js
+
+https://levelup.gitconnected.com/build-a-todo-app-in-golang-mongodb-and-react-e1357b4690a6
+
+https://medium.com/better-programming/heres-a-list-of-challenging-frontend-ideas-you-can-start-solving-today-afa0ab3f0fdd
+
+https://levelup.gitconnected.com/the-benefits-of-being-a-polyglot-programmer-5aff466c4efa
+
+https://medium.com/dailyjs/5-chrome-devtools-utilities-you-need-to-know-5bfe58c75773
+
+https://medium.com/better-programming/10-awesome-javascript-libraries-for-front-end-developers-in-2020-d450b9ed66d1
+
+https://medium.com/dailyjs/a-realworld-comparison-of-front-end-frameworks-2020-4e50655fe4c1
+
+https://medium.com/better-programming/understanding-golang-and-goroutines-72ac3c9a014d
+
+https://medium.com/better-programming/3-examples-of-when-not-to-use-javascript-arrow-functions-90eebfbf7bb0
+
+https://www.freecodecamp.org/news/javascript-new-features-es2020/
+
+https://medium.com/javascript-in-plain-english/3-express-js-features-you-need-to-know-8f78b0035f33
+
+https://medium.com/javascript-in-plain-english/six-things-you-should-know-about-objects-in-javascript-ccd11a9e1998
+
+https://medium.com/javascript-in-plain-english/10-javascript-interview-questions-for-2020-697b40de9480
+
+https://landing.google.com/sre/books/
+
+https://medium.com/better-programming/how-to-use-the-react-hook-usedeepeffect-815818c0ad9d
+
+https://medium.com/better-programming/9-things-every-developer-should-do-f1aebd395b98
+
+https://medium.com/javascript-scene/passwords-are-obsolete-how-to-secure-your-app-and-protect-your-users-1cd6c7b7c3bc
+
+https://medium.com/better-programming/5-examples-of-higher-order-functions-in-javascript-21aabb4c00ac
+
+https://github.com/facebookexperimental/rome
+
+https://medium.com/front-end-weekly/3-things-you-didnt-know-about-the-foreach-loop-in-js-ff02cec465b1
+
+https://medium.com/javascript-in-plain-english/3-express-js-features-you-need-to-know-8f78b0035f33
+
+https://medium.com/javascript-in-plain-english/how-i-improve-my-javascript-coding-skill-every-day-37ccf2feacf4
+
+https://medium.com/javascript-in-plain-english/10-things-you-should-know-about-npm-f72f94a13954
+
+https://towardsdatascience.com/javascript-performance-test-for-vs-for-each-vs-map-reduce-filter-find-32c1113f19d7
+
+https://medium.com/@wisecobbler/4-ways-to-populate-an-array-in-javascript-836952aea79f
+
+https://medium.com/@luke_smaki/javascript-es6-classes-8a34b0a6720a
+
+https://medium.com/better-programming/should-i-use-promises-or-async-await-126ab5c98789
+
+https://medium.com/better-programming/linux-survival-guide-for-beginners-c18bfd982036
+
+https://medium.com/javascript-in-plain-english/why-you-should-not-use-array-to-remove-all-the-elements-of-array-42ad2951d47e
+
+https://medium.com/swlh/8-vim-tricks-that-will-take-you-from-beginner-to-expert-817ff4870245
+
+https://medium.com/better-programming/lets-learn-react-hooks-and-context-api-by-building-a-recipe-search-app-2eb0b2d2cb85
+
+Typescript
 
 -------------------------------------------------------------------------------------------------------
 
