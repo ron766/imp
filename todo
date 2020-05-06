@@ -7,9 +7,13 @@ https://developers.google.com/speed/pagespeed
 
 MySql =  docker start 39410149a50a
 
-Tibco FTP prod = Tdocs@#2012
+Tibco FTP prod ======
+stag: Raki@8145
+prod: Tdocs@#2012
 
 ===================ZOHO=====================  
+
+PROACTIVE = guide other projects 
 
 'fira code retina'  
 
@@ -56,21 +60,17 @@ expand animation css
 
 
 SSSSSSKKKKKKKUUUUUUU=============================================
-v3.1.2.4 or v3.0.2.4
 
 Fonts
 
-Disable meatballs for INPROGRESS & DELETED & PENDING
+Search val saves searched val while saving    
 
-Search val saves searched val while saving            
-
-Set error and pricing condition for  DELETED, IN-PROGRESS & PENDING                                
+SCHNEIDERRRRRRRR =================================================
 
 
-====== GO ==========================================================
-Static page
+- http://localhost:3000/owner-operator-tips/become-an-owner-operator  = image check
 
-
+- https://raweng.atlassian.net/browse/SOO-509
 
 
 
@@ -103,147 +103,7 @@ https://blog.golang.org/declaration-syntax
 
 
 
-https://tour.golang.org/flowcontrol/3
 
-https://golang.org/doc/code.html
-
-
-
-figure tag
-
-pseudo elements
-
-Scrum master
-
-https://medium.com/trabe/document-your-react-components-using-docz-1b8bd888ebe3
-
-https://medium.com/better-marketing/21-behaviors-that-will-make-you-brilliant-at-creativity-relationships-c5bdb3d58a28
-
-https://towardsdatascience.com/passing-data-between-react-components-parent-children-siblings-a64f89e24ecf
-
-doctype in html
-
-async and differ srcipt tag attributes
-
-typeof null
-
-hosting
-
-closure
-
-foreach vs map
-
-componentDidCatch
-
-setState vs replaceState
-
-provider in redux
-
-createStore()
-
-how many reducer u can pass in createStore()
-
-subscribe() in redux
-
-js is single/ multi threaded
-
-https://medium.com/@barisozcetin/using-composition-and-render-props-instead-of-context-api-e431b1cbbc3b
-
-https://medium.com/trabe/react-usereducer-hook-2b1331bb768
-
-https://levelup.gitconnected.com/overview-of-proxy-server-and-how-we-use-them-in-react-bf67c062b929
-
-redux saga
-
-generator function
-
-browser object model vs dom
-
-2 way data binding
-
-prod build vs dev build
-
-download a file using express
-
-middleware
-
-protect a particular section of APIs
-
-delete a cookie 
-
-docker
-
-https://stackoverflow.com/questions/912479/what-is-the-difference-between-javascript-and-ecmascript/30113184
-
-https://www.robinwieruch.de/react-warning-cant-call-setstate-on-an-unmounted-component/
-
-https://stackoverflow.com/questions/53949393/cant-perform-a-react-state-update-on-an-unmounted-component
-
-https://medium.com/free-code-camp/javascript-async-and-await-in-loops-30ecc5fb3939
-
-https://www.taniarascia.com/using-context-api-in-react/
-
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data
-
-https://jsmanifest.com/22-miraculous-tools-for-react-developers-in-2019/
-
-https://nickcraver.com/blog/2019/08/06/stack-overflow-how-we-do-app-caching/
-
-https://ultimatecourses.com/blog/everything-you-wanted-to-know-about-javascript-scope
-
-let var const = hoisting
-
-https://reactjs.org/docs/render-props.html
-
-https://www.xda-developers.com/5-must-know-programming-languages-and-how-to-master-them/
-
-https://medium.appbase.io/part1-getting-started-with-react-and-nextjs-4f28a6a0c38e
-
-https://medium.com/@Zwenza/functional-vs-class-components-in-react-231e3fbd7108
-
-https://auth0.com/blog/speedy-introduction-to-web-workers/
-
-https://www.inc.com/benjamin-p-hardy/if-you-dont-believe-in-setting-goals-its-because-y_1.html
-
-https://medium.com/jsguru/javascript-functional-programming-map-filter-and-reduce-846ff9ba492d
-
-https://medium.com/edge-coders/coding-tip-try-to-code-without-if-statements-d06799eed231
-
-https://itnext.io/whats-new-in-javascript-google-i-o-2019-summary-d16bd2308412
-
-https://medium.com/@jordan.eckowitz/reach-router-react-routing-made-easy-aac7b46cd53c
-
-https://medium.com/@magyarn/simple-carousel-with-vanilla-js-3dd10a143ff2
-
-https://medium.com/javascript-in-plain-english/its-time-for-you-to-learn-webpack-45d2b08ae754
-
-https://www.fastcompany.com/90325898/how-to-stop-email-trackers-pixels
-
-https://itnext.io/upgrading-to-react-hooks-parcel-web-animations-and-react-hooks-3a3cd044a6b9
-
-https://medium.com/free-code-camp/how-to-understand-a-components-lifecycle-methods-in-reactjs-e1a609840630
-
-https://medium.com/@sagiv.bengiat/integrate-react-with-other-applications-and-frameworks-94d443e3cc3f
-
-https://itnext.io/3-small-tips-for-better-redux-performance-in-a-react-app-9cde549df6af
-
-https://medium.com/@gokulnk/understanding-npm-in-nodejs-fca157586c98
-
-https://www.gungorbudak.com/blog/2018/06/28/capture-full-size-screenshot-on-chrome-without-extension/
-
-https://medium.com/deliveredtechnologies/the-difference-between-jr-mid-level-and-senior-software-developers-9ae833534f41
-
-https://sunscrapers.com/blog/using-render-props-to-limit-prop-drilling/
-
-https://www.fastcompany.com/90331449/how-to-find-hidden-cameras-in-your-airbnb-and-anywhere-else
-
-https://levelup.gitconnected.com/getting-started-with-the-facebook-libra-programming-language-a1d21aa837e0
-
-https://www.codebeast.dev/react-memoize-hooks-useRef-useCallback-useMemo/
-
-https://medium.com/@blackb8r/react-context-api-and-lazy-loading-4c4b0a48f696
-
-https://www.robinwieruch.de/react-hooks-fetch-data/
 
 http://jamesknelson.com/grokking-es6-promises-the-four-functions-you-need-to-avoid-callback-hell/
 
@@ -1324,6 +1184,122 @@ https://medium.com/swlh/8-vim-tricks-that-will-take-you-from-beginner-to-expert-
 https://medium.com/better-programming/lets-learn-react-hooks-and-context-api-by-building-a-recipe-search-app-2eb0b2d2cb85
 
 Typescript
+
+https://reactjs.org/docs/composition-vs-inheritance.html
+
+https://medium.com/better-programming/13-must-have-browser-extensions-for-web-developers-7f4f3b1c623d
+
+https://medium.com/bytesizedcode/render-props-in-react-6081b6fa3593
+
+https://medium.com/@afontcu/css-in-defense-of-important-d82393f81a5
+
+https://blog.logrocket.com/getting-started-with-alpine-js/
+
+https://medium.com/better-programming/9-things-every-developer-should-do-f1aebd395b98
+
+https://medium.com/better-programming/9-things-every-developer-should-do-f1aebd395b98
+
+https://codeburst.io/how-to-build-a-self-improving-react-app-87982d714a9e
+
+https://medium.com/@alexandereardon/uselayouteffect-and-ssr-192986cdcf7a
+
+https://medium.com/javascript-in-plain-english/how-to-add-to-an-array-in-react-state-3d08ddb2e1dc
+
+redux vs context api
+
+https://www.twilio.com/blog/building-javascript-microservices-node-js
+
+Redux form
+
+https://medium.com/@kyle_23362/achieving-a-perfect-100-google-lighthouse-audit-score-with-next-js-b92795a0fd49
+
+https://medium.com/better-programming/what-i-wish-i-knew-when-i-started-to-work-with-react-js-3ba36107fd13
+
+https://levelup.gitconnected.com/lets-build-a-boilerplate-with-react-and-webpack-eb2fbdb44283
+
+https://medium.com/@imrobinkim/how-state-updates-are-merged-in-react-e07fc669fec2
+
+https://medium.com/javascript-in-plain-english/react-custom-toast-notification-component-from-scratch-adccd1c452b8
+
+https://codeburst.io/javascript-understanding-the-weird-parts-d1d0e7061ebf
+
+https://medium.com/@barisozcetin/using-composition-and-render-props-instead-of-context-api-e431b1cbbc3b
+
+redux saga
+
+https://www.freecodecamp.org/news/javascript-new-features-es2020/amp/
+
+https://medium.com/swlh/creating-a-create-react-project-e0f022a229ee
+
+https://blog.bitsrc.io/5-ways-to-document-react-components-in-2020-ecf60f24dee8
+
+https://levelup.gitconnected.com/master-ux-with-react-in-2020-four-ways-to-upgrade-your-react-app-user-experience-a053b3ffbf59
+
+https://medium.com/javascript-in-plain-english/8-development-tips-for-react-developers-395aaec43bc3
+
+twilio
+
+https://www.freecodecamp.org/news/building-a-simple-pokemon-web-app-with-react-hooks-and-context-api/
+
+Sitemap
+
+https://nickpiscitelli.github.io/Glider.js/
+
+why-did-you-update
+
+https://bit.dev/
+
+https://medium.com/better-programming/8-new-features-shipping-with-es2020-7a2721f710fb
+
+https://medium.com/@enespalaz/file-upload-with-graphql-9a4927775ef7
+
+https://www.freecodecamp.org/news/json-comment-example-how-to-comment-in-json-files/
+
+https://medium.com/better-programming/how-i-rendered-a-massive-list-in-react-without-memory-and-cpu-issues-7ac6fe6a697b
+
+https://medium.com/javascript-in-plain-english/creating-a-todo-chrome-extension-with-react-custom-hooks-and-local-storage-f8f8d8910ee
+
+https://medium.com/open-graphql/implementing-search-in-graphql-11d5f71f179
+
+https://medium.com/better-programming/boost-your-productivity-with-these-6-awesome-webpack-plugins-23cee20d32ea
+
+https://www.freecodecamp.org/news/apollo-graphql-how-to-build-a-full-stack-app-with-react-and-node-js/
+
+https://medium.com/free-code-camp/why-graphql-is-the-future-of-apis-6a900fb0bc81
+
+https://medium.com/better-programming/when-to-use-react-purecomponent-723f85738be1
+
+https://medium.com/better-programming/how-to-build-a-drag-and-drop-grid-in-react-3008c5384b29
+
+https://medium.com/better-programming/tips-to-level-up-your-javascript-and-react-skills-62bfbbb9b4d
+
+https://medium.com/swlh/creating-a-re-usable-react-forms-with-custom-hooks-19ea14a0b995
+
+https://medium.com/javascript-in-plain-english/google-javascript-technical-interview-question-callback-promise-await-async-74b8dda2e331
+
+https://medium.com/poka-techblog/simplify-your-javascript-use-some-and-find-f9fb9826ddfd
+
+https://medium.com/better-programming/9-productivity-browser-extensions-for-developers-2020-edition-eb84cda6f038
+
+https://levelup.gitconnected.com/a-guide-to-next-js-api-routes-a287eda1f784
+
+https://stackoverflow.com/questions/55967048/how-do-i-support-ie-11-with-create-react-app-3-0
+
+socket connection node js
+
+https://medium.com/javascript-in-plain-english/4-useful-javascript-shorthands-you-can-use-in-react-js-ca9d2600bf3f
+
+https://medium.com/better-programming/how-to-migrate-your-rest-api-to-the-new-http-api-in-aws-2e986c326ce0
+
+https://medium.com/@Charles_Stover/the-difference-between-create-react-app-server-side-rendering-and-gatsby-da78c177a14e
+
+https://medium.com/better-programming/build-high-performance-infinite-lists-in-react-a53c0899a211
+
+https://medium.com/datadriveninvestor/flexbox-31d52c862194
+
+https://www.figma.com/proto/XxfSMJ1OYtZUx2aUmuHVpD/TIBCO?node-id=4%3A9&scaling=min-zoom
+
+https://scotch.io/tutorials/formattings-string-with-javascript-padstart-and-padend
 
 -------------------------------------------------------------------------------------------------------
 

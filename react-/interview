@@ -6,6 +6,8 @@ sessionStorage
 
 css========================================================
 css framework
+Css box model
+Flex box
 
 
 js==========================================================
@@ -40,6 +42,8 @@ var vs let
 reduce()
 xhr
 Clone arr
+Generator function
+
 
 REACT ========================================================
 jsx
@@ -61,6 +65,9 @@ hoc
 What is the purpose of using super constructor with props argumentl
 prop drilling
 Service worker
+replaceState
+memoization
+
 
 NODE==========================================================
 prod build vs dev build
@@ -77,6 +84,7 @@ ESLint
 SERVER========================================================
 aws
 aws services
+
 
 DB============================================================
 sharding
