@@ -1,0 +1,64 @@
+
+if psycog2 is not giving error while installing
+- https://stackoverflow.com/questions/26288042/error-installing-psycopg2-library-not-found-for-lssl
+
+5432
+
+https://dev-yakuza.github.io/en/django/installation/
+
+db migrations :
+- step 2 (after modifying models)
+  - python manage.py makemigrations reports
+- step 3 
+  - python manage.py sqlmigrate reports 0003
+- step 1 & 4 (for default model & modified model)
+  - python manage.py migrate
+
+create project:
+- django-admin startproject Harvest
+
+create apps :
+- python manage.py startapp reports
+
+create super user for a project :
+- python manage.py createsuperuser
+
+run server:
+- python manage.py runserver
+
+basic :
+- https://djangoforbeginners.com/initial-setup/
+
+modules :
+- pip install psycopg2
+- pip install requests
+
+Database setup¶ : 
+- https://docs.djangoproject.com/en/3.0/intro/tutorial02/
+
+https://rawengineering.zoom.us/j/7222591052
+
+https://docs.google.com/document/d/1tePwSatsCCzYkyCAo8VT3BKUa_Ia6wxouKFg8oxHK1w/edit
+
+https://help.getharvest.com/api-v2/
+
+TODO:::::::::::::::::::::::::::::::::::::::::::
+- department_id for User table
+  - custom table
+  - https://api.harvestapp.com/v2/users
+- Department table
+  - https://api.harvestapp.com/v2/users
+- UserDeptMapping table = user + dept table
+- multiple columns in admin
+- department_id in User
+
+
+QUERIES::::::::::::::::::::::::::::::::::::::::
+- TimeEntry table entries
+- department_id for User table
+  - custom table
+  - https://api.harvestapp.com/v2/users
+
+
+
+

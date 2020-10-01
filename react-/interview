@@ -43,9 +43,33 @@ reduce()
 xhr
 Clone arr
 Generator function
+Implicit Coercion
+falsy values in JS
+phases of event propagation
+CORS
+== and ===
+constructor function
+0.1 + 0.2 === 0.3
+primitive data types
+////////////////////////////
+function abacaba() {
+    return
+    {
+      a: 'b'
+    }
+}
+
+console.log(abacaba());
+--output of above
+////////////////////////////
+JSON.stringify 2nd arg?? = array / fun / Number / String
+If (null)
+If ({})
+If ([])
+Cut "Sunil" = "un"
 
 
-REACT ========================================================
+REACT ==========================================================
 jsx
 reconciliation
 components in react
@@ -67,9 +91,12 @@ prop drilling
 Service worker
 replaceState
 memoization
+Library vs. Framework?
+	- http://voidcanvas.com/framework-vs-library-one-better/
 
 
-NODE==========================================================
+
+NODE===========================================================
 prod build vs dev build
 download a file using express
 middleware
@@ -81,11 +108,107 @@ callback hel
 ESLint
 
 
-SERVER========================================================
+
+SERVER==========================================================
+Cloud services
 aws
 aws services
 
 
-DB============================================================
+
+DB==============================================================
 sharding
 join vs views
+Dbms
+Acid props
+Nosql vs sql
+join
+
+
+Python =========================================================
+pickling and unpickling
+Json
+
+
+RANDOM TEcH q ==================================================
+Oops
+Func overloading vs func overriding 
+
+
+
+GENERIC =======================================================
+Urself
+Fav subs
+Ask us any q
+Problem solving
+Syntax
+
+
+JAVA ==========================================================
+- oops
+- pure top
+- System.out.println
+- public static void main(String args[]){
+- overloading vs overriding
+- anonymous block
+
+
+API ===========================================================
+- 404
+- 400
+- 500
+- soap vs rest
+
+GIT =========================================================== 	
+
+
+
+
+LOGIC =========================================================
+- 	function abc() {
+ 		for(let i=0; i<=100; i++) {
+		console.log(i);
+	 }
+	 console.log('...');
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
