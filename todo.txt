@@ -34,50 +34,6 @@ prod-lpsku
 ------------------------------------------------------------------------------------------------------------
 
 
-PACKAGE GUI========================================================
-
-https://drive.google.com/drive/u/0/folders/1LXN_zOFayvw9W0Je4GUng4tMdSx7Zu29
-
-Visible state refreshing page
-
-Remove unused variables           
-
-Clean code
-
-No data color 
-
-Get data disabled        =============
-
-https://raweng.atlassian.net/browse/NBASKU-327
-
-
-
-
-
-
-SSSSSSKKKKKKKUUUUUUU======================================================
-
-Fonts
-
-Search val saves searched val while saving    
-
-Logo width
-
-
-
-
-SCHNEIDERRRRRRRR =========================================================
-
-Deferred--
-	- https://raweng.atlassian.net/browse/SOO-654
-
-- https://raweng.atlassian.net/browse/SOO-678`
-	- https://github.com/salesforce-marketingcloud/FuelSDK-Node/
-
-
-
-
-
 TIBCOOOOOOOOOOO) =========================================================
 - web pack
 - eslint
@@ -88,6 +44,7 @@ TIBCOOOOOOOOOOO) =========================================================
 
 
 SURFBOARDDDDDDDDDDDDD ====================================================
+- https://www.figma.com/file/fU0tL5xO5AjlKu3cIXTj18/Surfboard-Design?node-id=211%3A0
 - DEV - https://surfboard-git-development.surfboardraw.vercel.app/
 - https://docs.google.com/spreadsheets/d/1T_ZQVl_WlKPJKmNVC5wwXoXnTHTvIObBQ0OGKMIv0LI/edit#gid=891834841
 - https://web.dev/
@@ -117,36 +74,80 @@ SURFBOARDDDDDDDDDDDDD ====================================================
 
 
 
-FOUNDATION  UUUUUUUUUUIIIIIIIIIIIII ======================================
-- https://raweng.atlassian.net/browse/FS-29
-
-END USER UI
-
-
-ADMIN UI
-
-
-MEETING
-
-
-DEMO
-- END USER UI
-
-- ADMIN UI
-
-
-
 
 CONTENTFLY ================================================================
 https://contentstack.atlassian.net/secure/RapidBoard.jspa?rapidView=74&projectKey=CON
 https://www.figma.com/file/K0pysMfTAWerygA91ZERU5/Contentfly-Wireframes?node-id=283%3A2 - WireFrames
 https://www.figma.com/file/K0pysMfTAWerygA91ZERU5/Contentfly-Wireframes?node-id=840%3A0 - WireFrames (NEW)
-https://www.figma.com/file/CRRgHkyH0SYxVVwCLfnLvf/Contentfly-Landing-Page?node-id=99%3A0 - UX
-https://dev10-app-react-storybooks.contentstack.com/ - Venus Component
+https://www.figma.com/file/442YXGVlqydhX00fR2ewYq/Create-New-Project?node-id=227%3A301 - UX
+https://www.figma.com/file/GRiV9z3rMBu6EoOnJYAEYe/Production-Deployments-and-Deployments-Details?node-id=491%3A0 - deployments UX
+https://www.figma.com/file/sRGBPFrZLulKdPMPUfAn8T/Project-Settings?node-id=0%3A1 - settings UX
+https://dev10-app-react-storybooks.contentstack.com/	 - Venus Components UI
+https://docs.google.com/spreadsheets/d/1HOUclaX3Fo5SfgLQ5LcjdmZ5vegTnXq5V14NS1vXeMw/edit#gid=0 - VENUS ISSUES
+https://github.com/amrendra007/common-component/tree/master/src/components - amrendra007 Venus Component
+https://www.getpostman.com/collections/4604ac3e1e71b48eb347 - POSTMAN
 
-- https://contentstack.atlassian.net/browse/CON-281 
+CTF dev
+https://dev-contenfly-ui.contentstack.com/
+CMS APP
+https://dev-venus.contentstack.com/#/contentfly
+Basic auth:::::::::::::::::::::::
+user: dev-csio
+Password: Csd8tz)As>HB8FUs
+creds::::::::::::::::::::::::::::
+rohan.patil@raweng.com
+Dev@ron766
+
+
+
 - error boundaries
-- https://contentstack.atlassian.net/browse/CON-319
+- useMemo
+- handle negative scenarios using saga
+- https://contentstack.atlassian.net/browse/CON-367
+- domain
+- web hooks
+- notifications
+- remove unused code
+- remove unused css
+- remove unused files
+
+
+MEETING -
+	- HARSHAL
+		- add card to check -> 
+		- routes
+	- createTemplateProject -> Authorization
+
+
+DEMO - 
+- auth service
+	- static user name
+	- access token
+	- change domain on CTF parent app
+- loader
+- https://docs.google.com/spreadsheets/d/1qKa6VLhily5BWcBw_E1IVtEfnqmSKtaUCC4fttLQetg/edit?ts=5fa5894a#gid=0
+- test noSitesFlag functionality
+- move sidebar to PageHeader
+- 1 live site
+- show logged in user info (auth GitHub)
+- deployments | deployment details -> header -> breadcrumbs
+- Deployments -> window.location.replace
+- remove Create new project from Step1
+- remove static user
+- project-1-3 -> create new deployment issue
+- auto populate repo after template creation
+- loading icon for logs
+- highlight backdrop-navbar icons based on routes
+
+
+
+
+
+
+INNOVATION LAB =================================================================
+- https://raweng.atlassian.net/browse/INP-19
+
+
 
 	
 
@@ -1036,6 +1037,82 @@ https://cansahin.gitbook.io/react-boilerplate-cra-template/
 https://www.youtube.com/watch?v=MZ6XCYbC0LM&feature=youtu.be&ab_channel=edureka%21
 
 https://github.blog/2020-09-30-code-scanning-is-now-available/
+
+forwardref
+
+https://medium.com/better-programming/dockerize-your-development-environment-in-vs-code-d55ba8d705a9
+
+https://medium.com/better-programming/14-useful-packages-every-react-developer-should-know-55b47a325d3
+
+https://blog.bitsrc.io/6-tools-for-documenting-your-react-components-like-a-pro-5027cdfb40c6
+
+https://medium.com/deskera-engineering/creating-path-aliases-in-create-react-app-with-react-app-rewired-c2cde81b472
+
+https://medium.com/better-programming/shadow-your-api-traffic-to-detect-breaking-changes-6215c2c6c198
+
+https://webpack.js.org/plugins/dll-plugin/
+
+https://medium.com/@emilycoco/how-to-use-the-dll-plugin-to-speed-up-your-webpack-build-dbf330d3b13c
+
+https://www.freecodecamp.org/news/what-is-the-temporal-dead-zone/
+
+https://medium.com/better-programming/heres-how-you-can-use-docker-with-create-react-app-3ee3a972b04e
+
+git flow bash
+
+https://thenextweb.com/growth-quarters/2020/10/14/here-are-the-20-javascript-questions-youll-be-asked-in-your-next-interview-syndicaton/
+
+https://www.freecodecamp.org/news/learn-how-to-use-react-and-graphql-to-make-a-full-stack-social-network/
+
+https://www.freecodecamp.org/news/how-to-add-commit-hooks-to-git-with-husky-to-automate-code-tasks/
+
+https://danilowoz.com/blog/atomic-design-with-react
+
+https://github.blog/2020-10-15-pachyderm-and-the-power-of-github-actions-mlops-meets-devops/
+
+https://levelup.gitconnected.com/software-architecture-the-important-architectural-patterns-you-need-to-know-a1f5ea7e4e3d
+
+https://medium.com/better-programming/dockerize-your-development-environment-in-vs-code-d55ba8d705a9
+
+https://medium.com/javascript-in-plain-english/6-tips-to-improve-your-conditional-statements-for-better-readability-56256c5a5245
+
+electron js
+
+aws cognito
+
+Firebase auth
+
+https://medium.com/better-programming/10-fun-facts-about-create-react-app-eb7124aa3785
+
+https://medium.com/better-programming/4-ways-of-adding-external-js-files-in-reactjs-823f85de3668
+
+https://www.freecodecamp.org/news/javascript-string-replace-example-with-regex/
+
+ifttt
+
+https://codeburst.io/exciting-features-of-javascript-es2021-es12-1de8adf6550b
+
+https://medium.com/javascript-in-plain-english/5-modern-practices-of-javascript-that-every-developer-should-know-1a61dc9a6ee0
+
+https://www.npmjs.com/package/puppeteer
+
+https://www.geekstrick.com/news/create-react-app-v4-0-0-has-released/
+
+https://medium.com/javascript-in-plain-english/stop-using-moment-js-for-dates-and-time-in-javascript-e51e6a708148
+
+https://miragejs.com/
+
+https://logrocket.com/
+
+https://medium.com/javascript-in-plain-english/12-must-have-chrome-extensions-for-front-end-developers-bd48da712913
+
+https://www.freecodecamp.org/news/build-forms-in-react-with-react-hook-form-library/
+
+https://www.freecodecamp.org/news/how-to-use-github-actions-to-deploy-a-next-js-website-to-aws-s3/
+
+useEffectOnMount
+
+https://www.freecodecamp.org/news/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js/
 
 -------------------------------------------------------------------------------------------------------
 
