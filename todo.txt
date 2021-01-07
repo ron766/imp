@@ -44,6 +44,7 @@ TIBCOOOOOOOOOOO) =========================================================
 
 
 SURFBOARDDDDDDDDDDDDD ====================================================
+- https://contentstack.atlassian.net/jira/software/projects/SRF/boards/84
 - https://www.figma.com/file/fU0tL5xO5AjlKu3cIXTj18/Surfboard-Design?node-id=211%3A0
 - DEV - https://surfboard-git-development.surfboardraw.vercel.app/
 - https://docs.google.com/spreadsheets/d/1T_ZQVl_WlKPJKmNVC5wwXoXnTHTvIObBQ0OGKMIv0LI/edit#gid=891834841
@@ -70,25 +71,30 @@ SURFBOARDDDDDDDDDDDDD ====================================================
 	- ip border red
 	- error icon
 - https://contentstack.atlassian.net/browse/SRF-48
+- EDBA
+	- in portfolio section
 
 
 
 
 
-CONTENTFLY ================================================================
-https://contentstack.atlassian.net/secure/RapidBoard.jspa?rapidView=74&projectKey=CON
-https://www.figma.com/file/K0pysMfTAWerygA91ZERU5/Contentfly-Wireframes?node-id=283%3A2 - WireFrames
-https://www.figma.com/file/K0pysMfTAWerygA91ZERU5/Contentfly-Wireframes?node-id=840%3A0 - WireFrames (NEW)
+CONTENTFLY ====================================================================================
+https://whimsical.com/roadmap-ExMkudZu1CYZdCFtV5qs9t
+https://contentstack.atlassian.net/wiki/spaces/CONFLY/overview?homepageId=364249424
+https://contentstack.atlassian.net/jira/software/projects/CFLY/boards/112
 https://www.figma.com/file/442YXGVlqydhX00fR2ewYq/Create-New-Project?node-id=227%3A301 - UX
 https://www.figma.com/file/GRiV9z3rMBu6EoOnJYAEYe/Production-Deployments-and-Deployments-Details?node-id=491%3A0 - deployments UX
 https://www.figma.com/file/sRGBPFrZLulKdPMPUfAn8T/Project-Settings?node-id=0%3A1 - settings UX
-https://dev10-app-react-storybooks.contentstack.com/	 - Venus Components UI
+https://dev11-app-react-storybooks.contentstack.com/	 - Venus Components UI
 https://docs.google.com/spreadsheets/d/1HOUclaX3Fo5SfgLQ5LcjdmZ5vegTnXq5V14NS1vXeMw/edit#gid=0 - VENUS ISSUES
 https://github.com/amrendra007/common-component/tree/master/src/components - amrendra007 Venus Component
 https://www.getpostman.com/collections/4604ac3e1e71b48eb347 - POSTMAN
 
+
 CTF dev
-https://dev-contenfly-ui.contentstack.com/
+https://dev-contentfly-ui.contentstack.com/
+csadmin
+jeknC5oCu4QoVo2w1j3QaM5o3ERI4w
 CMS APP
 https://dev-venus.contentstack.com/#/contentfly
 Basic auth:::::::::::::::::::::::
@@ -97,47 +103,73 @@ Password: Csd8tz)As>HB8FUs
 creds::::::::::::::::::::::::::::
 rohan.patil@raweng.com
 Dev@ron766
+https://dev11-app.contentstack.com/?organization_uid=blt59e1cda4f94f5331#!/stacks
+https://dev11-app.contentstack.com/
 
 
 
 - error boundaries
 - useMemo
 - handle negative scenarios using saga
-- https://contentstack.atlassian.net/browse/CON-367
+- loading icon for logs
 - domain
 - web hooks
 - notifications
 - remove unused code
 - remove unused css
 - remove unused files
+- move git API to config
+- https://contentstack.atlassian.net/browse/CFLY-44 - Internationalisation
+- https://contentstack.atlassian.net/browse/CFLY-26 - production and latest URLs.                    
+- auth service
+	- access token
+- loading icon for logs
+- settings -> Git Provider -> orgs = ksh = get depl by env api                   ----------------------------- 
+- https://contentstack.atlassian.net/browse/CFLY-47                                   
+	- Get Deployments By Env
+	- Update Deployment
+- https://contentstack.atlassian.net/browse/CFLY-48
+- General Settings -> prefill values
+	- Get Deployments By Env
+- https://contentstack.atlassian.net/browse/CFLY-49
+- Repo Duplication check - Gitlab
+- remove default loader for window route
+- separate cms apis
+- reset states for all
+- template flow gitlab
+- SUPPORTED_FRAMEWORK_LIST issue
+- https://contentstack.atlassian.net/browse/CFLY-51
+- https://contentstack.atlassian.net/browse/CFLY-52
+- https://contentstack.atlassian.net/browse/CFLY-53
+- live = ssl cert condition
+- get Venus access and add icons 
+- template next btn disable until load complete
+- https://contentstack.atlassian.net/browse/CFLY-25. P        
+- https://contentstack.atlassian.net/browse/CFLY-30. P          
+- https://contentstack.atlassian.net/browse/CFLY-34. P            
+- notifications
+- https://contentstack.atlassian.net/browse/CFLY-27
+	- https://www.pluralsight.com/guides/how-to-implement-infinite-scrolling-with-reactjs
+- https://contentstack.atlassian.net/browse/CFLY-33
+	- https://contentstack.atlassian.net/browse/CFLY-53
+- modal states flicker
+- if all deployments are deleted move to deployments parent page
+- dropdown -> search and close = list does not reset
+
+
 
 
 MEETING -
+	- createTemplateProject | getSingleProject -> Authorization = KSH
 	- HARSHAL
-		- add card to check -> 
-		- routes
-	- createTemplateProject -> Authorization
+		- top header -> Project selection
+		- get Venus access and add icons
+	- https://contentstack.atlassian.net/browse/CFLY-58
 
 
 DEMO - 
-- auth service
-	- static user name
-	- access token
-	- change domain on CTF parent app
-- loader
-- https://docs.google.com/spreadsheets/d/1qKa6VLhily5BWcBw_E1IVtEfnqmSKtaUCC4fttLQetg/edit?ts=5fa5894a#gid=0
-- test noSitesFlag functionality
-- move sidebar to PageHeader
-- 1 live site
-- show logged in user info (auth GitHub)
-- deployments | deployment details -> header -> breadcrumbs
-- Deployments -> window.location.replace
-- remove Create new project from Step1
-- remove static user
-- project-1-3 -> create new deployment issue
-- auto populate repo after template creation
-- loading icon for logs
-- highlight backdrop-navbar icons based on routes
+
+
 
 
 
@@ -145,7 +177,7 @@ DEMO -
 
 
 INNOVATION LAB =================================================================
-- https://raweng.atlassian.net/browse/INP-19
+
 
 
 
@@ -198,25 +230,7 @@ https://jestjs.io/docs/en/expect
 
 
 
-https://levelup.gitconnected.com/javascript-clean-code-objects-and-classes-49eb5a30e242
 
-https://medium.com/dailyjs/dot-notation-vs-bracket-notation-eedea5fa8572
-
-https://levelup.gitconnected.com/javascript-best-practices-performance-a549bc87ed20
-
-https://medium.com/javascript-in-plain-english/new-javascript-features-in-es2020-c2d76acf9c5a
-
-https://medium.com/javascript-in-plain-english/top-5-in-demand-javascript-frameworks-for-front-end-development-in-2020-a59c4340d082
-
-https://medium.com/better-programming/why-we-stopped-using-so-called-best-practices-in-our-ci-cd-process-2ff09811f633
-
-https://medium.com/javascript-in-plain-english/google-javascript-technical-interview-question-callback-promise-await-async-74b8dda2e331
-
-https://stackoverflow.com/questions/287903/what-is-the-preferred-syntax-for-defining-enums-in-javascript
-
-https://stackoverflow.com/questions/33124058/object-freeze-vs-const
-
-http://blog.npmjs.org/post/612764866888007680/next-phase-montage
 
 https://medium.com/javascript-in-plain-english/comparing-different-ways-to-make-http-requests-in-javascript-39ab0f090788
 
@@ -1113,6 +1127,62 @@ https://www.freecodecamp.org/news/how-to-use-github-actions-to-deploy-a-next-js-
 useEffectOnMount
 
 https://www.freecodecamp.org/news/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js/
+
+https://exercism.io/
+
+https://undraw.co/search
+
+Cron jobs
+
+monads
+
+https://docker-curriculum.com/
+
+https://firesearch.dev/
+
+https://epicreact.dev/how-react-uses-closures-to-avoid-bugs/
+
+https://www.freecodecamp.org/news/time-saving-javascript-tips/
+
+https://joanwestenberg.medium.com/stop-coding-4b3f367b2f95
+
+https://medium.com/swlh/best-4-vs-code-extensions-in-2020-d629f37a034
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors
+
+https://coderadio.freecodecamp.org/
+
+https://githubuniverse.com/
+
+https://img.ly/
+
+https://www.prisma.io/blog/announcing-the-release-of-nexus-schema-v1-b5eno5g08d0b
+
+https://vercel.com/blog/serverless-pre-rendering
+
+https://medium.com/better-programming/how-to-pass-multiple-route-parameters-in-a-react-url-path-4b919de0abbe
+
+https://dev.to/vfonic/frontend-wtf-4h5i
+
+https://github.blog/2020-12-21-how-we-built-the-github-globe/
+
+slack channels
+
+https://mindsdb.com/
+
+https://medium.com/javascript-in-plain-english/5-new-javascript-features-you-should-know-adb410c2bf0a
+
+https://threejs.org/
+
+https://medium.com/javascript-in-plain-english/5-extremely-useful-apis-for-your-next-projects-43647920a3e4
+
+https://flaviocopes.com/javascript-async-await-array-map/
+
+https://reactjs.org/blog/2020/12/21/data-fetching-with-react-server-components.html
+
+https://github.com/reactjs/server-components-demo
+
+https://www.freecodecamp.org/news/how-to-learn-react-skills-you-need-to-know/
 
 -------------------------------------------------------------------------------------------------------
 
