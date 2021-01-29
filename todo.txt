@@ -79,6 +79,7 @@ SURFBOARDDDDDDDDDDDDD ====================================================
 
 
 CONTENTFLY ====================================================================================
+https://whimsical.com/environments-wireframe-KKLXktKsL4bK9TzWHiom97
 https://whimsical.com/roadmap-ExMkudZu1CYZdCFtV5qs9t
 https://contentstack.atlassian.net/wiki/spaces/CONFLY/overview?homepageId=364249424
 https://contentstack.atlassian.net/jira/software/projects/CFLY/boards/112
@@ -97,6 +98,7 @@ csadmin
 jeknC5oCu4QoVo2w1j3QaM5o3ERI4w
 CMS APP
 https://dev-venus.contentstack.com/#/contentfly
+https://dev-venus-new.contentstack.com/#/contentfly
 Basic auth:::::::::::::::::::::::
 user: dev-csio
 Password: Csd8tz)As>HB8FUs
@@ -119,15 +121,11 @@ https://dev11-app.contentstack.com/
 - remove unused css
 - remove unused files
 - move git API to config
-- https://contentstack.atlassian.net/browse/CFLY-44 - Internationalisation
-- https://contentstack.atlassian.net/browse/CFLY-26 - production and latest URLs.                    
+- https://contentstack.atlassian.net/browse/CFLY-44 - Internationalisation                  
 - auth service
 	- access token
 - loading icon for logs
-- settings -> Git Provider -> orgs = ksh = get depl by env api                   ----------------------------- 
-- https://contentstack.atlassian.net/browse/CFLY-47                                   
-	- Get Deployments By Env
-	- Update Deployment
+- settings -> Git Provider -> orgs = ksh = get depl by env api                   
 - https://contentstack.atlassian.net/browse/CFLY-48
 - General Settings -> prefill values
 	- Get Deployments By Env
@@ -140,22 +138,25 @@ https://dev11-app.contentstack.com/
 - SUPPORTED_FRAMEWORK_LIST issue
 - https://contentstack.atlassian.net/browse/CFLY-51
 - https://contentstack.atlassian.net/browse/CFLY-52
-- https://contentstack.atlassian.net/browse/CFLY-53
 - live = ssl cert condition
 - get Venus access and add icons 
 - template next btn disable until load complete
-- https://contentstack.atlassian.net/browse/CFLY-25. P        
-- https://contentstack.atlassian.net/browse/CFLY-30. P          
-- https://contentstack.atlassian.net/browse/CFLY-34. P            
+- https://contentstack.atlassian.net/browse/CFLY-25. P              
+- https://contentstack.atlassian.net/browse/CFLY-34. P                        
 - notifications
 - https://contentstack.atlassian.net/browse/CFLY-27
 	- https://www.pluralsight.com/guides/how-to-implement-infinite-scrolling-with-reactjs
-- https://contentstack.atlassian.net/browse/CFLY-33
+- https://contentstack.atlassian.net/browse/CFLY-33                                      -------------------------------------------- 
 	- https://contentstack.atlassian.net/browse/CFLY-53
+	- Settings -> loading condition
+	- test cases
 - modal states flicker
 - if all deployments are deleted move to deployments parent page
 - dropdown -> search and close = list does not reset
-
+- https://contentstack.atlassian.net/browse/CFLY-60                                        
+- move git APIs to git file
+- https://www.npmjs.com/package/cross-fetch
+- https://contentstack.atlassian.net/browse/CS-11100
 
 
 
@@ -232,7 +233,6 @@ https://jestjs.io/docs/en/expect
 
 
 
-https://medium.com/javascript-in-plain-english/comparing-different-ways-to-make-http-requests-in-javascript-39ab0f090788
 
 https://levelup.gitconnected.com/5-javascript-tricks-that-are-good-to-know-78045dea6678
 
@@ -1183,6 +1183,28 @@ https://reactjs.org/blog/2020/12/21/data-fetching-with-react-server-components.h
 https://github.com/reactjs/server-components-demo
 
 https://www.freecodecamp.org/news/how-to-learn-react-skills-you-need-to-know/
+
+https://blog.logrocket.com/access-correct-this-inside-callback-javascript/
+
+https://github.blog/2021-01-06-building-on-call-culture-at-github/
+
+https://openai.com/blog/dall-e/
+
+https://dev.to/ankitkamboj18/making-react-app-a-progressive-web-app-pwa-46dk
+
+https://blog.bitsrc.io/graphql-vs-react-server-components-do-we-need-both-226c8b1c2cf7
+
+https://www.freecodecamp.org/news/react-projects-you-should-build-this-year/
+
+https://jasonwatmore.com/post/2019/04/06/react-jwt-authentication-tutorial-example
+
+https://www.joshwcomeau.com/css/styled-components/
+
+https://blog.logrocket.com/blazor-vs-react/
+
+https://codeburst.io/visual-studio-code-extensions-to-enhance-productivity-in-2021-5418c688c19f
+
+https://blog.bitsrc.io/introduction-to-aleph-the-react-framework-in-deno-322ec26d0fa9
 
 -------------------------------------------------------------------------------------------------------
 
