@@ -106,6 +106,7 @@ Event loop in Node.js
 callback vs promises
 callback hel
 ESLint
+Client side caching vs server side caching
 
 
 
@@ -182,6 +183,9 @@ LOGIC =========================================================
 	 console.log('...');
 	}
 
+
+CI / CD
+https://www.fullstack.cafe/blog/15-continuous-integration-interview-questions-in-2018
 
 
 

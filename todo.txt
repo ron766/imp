@@ -3,6 +3,11 @@ ZOHO
 
 https://rawengineering.zoom.us/j/7222591052
 
+Dodi repack
+igg games
+Fitgirlrepack
+Ova games
+
 192.168.1.2:8001/
 
 MSSql =  docker start 39410149a50a
@@ -79,6 +84,8 @@ SURFBOARDDDDDDDDDDDDD ====================================================
 
 
 CONTENTFLY ====================================================================================
+    token: 'blt5d9c7e3ce9c68d9d',
+    org_uid: 'blt8a2114027fb46d20',
 https://whimsical.com/environments-wireframe-KKLXktKsL4bK9TzWHiom97
 https://whimsical.com/roadmap-ExMkudZu1CYZdCFtV5qs9t
 https://contentstack.atlassian.net/wiki/spaces/CONFLY/overview?homepageId=364249424
@@ -90,6 +97,9 @@ https://dev11-app-react-storybooks.contentstack.com/	 - Venus Components UI
 https://docs.google.com/spreadsheets/d/1HOUclaX3Fo5SfgLQ5LcjdmZ5vegTnXq5V14NS1vXeMw/edit#gid=0 - VENUS ISSUES
 https://github.com/amrendra007/common-component/tree/master/src/components - amrendra007 Venus Component
 https://www.getpostman.com/collections/4604ac3e1e71b48eb347 - POSTMAN
+NEW -
+https://www.figma.com/proto/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=314%3A1422&viewport=-1774%2C507%2C0.6082302331924438&scaling=min-zoom
+https://www.figma.com/file/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=314%3A1422
 
 
 CTF dev
@@ -146,10 +156,7 @@ https://dev11-app.contentstack.com/
 - notifications
 - https://contentstack.atlassian.net/browse/CFLY-27
 	- https://www.pluralsight.com/guides/how-to-implement-infinite-scrolling-with-reactjs
-- https://contentstack.atlassian.net/browse/CFLY-33                                      -------------------------------------------- 
-	- https://contentstack.atlassian.net/browse/CFLY-53
-	- Settings -> loading condition
-	- test cases
+	- 
 - modal states flicker
 - if all deployments are deleted move to deployments parent page
 - dropdown -> search and close = list does not reset
@@ -157,6 +164,7 @@ https://dev11-app.contentstack.com/
 - move git APIs to git file
 - https://www.npmjs.com/package/cross-fetch
 - https://contentstack.atlassian.net/browse/CS-11100
+- https://contentstack.atlassian.net/browse/CFLY-65                                 ---------------------------------------
 
 
 
@@ -233,14 +241,6 @@ https://jestjs.io/docs/en/expect
 
 
 
-
-https://levelup.gitconnected.com/5-javascript-tricks-that-are-good-to-know-78045dea6678
-
-https://medium.com/better-programming/2020-001-full-stack-pronounced-dead-355d7f78e733
-
-https://medium.com/better-programming/10-must-know-features-of-chrome-devtools-94e4a4e530c5
-
-https://medium.com/better-programming/7-great-utility-libraries-for-data-visualization-with-javascript-30621445d784
 
 https://itnext.io/how-to-write-a-frontend-javascript-plugin-using-es6-sass-webpack-a1c6d6fdeb71
 
@@ -1207,6 +1207,82 @@ https://codeburst.io/visual-studio-code-extensions-to-enhance-productivity-in-20
 https://blog.bitsrc.io/introduction-to-aleph-the-react-framework-in-deno-322ec26d0fa9
 
 http://cdr2.com/carlton-css/
+
+Key frames
+
+W3C Validator
+
+react foundation
+
+SCSS/SASS
+
+Less
+
+ITCSS
+
+SMACSS
+
+Vue Js
+
+Javascript Design Patterns
+
+Data prefetching
+
+Google optimization
+
+ADA Compliance
+
+Marketo Form
+
+Nestjs
+
+Fastify
+
+Socket.io
+
+MongoDB - Mongoose
+
+MySQL
+
+Filesystem
+
+Sequelize
+
+Mocha Chai
+
+Oauth2
+
+SAML
+
+Docker
+
+Kubernative
+
+Microservice
+
+Rabbit MQ
+
+Serverless - Lambda
+
+Monolithic architecture
+
+ELK or Prometheus
+
+AWS Services
+
+Netlify
+
+SonarQube
+
+Client side caching vs server side caching
+
+https://single-spa.js.org/
+
+https://medium.com/@wisecobbler/4-ways-to-populate-an-array-in-javascript-836952aea79f
+
+Study window object
+
+https://codepen.io/amit_sheen/pen/PobQjMX
 
 -------------------------------------------------------------------------------------------------------
 
