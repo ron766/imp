@@ -1,7 +1,8 @@
 🔥🔥
 ZOHO
 
-https://rawengineering.zoom.us/j/7222591052
+https://rawengineering.zoom.us/j/97103585112
+
 
 Dodi repack
 igg games
@@ -59,18 +60,6 @@ SURFBOARDDDDDDDDDDDDD ====================================================
 - galleryColumn left-right spacing
 - gallery reference on event page
 - cert id not fetching
-- CERTIFICATE ----
-	- asset download = cms
-	- generate cert using participant list on a cert template
-	- store it = cms / db
-	- make it available for users / participants to preview & download
-	- fields : name (optional) , email (optional) , cert-id
-	- store participant's info who have accessed their certs
-	
-	- cert id mandatory field = CMS
-	- confirm ui with Tushar
-	- case sensitive
-
 - footer conditions
 - e-cert
 	- ip border red
@@ -84,22 +73,19 @@ SURFBOARDDDDDDDDDDDDD ====================================================
 
 
 CONTENTFLY ====================================================================================
+- https://whimsical.com/contentfly-VmNqvQgDYsZEJeTAeGRLHF
+- https://contentstack.atlassian.net/wiki/spaces/PER/pages/763723930/Practices#Trunk-Based-Development
     token: 'blt5d9c7e3ce9c68d9d',
     org_uid: 'blt8a2114027fb46d20',
-https://whimsical.com/environments-wireframe-KKLXktKsL4bK9TzWHiom97
-https://whimsical.com/roadmap-ExMkudZu1CYZdCFtV5qs9t
-https://contentstack.atlassian.net/wiki/spaces/CONFLY/overview?homepageId=364249424
 https://contentstack.atlassian.net/jira/software/projects/CFLY/boards/112
-https://www.figma.com/file/442YXGVlqydhX00fR2ewYq/Create-New-Project?node-id=227%3A301 - UX
-https://www.figma.com/file/GRiV9z3rMBu6EoOnJYAEYe/Production-Deployments-and-Deployments-Details?node-id=491%3A0 - deployments UX
-https://www.figma.com/file/sRGBPFrZLulKdPMPUfAn8T/Project-Settings?node-id=0%3A1 - settings UX
 https://dev11-app-react-storybooks.contentstack.com/	 - Venus Components UI
-https://docs.google.com/spreadsheets/d/1HOUclaX3Fo5SfgLQ5LcjdmZ5vegTnXq5V14NS1vXeMw/edit#gid=0 - VENUS ISSUES
 https://github.com/amrendra007/common-component/tree/master/src/components - amrendra007 Venus Component
-https://www.getpostman.com/collections/4604ac3e1e71b48eb347 - POSTMAN
-NEW -
-https://www.figma.com/proto/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=314%3A1422&viewport=-1774%2C507%2C0.6082302331924438&scaling=min-zoom
 https://www.figma.com/file/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=314%3A1422
+Dep - https://www.figma.com/file/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=477%3A15102
+cancelled deployment flow - https://www.figma.com/file/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=523%3A0
+Env - https://www.figma.com/file/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=477%3A15103
+
+
 
 
 CTF dev
@@ -119,80 +105,34 @@ https://dev11-app.contentstack.com/?organization_uid=blt59e1cda4f94f5331#!/stack
 https://dev11-app.contentstack.com/
 
 
+- https://contentstack.atlassian.net/browse/CFLY-66
+	- https://www.figma.com/proto/sxJtZTY4aYJ3OIc4j9yARt/Landing-Page?node-id=54%3A1933&scaling=min-zoom&page-id=54%3A70
+	- https://www.figma.com/file/sxJtZTY4aYJ3OIc4j9yARt/Landing-Page?node-id=54%3A70
+	- /project/607fd618606d7f3b5d07af43/env/607fd618606d7f3e5b07af44/deployments
+ 	- delete projects
 
-- error boundaries
-- useMemo
-- handle negative scenarios using saga
-- loading icon for logs
-- domain
-- web hooks
-- notifications
-- remove unused code
-- remove unused css
-- remove unused files
-- move git API to config
-- https://contentstack.atlassian.net/browse/CFLY-44 - Internationalisation                  
-- auth service
-	- access token
-- loading icon for logs
-- settings -> Git Provider -> orgs = ksh = get depl by env api                   
-- https://contentstack.atlassian.net/browse/CFLY-48
-- General Settings -> prefill values
-	- Get Deployments By Env
-- https://contentstack.atlassian.net/browse/CFLY-49
-- Repo Duplication check - Gitlab
-- remove default loader for window route
-- separate cms apis
-- reset states for all
-- template flow gitlab
-- SUPPORTED_FRAMEWORK_LIST issue
-- https://contentstack.atlassian.net/browse/CFLY-51
-- https://contentstack.atlassian.net/browse/CFLY-52
-- live = ssl cert condition
-- get Venus access and add icons 
-- template next btn disable until load complete
-- https://contentstack.atlassian.net/browse/CFLY-25. P              
-- https://contentstack.atlassian.net/browse/CFLY-34. P                        
-- notifications
-- https://contentstack.atlassian.net/browse/CFLY-27
-	- https://www.pluralsight.com/guides/how-to-implement-infinite-scrolling-with-reactjs
-	- 
-- modal states flicker
-- if all deployments are deleted move to deployments parent page
-- dropdown -> search and close = list does not reset
-- https://contentstack.atlassian.net/browse/CFLY-60                                        
-- move git APIs to git file
-- https://www.npmjs.com/package/cross-fetch
-- https://contentstack.atlassian.net/browse/CS-11100
-- https://contentstack.atlassian.net/browse/CFLY-65                                 ---------------------------------------
 
 
 
 MEETING -
-	- createTemplateProject | getSingleProject -> Authorization = KSH
-	- HARSHAL
-		- top header -> Project selection
-		- get Venus access and add icons
-	- https://contentstack.atlassian.net/browse/CFLY-58
+	- proxy
+	- moment ut-snapshot issue
+	- steps-wrapper wizard ts issue
+	- saga -> req mock -> API_URL + deployServiceApiUrl
+	- error notification timeout
+	- projectCreationError need?
+	- PR
+
 
 
 DEMO - 
+	- 
 
-
-
-
-
-
-
-
-INNOVATION LAB =================================================================
 
 
 
 
 	
-
-
 
 
 
@@ -232,69 +172,21 @@ https://www.linux.com/training-tutorials/introduction-django/
 
 https://jestjs.io/docs/en/expect
 
+https://golang.org/doc/code.html
+
 ``````````````````````````````````````````````````````````````````````````````````````````````````````
 	
 
 
+TS - 01:14:00
+https://www.youtube.com/watch?v=BwuLxPH8IDs&ab_channel=Academind
 
 
 
 
 
 
-https://itnext.io/how-to-write-a-frontend-javascript-plugin-using-es6-sass-webpack-a1c6d6fdeb71
-
-https://medium.com/better-programming/how-to-build-a-node-js-api-cache-with-redis-ac0aa54dee48
-
-https://medium.com/better-programming/8-awesome-react-hooks-2cb31aed4f3d
-
-https://www.sitepoint.com/essential-react-tools/
-
-https://golang.org/doc/code.html
-
-https://levelup.gitconnected.com/javascript-clean-code-vertical-formatting-d15097f5f30e
-
-https://medium.com/better-programming/react-router-architecture-thats-simple-scalable-and-protected-da896827f946
-
-https://www.hackerone.com/start-hacking
-
-https://fauna.com/features
-
-https://medium.com/@PepsRyuu/monorepos-in-javascript-anti-pattern-917603da59c8
-
-https://medium.com/javascript-in-plain-english/creating-a-todo-chrome-extension-with-react-custom-hooks-and-local-storage-f8f8d8910ee
-
-Next js
-
-https://levelup.gitconnected.com/build-a-todo-app-in-golang-mongodb-and-react-e1357b4690a6
-
-https://medium.com/better-programming/heres-a-list-of-challenging-frontend-ideas-you-can-start-solving-today-afa0ab3f0fdd
-
-https://levelup.gitconnected.com/the-benefits-of-being-a-polyglot-programmer-5aff466c4efa
-
-https://medium.com/dailyjs/5-chrome-devtools-utilities-you-need-to-know-5bfe58c75773
-
-https://medium.com/better-programming/10-awesome-javascript-libraries-for-front-end-developers-in-2020-d450b9ed66d1
-
-https://medium.com/dailyjs/a-realworld-comparison-of-front-end-frameworks-2020-4e50655fe4c1
-
-https://medium.com/better-programming/understanding-golang-and-goroutines-72ac3c9a014d
-
-https://medium.com/better-programming/3-examples-of-when-not-to-use-javascript-arrow-functions-90eebfbf7bb0
-
-https://www.freecodecamp.org/news/javascript-new-features-es2020/
-
-https://medium.com/javascript-in-plain-english/3-express-js-features-you-need-to-know-8f78b0035f33
-
-https://medium.com/javascript-in-plain-english/six-things-you-should-know-about-objects-in-javascript-ccd11a9e1998
-
-https://medium.com/javascript-in-plain-english/10-javascript-interview-questions-for-2020-697b40de9480
-
-https://landing.google.com/sre/books/
-
-https://medium.com/better-programming/how-to-use-the-react-hook-usedeepeffect-815818c0ad9d
-
-https://medium.com/better-programming/9-things-every-developer-should-do-f1aebd395b98
+https://www.youtube.com/watch?v=2vMEQ5zs1ko
 
 https://medium.com/javascript-scene/passwords-are-obsolete-how-to-secure-your-app-and-protect-your-users-1cd6c7b7c3bc
 
@@ -1283,6 +1175,106 @@ https://medium.com/@wisecobbler/4-ways-to-populate-an-array-in-javascript-836952
 Study window object
 
 https://codepen.io/amit_sheen/pen/PobQjMX
+
+cross-fetch
+
+https://contentstack.atlassian.net/wiki/spaces/PER/pages/763723930/Practices#Trunk-Based-Development
+
+https://itnext.io/how-to-write-a-frontend-javascript-plugin-using-es6-sass-webpack-a1c6d6fdeb71
+
+https://www.freecodecamp.org/news/learn-to-implement-user-authentication-in-node-apps-using-passport-js/
+
+https://medium.com/techmagic/companies-that-use-node-js-for-backend-how-do-big-players-benefit-from-it-1d15771ddd2a
+
+https://medium.com/@PepsRyuu/monorepos-in-javascript-anti-pattern-917603da59c8
+
+https://www.freecodecamp.org/news/supercharged-sorts-in-javascript/
+
+https://www.freecodecamp.org/news/create-pixel-effects-with-javascript-and-html-canvas/
+
+pusher api
+
+https://medium.com/javascript-in-plain-english/creating-a-todo-chrome-extension-with-react-custom-hooks-and-local-storage-f8f8d8910ee
+
+Nest
+
+https://levelup.gitconnected.com/build-a-todo-app-in-golang-mongodb-and-react-e1357b4690a6
+
+https://blog.bitsrc.io/how-to-avoid-javascript-type-conversions-29e1258f37d8
+
+https://www.freecodecamp.org/news/javascript-projects-for-beginners/
+
+https://www.freecodecamp.org/news/create-pixel-effects-with-javascript-and-html-canvas/
+
+https://www.freecodecamp.org/news/functional-programming-in-javascript-for-beginners/
+
+https://www.freecodecamp.org/news/build-six-quick-python-projects/
+
+https://www.freecodecamp.org/news/how-to-receive-emails-via-your-sites-contact-us-form-with-aws-ses-lambda-api-gateway/
+
+https://www.freecodecamp.org/news/how-to-beat-coders-block-and-stay-productive/
+
+https://www.freecodecamp.org/news/building-a-data-science-curriculum-with-advanced-math-and-machine-learning/
+
+https://www.infoworld.com/article/3611412/is-javascript-the-new-java.html
+
+Ec2 / s3
+
+fastify
+
+https://medium.com/better-programming/understanding-golang-and-goroutines-72ac3c9a014d
+
+https://blog.logrocket.com/how-to-create-a-split-pane-component-in-react/
+
+https://blog.bitsrc.io/using-https-for-local-development-for-react-angular-and-node-fdfaf69693cd
+
+#! in url
+
+https://www.freecodecamp.org/learn/apis-and-microservices/#mongodb-and-mongoose
+
+helm
+
+https://www.freecodecamp.org/news/react-libraries-you-should-use/
+
+Ts decorator
+
+https://stryker-mutator.io/
+
+javascript query language
+
+competitive programming
+
+serial position effect
+
+https://youtu.be/fqMOX6JJhGo
+
+https://www.freecodecamp.org/news/learn-how-to-create-an-instagram-clone-using-react/
+
+https://www.freecodecamp.org/news/react-router-cheatsheet/
+
+Strategy pattern
+
+https://flexport.engineering/ending-the-debate-on-inline-functions-in-react-8c03fabd144
+
+redux form
+
+Window object and functions
+
+https://github.com/patrick-steele-idem/morphdom
+
+https://www.youtube.com/watch?v=VfGW0Qiy2I0&ab_channel=TraversyMedia
+
+https://blog.logrocket.com/creating-cross-platform-apps-nw-js/
+
+https://youtu.be/AbCTlemwZ1k
+
+https://www.pluralsight.com/courses/getting-started-kubernetes
+	- basic and necessary
+
+vuex state management
+
+https://www.youtube.com/watch?v=u-YWtdbpEhQ
+
 
 -------------------------------------------------------------------------------------------------------
 

@@ -60,13 +60,15 @@ function abacaba() {
 }
 
 console.log(abacaba());
---output of above
+--output of above = undefined
 ////////////////////////////
 JSON.stringify 2nd arg?? = array / fun / Number / String
 If (null)
 If ({})
 If ([])
 Cut "Sunil" = "un"
+NaN === NaN
+readFile and readStream
 
 
 REACT ==========================================================
@@ -97,6 +99,13 @@ Library vs. Framework?
 
 
 NODE===========================================================
+What is the name of the JavaScript engine that Node.js is built upon?
+Does Node.js operate in a single-threaded or multi-threaded fashion?
+What is npm?
+settimeout and setimmediate
+alternative to the Node package manager (npm)
+What is the difference between dependencies and devDependencies?
+What is REPL and how can you access it from the command line?
 prod build vs dev build
 download a file using express
 middleware
@@ -107,6 +116,8 @@ callback vs promises
 callback hel
 ESLint
 Client side caching vs server side caching
+What is libuv?
+
 
 
 
@@ -114,6 +125,14 @@ SERVER==========================================================
 Cloud services
 aws
 aws services
+Load balancer
+Microservice / architecture
+aws lamda vs docker
+Redis
+Jenkins
+Redis for webpage
+Elastic search
+Kubernetes
 
 
 
@@ -124,6 +143,7 @@ Dbms
 Acid props
 Nosql vs sql
 join
+Lookup
 
 
 Python =========================================================
@@ -186,6 +206,13 @@ LOGIC =========================================================
 
 CI / CD
 https://www.fullstack.cafe/blog/15-continuous-integration-interview-questions-in-2018
+
+
+Webpack =======================================================
+
+
+
+https://docs.google.com/spreadsheets/d/1xNegKV3QDMpXKDx1J4lokxHwQTOG7eZx1zQQ1UICkkk/edit?ts=60892ac3#gid=0
 
 
 
