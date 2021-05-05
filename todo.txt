@@ -80,10 +80,12 @@ CONTENTFLY =====================================================================
 https://contentstack.atlassian.net/jira/software/projects/CFLY/boards/112
 https://dev11-app-react-storybooks.contentstack.com/	 - Venus Components UI
 https://github.com/amrendra007/common-component/tree/master/src/components - amrendra007 Venus Component
-https://www.figma.com/file/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=314%3A1422
+Environments = https://www.figma.com/file/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=314%3A1422
 Dep - https://www.figma.com/file/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=477%3A15102
 cancelled deployment flow - https://www.figma.com/file/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=523%3A0
 Env - https://www.figma.com/file/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=477%3A15103
+https://contentstack.atlassian.net/wiki/spaces/CONFLY/pages/892109002/ContentFly+Figma+Links
+https://www.figma.com/file/fW1CJQay56f3zYiKUheFuf/Contentfly-Components?node-id=0%3A1
 
 
 
@@ -108,27 +110,46 @@ https://dev11-app.contentstack.com/
 - https://contentstack.atlassian.net/browse/CFLY-66
 	- https://www.figma.com/proto/sxJtZTY4aYJ3OIc4j9yARt/Landing-Page?node-id=54%3A1933&scaling=min-zoom&page-id=54%3A70
 	- https://www.figma.com/file/sxJtZTY4aYJ3OIc4j9yARt/Landing-Page?node-id=54%3A70
-	- /project/607fd618606d7f3b5d07af43/env/607fd618606d7f3e5b07af44/deployments
+	- /project/608fe1a732c89f8e6b0188b2/env/608fe1a732c89f021f0188b3/deployments
+	- FORM UT
+	- store UT
  	- delete projects
 
+
+	- projectsGql UT
+	- gal-apollo-client UT
+
+
+
+https://contentstack.atlassian.net/browse/CFLY-68
+	- https://www.figma.com/file/oFrOdfNUctWWps7d6C5y60/Project-Settings?node-id=0%3A1
+	- navigate to settings screen per project
+	- settings icon on leftbar
+	- settings screen
+	- settings nested route
+	- general screen
 
 
 
 MEETING -
-	- proxy
-	- moment ut-snapshot issue
 	- steps-wrapper wizard ts issue
-	- saga -> req mock -> API_URL + deployServiceApiUrl
 	- error notification timeout
-	- projectCreationError need?
 	- PR
+	- form fields spacing
+
 
 
 
 DEMO - 
-	- 
-
-
+=	- https://github.com/contentstack/contentfly-ui/pull/6
+		- https://github.com/contentstack/contentfly-ui/pull/6#discussion_r626498541
+		- https://github.com/contentstack/contentfly-ui/pull/6#discussion_r626500401
+		- https://github.com/contentstack/contentfly-ui/pull/6#discussion_r626504567
+	- Strings should not be hardcoded.
+	- REMOVE STATIC ORGID & TOKEN
+	- Check why parentAppData is undefined sometimes.
+	- Check if this is required.	
+		- dispatch(actions.setOrg(Event?.detail?.uid));
 
 
 
@@ -143,36 +164,13 @@ DEMO -
 
 URLs-------------------------------------------------------------------------_>
 
-https://scrimba.com/g/glearnreact
-
 http://javascriptissexy.com/
 
-The React Handbook
-https://medium.freecodecamp.org/the-react-handbook-b71c27b0a795
-
-google go language
-
 python
-
-https://dev.to/theactualgivens/testing-react-hook-state-changes-2oga
 
 https://blog.golang.org/declaration-syntax
 
 https://gobyexample.com/
-
-rust language
-
-deno
-
-https://nextjs.org/blog/next-9-4#integrated-web-vitals-reporting
-
-https://djangoforbeginners.com/hello-world/
-
-https://www.linux.com/training-tutorials/introduction-django/
-
-https://jestjs.io/docs/en/expect
-
-https://golang.org/doc/code.html
 
 ``````````````````````````````````````````````````````````````````````````````````````````````````````
 	
@@ -188,11 +186,6 @@ https://www.youtube.com/watch?v=BwuLxPH8IDs&ab_channel=Academind
 
 https://www.youtube.com/watch?v=2vMEQ5zs1ko
 
-https://medium.com/javascript-scene/passwords-are-obsolete-how-to-secure-your-app-and-protect-your-users-1cd6c7b7c3bc
-
-https://medium.com/better-programming/5-examples-of-higher-order-functions-in-javascript-21aabb4c00ac
-
-https://github.com/facebookexperimental/rome
 
 https://medium.com/front-end-weekly/3-things-you-didnt-know-about-the-foreach-loop-in-js-ff02cec465b1
 
@@ -1275,6 +1268,46 @@ vuex state management
 
 https://www.youtube.com/watch?v=u-YWtdbpEhQ
 
+https://mail.google.com/mail/u/0/#inbox/FMfcgxwLtkVWjBsMZRDNMZsZDxwxBQrW
+https://www.youtube.com/watch?v=s44PoOCwjYQ&ab_channel=Gatsby
+https://www.gatsbyjs.com/marketing/core-web-vitals-2021-04-29.pdf?utm_campaign=Webinars&utm_medium=email&_hsmi=124469200&_hsenc=p2ANqtz--ylvbIxwS3RI5pWTp4N5WwT0hsgTeB7wAz0jFnwnx1M_9ammBIN7iSnT47a3pdGRrjkl6ijryCZqZWlJXvnuP39BHbPA&utm_content=124469200&utm_source=hs_email
+
+https://mail.google.com/mail/u/0/#inbox/FMfcgxwLtkWfLWpNHsPcvtDJPBNCwBjt
+
+https://daily-dev-tips.com/posts/javascript-native-face-detector-api/
+
+https://dev.to/iainfreestone/10-trending-projects-on-github-for-web-developers-30th-april-2021-efn
+
+https://www.geektrust.in/blog/2021/03/26/oops-and-clean-code-part-1/
+
+https://www.geektrust.in/blog/2021/03/29/oops-clean-code-part-2/
+
+The React Handbook
+https://medium.freecodecamp.org/the-react-handbook-b71c27b0a795
+
+https://dev.to/theactualgivens/testing-react-hook-state-changes-2oga
+
+rust language
+
+deno
+
+https://jakearchibald.com/2017/await-vs-return-vs-return-await/
+
+https://www.dumblittleman.com/best-android-ocr-apps/?utm_source=newsletter&utm_medium=email&utm_campaign=this_productivity_hack_is_worth_400_000&utm_term=2021-05-04
+
+https://dev.to/andrewbaisden/why-you-should-create-a-developer-instagram-account-35m2?utm_source=newsletter&utm_medium=email&utm_campaign=this_productivity_hack_is_worth_400_000&utm_term=2021-05-04
+
+https://levelup.gitconnected.com/5-awesome-css-tricks-every-developer-should-know-39396d4be992
+
+https://dev.to/sanspanic/coding-advice-i-wish-i-d-trusted-earlier-f1f?ref=jonas.io
+
+https://dev.to/bytebodger/i-m-an-impostor-5f7f?ref=jonas.io
+
+https://css-tricks.com/comparing-the-new-generation-of-build-tools/?ref=jonas.io
+
+https://ishadeed.com/article/say-hello-to-css-container-queries/?ref=jonas.io
+
+https://bejamas.io/blog/jamstack-seo-guide/?ref=jonas.io
 
 -------------------------------------------------------------------------------------------------------
 
