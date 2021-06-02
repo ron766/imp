@@ -3,11 +3,13 @@ browser object model vs dom
 doctype
 html5 features
 sessionStorage
+Input type for phone no = tel
 
 css========================================================
-css framework
 Css box model
 Flex box
+Pseudo classes and pseudo elements
+css framework
 
 
 js==========================================================
@@ -23,8 +25,8 @@ unshift  vs push  arrin js
 event bubbling
 setTimeout()
 setInterval()
-callbacks
 higher order functions
+callbacks
 promise chaining
 virtual dom
 synthetic events react
@@ -69,6 +71,18 @@ If ([])
 Cut "Sunil" = "un"
 NaN === NaN
 readFile and readStream
+Optional chaining
+what does restful api mean
+Can we return or break from forEach loop for a particular condition
+- const arr = [1,2,3]
+  const arrCopy = arr;
+  arr = [];
+  What will be arrCopy?
+  --output of above = [1,2,3]
+- const arr = [1,2,3].map((data) => {
+    if (data === 1 ) return data;
+  })
+  --output of above = [1, undefined, undefined]
 
 
 REACT ==========================================================
@@ -95,10 +109,22 @@ replaceState
 memoization
 Library vs. Framework?
 	- http://voidcanvas.com/framework-vs-library-one-better/
+Ref
+renderProps
+Controlled vs uncontrolled
+Car vs next's
+usereducer vs useselector
+
+
+
+Typescript ======================================================
+Enums
 
 
 
 NODE===========================================================
+Require vs import
+First file that runs on server
 What is the name of the JavaScript engine that Node.js is built upon?
 Does Node.js operate in a single-threaded or multi-threaded fashion?
 What is npm?
@@ -113,10 +139,17 @@ protect a particular section of APIs
 Event-driven programming
 Event loop in Node.js
 callback vs promises
-callback hel
+callback hell
 ESLint
 Client side caching vs server side caching
 What is libuv?
+put vs patch
+Import vs require
+Import / require async?
+What is the first file that runs on the server
+
+
+UT =============================================================
 
 
 
@@ -126,13 +159,16 @@ Cloud services
 aws
 aws services
 Load balancer
-Microservice / architecture
+Microservice / monolithic architecture
 aws lamda vs docker
 Redis
 Jenkins
 Redis for webpage
 Elastic search
 Kubernetes
+	- https://www.simplilearn.com/tutorials/kubernetes-tutorial/kubernetes-interview-questions
+- docker
+- docker image vs class
 
 
 
@@ -144,6 +180,7 @@ Acid props
 Nosql vs sql
 join
 Lookup
+odm vs orm
 
 
 Python =========================================================
@@ -176,11 +213,20 @@ JAVA ==========================================================
 - threads
 
 
-API ===========================================================
-- 404
-- 400
-- 500
+REST API ===========================================================
+- 404 = not found
+- 400 = bad request
+- 500 = internal server
+- 401 = unauthorised
+- 403 = forbidden
+- 204 = no content | cannot send body
+- 415 = unsupported media
 - soap vs rest
+- https://www.guru99.com/rest-api-interview-question-answers.html
+	- Explain what is REST and RESTFUL?
+	- Mention what are the HTTP methods supported by REST?
+	- what is the difference between PUT and POST?
+	- 
 
 GIT =========================================================== 	
 - Git
@@ -209,6 +255,7 @@ https://www.fullstack.cafe/blog/15-continuous-integration-interview-questions-in
 
 
 Webpack =======================================================
+- resolve a file type
 
 
 

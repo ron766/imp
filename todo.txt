@@ -75,18 +75,17 @@ SURFBOARDDDDDDDDDDDDD ====================================================
 CONTENTFLY ====================================================================================
 - https://whimsical.com/contentfly-VmNqvQgDYsZEJeTAeGRLHF
 - https://contentstack.atlassian.net/wiki/spaces/PER/pages/763723930/Practices#Trunk-Based-Development
-    token: 'blt5d9c7e3ce9c68d9d',
-    org_uid: 'blt8a2114027fb46d20',
 https://contentstack.atlassian.net/jira/software/projects/CFLY/boards/112
 https://dev11-app-react-storybooks.contentstack.com/	 - Venus Components UI
 https://github.com/amrendra007/common-component/tree/master/src/components - amrendra007 Venus Component
-Environments = https://www.figma.com/file/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=314%3A1422
-Dep - https://www.figma.com/file/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=477%3A15102
-cancelled deployment flow - https://www.figma.com/file/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=523%3A0
-Env - https://www.figma.com/file/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=477%3A15103
-https://contentstack.atlassian.net/wiki/spaces/CONFLY/pages/892109002/ContentFly+Figma+Links
-https://www.figma.com/file/fW1CJQay56f3zYiKUheFuf/Contentfly-Components?node-id=0%3A1
-
+Figma
+	- Environments = https://www.figma.com/file/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=314%3A1422
+	- Dep - https://www.figma.com/file/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=477%3A15102
+	- cancelled deployment flow - https://www.figma.com/file/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=523%3A0
+	- Env - https://www.figma.com/file/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=477%3A15103
+	- https://contentstack.atlassian.net/wiki/spaces/CONFLY/pages/892109002/ContentFly+Figma+Links
+	- https://www.figma.com/file/fW1CJQay56f3zYiKUheFuf/Contentfly-Components?node-id=0%3A1
+https://fakeql.com/
 
 
 
@@ -110,46 +109,56 @@ https://dev11-app.contentstack.com/
 - https://contentstack.atlassian.net/browse/CFLY-66
 	- https://www.figma.com/proto/sxJtZTY4aYJ3OIc4j9yARt/Landing-Page?node-id=54%3A1933&scaling=min-zoom&page-id=54%3A70
 	- https://www.figma.com/file/sxJtZTY4aYJ3OIc4j9yARt/Landing-Page?node-id=54%3A70
-	- /project/608fe1a732c89f8e6b0188b2/env/608fe1a732c89f021f0188b3/deployments
-	- FORM UT
-	- store UT
- 	- delete projects
+	- /project/609945afaf4f2148e0efaab0/env/609945afaf4f213e5fefaab1/deployments
 
 
-	- projectsGql UT
-	- gal-apollo-client UT
 
 
 
 https://contentstack.atlassian.net/browse/CFLY-68
 	- https://www.figma.com/file/oFrOdfNUctWWps7d6C5y60/Project-Settings?node-id=0%3A1
-	- navigate to settings screen per project
-	- settings icon on leftbar
-	- settings screen
-	- settings nested route
-	- general screen
+	- map to url
+	- LeftNavigation - default false condition
+		- https://github.com/contentstack/venus-components/pull/117
+=	- EnvRouter UT
+	- use Errorcode map as per api 
+		- show validations on field
+		- GENERAL
+			- Name field: Max length 200 characters.
+			- Description field: Max length 255 characters.
+			- remove error notification
+			- api errors
+	- desc as null if ""
+		- const descValue = description ? `"${description}"` : null;
+		- I mean, agar wo field update nahe ho raha toh wo field nae send hona chahye UI se
+	- Deploy icon - disabled state
+		- https://www.figma.com/file/sxJtZTY4aYJ3OIc4j9yARt/Landing-Page?node-id=54%3A70
+	- EnvSettings
+		- smooth transition for height
+	- bugs/wizard PR
+
+
+https://github.com/contentstack/UI-React/pull/42
+https://contentstack.atlassian.net/browse/CS-14942
 
 
 
 MEETING -
 	- steps-wrapper wizard ts issue
-	- error notification timeout
-	- PR
-	- form fields spacing
+	- LefNavigation -> WithoutHeaderData = default
+	- error={errorMessages && (errorMessages.name as boolean)}
+
+	- WORKED ON
+		- field validations (max length)
+		- branch and time icons
+		- restructuring DeploymentInfo
+		- adding loader to EnvRouter
+
 
 
 
 
 DEMO - 
-=	- https://github.com/contentstack/contentfly-ui/pull/6
-		- https://github.com/contentstack/contentfly-ui/pull/6#discussion_r626498541
-		- https://github.com/contentstack/contentfly-ui/pull/6#discussion_r626500401
-		- https://github.com/contentstack/contentfly-ui/pull/6#discussion_r626504567
-	- Strings should not be hardcoded.
-	- REMOVE STATIC ORGID & TOKEN
-	- Check why parentAppData is undefined sometimes.
-	- Check if this is required.	
-		- dispatch(actions.setOrg(Event?.detail?.uid));
 
 
 
@@ -176,44 +185,17 @@ https://gobyexample.com/
 	
 
 
-TS - 01:14:00
+TS - 01:27:25
 https://www.youtube.com/watch?v=BwuLxPH8IDs&ab_channel=Academind
-
-
-
-
-
-
-https://www.youtube.com/watch?v=2vMEQ5zs1ko
-
-
-https://medium.com/front-end-weekly/3-things-you-didnt-know-about-the-foreach-loop-in-js-ff02cec465b1
-
-https://medium.com/javascript-in-plain-english/3-express-js-features-you-need-to-know-8f78b0035f33
-
-https://medium.com/javascript-in-plain-english/how-i-improve-my-javascript-coding-skill-every-day-37ccf2feacf4
-
-https://medium.com/javascript-in-plain-english/10-things-you-should-know-about-npm-f72f94a13954
-
-https://towardsdatascience.com/javascript-performance-test-for-vs-for-each-vs-map-reduce-filter-find-32c1113f19d7
-
-https://medium.com/@wisecobbler/4-ways-to-populate-an-array-in-javascript-836952aea79f
-
-https://medium.com/@luke_smaki/javascript-es6-classes-8a34b0a6720a
-
-https://medium.com/better-programming/should-i-use-promises-or-async-await-126ab5c98789
-
-https://medium.com/better-programming/linux-survival-guide-for-beginners-c18bfd982036
-
-https://medium.com/javascript-in-plain-english/why-you-should-not-use-array-to-remove-all-the-elements-of-array-42ad2951d47e
-
-https://medium.com/swlh/8-vim-tricks-that-will-take-you-from-beginner-to-expert-817ff4870245
-
-https://medium.com/better-programming/lets-learn-react-hooks-and-context-api-by-building-a-recipe-search-app-2eb0b2d2cb85
 
 Typescript
 
-https://reactjs.org/docs/composition-vs-inheritance.html
+
+
+
+
+
+
 
 https://medium.com/better-programming/13-must-have-browser-extensions-for-web-developers-7f4f3b1c623d
 
@@ -1308,6 +1290,74 @@ https://css-tricks.com/comparing-the-new-generation-of-build-tools/?ref=jonas.io
 https://ishadeed.com/article/say-hello-to-css-container-queries/?ref=jonas.io
 
 https://bejamas.io/blog/jamstack-seo-guide/?ref=jonas.io
+
+elasticsearch kibana 
+
+apache spark
+
+https://blog.discord.com/why-discord-is-switching-from-go-to-rust-a190bbca2b1f
+
+terraform
+
+https://stackoverflow.blog/2021/05/05/getting-started-with-typescript/
+
+https://imperavi.com/books/web-interface-handbook/?ref=jonas.io
+
+https://basecamp.com/gettingreal?ref=jonas.io
+
+https://www.freecodecamp.org/news/end-point-testing/
+
+https://youtu.be/gTVpBbFWry8
+
+https://dev.to/10xtarun/create-custom-database-module-in-nestjs-4kim
+
+https://www-freecodecamp-org.cdn.ampproject.org/c/s/www.freecodecamp.org/news/front-end-development-tools-you-should-know/amp/
+
+https://www.searchenginejournal.com/seo-automation-with-javascript/406582/
+
+https://dev.to/iainfreestone/10-trending-projects-on-github-for-web-developers-14th-may-2021-1mkd
+
+https://www.digitalocean.com/community/tutorials/getting-started-with-nestjs
+
+https://youtu.be/L7c4wS7T_T8
+
+https://microtica.com/blog/everything-about-microservices/
+
+https://towardsdatascience.com/javascript-execution-context-and-hoisting-c2cc4993e37d
+
+https://towardsdatascience.com/javascript-generator-yield-next-async-await-8442d2c77185
+
+https://towardsdatascience.com/javascript-currying-vs-partial-application-4db5b2442be8
+
+https://towardsdatascience.com/javascript-es6-iterables-and-iterators-de18b54f4d4
+
+https://towardsdatascience.com/why-to-use-javascript-proxy-5cdc69d943e3
+
+https://towardsdatascience.com/still-confused-in-js-scopes-f7dae62c16ee
+
+https://towardsdatascience.com/image-object-detection-with-tensorflow-js-b8861119ed46
+
+https://codeburst.io/fractal-a-nodejs-app-structure-for-infinite-scale-d74dda57ee11
+
+https://codeburst.io/node-js-10-0-0-what-to-expect-as-a-backend-developer-security-enthusiast-f8680f132320
+
+https://levelup.gitconnected.com/image-processing-making-custom-image-filters-react-js-part-2-ee2787f56b0d
+
+https://medium.com/@ideepak.jsd/google-india-phone-call-interview-question-software-developer-5a164e97ddeb
+
+https://daily.dev/blog/building-modern-apis-with-fastify-graphql-and-mongodb
+
+https://redislabs.com/redis-for-dummies/?utm_source=linkedin&utm_medium=cpc&utm_campaign=apac_prospecting&utm_content=redisfordummies&li_fat_id=f49d41cf-0e22-4975-8bb7-823c36a9a634
+
+https://reactjs.org/docs/composition-vs-inheritance.html
+
+https://javascript.plainenglish.io/es12-is-going-to-make-your-life-easier-6be8d131e117
+
+https://betterprogramming.pub/how-i-built-a-rest-api-using-google-sheets-5bbf356b01f0
+
+sqs
+
+javascript singleton
 
 -------------------------------------------------------------------------------------------------------
 
