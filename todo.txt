@@ -13,11 +13,7 @@ Ova games
 
 MSSql =  docker start 39410149a50a
 
-Tibco FTP prod ======
-stag: Tibftp@2012
-prod: Tibdoc@#2012
-PCK. API ============
-myPassw0rd
+]\
 
 ===================ZOHO=====================  
  	
@@ -73,19 +69,24 @@ SURFBOARDDDDDDDDDDDDD ====================================================
 
 
 CONTENTFLY ====================================================================================
+https://contentstack.atlassian.net/servicedesk/customer/portal/8
 - https://whimsical.com/contentfly-VmNqvQgDYsZEJeTAeGRLHF
 - https://contentstack.atlassian.net/wiki/spaces/PER/pages/763723930/Practices#Trunk-Based-Development
 https://contentstack.atlassian.net/jira/software/projects/CFLY/boards/112
 https://dev11-app-react-storybooks.contentstack.com/	 - Venus Components UI
 https://github.com/amrendra007/common-component/tree/master/src/components - amrendra007 Venus Component
 Figma
-	- Environments = https://www.figma.com/file/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=314%3A1422
+	- Environments 
+		- https://www.figma.com/file/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=314%3A1422
+		- https://www.figma.com/file/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=1211%3A2962
 	- Dep - https://www.figma.com/file/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=477%3A15102
 	- cancelled deployment flow - https://www.figma.com/file/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=523%3A0
 	- Env - https://www.figma.com/file/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=477%3A15103
 	- https://contentstack.atlassian.net/wiki/spaces/CONFLY/pages/892109002/ContentFly+Figma+Links
 	- https://www.figma.com/file/fW1CJQay56f3zYiKUheFuf/Contentfly-Components?node-id=0%3A1
 https://fakeql.com/
+gocd = https://gocd-yxq6yfhia1nz.contentstack.com/go/auth/login
+
 
 
 
@@ -104,55 +105,59 @@ rohan.patil@raweng.com
 Dev@ron766
 https://dev11-app.contentstack.com/?organization_uid=blt59e1cda4f94f5331#!/stacks
 https://dev11-app.contentstack.com/
-
-
-- https://contentstack.atlassian.net/browse/CFLY-66
-	- https://www.figma.com/proto/sxJtZTY4aYJ3OIc4j9yARt/Landing-Page?node-id=54%3A1933&scaling=min-zoom&page-id=54%3A70
-	- https://www.figma.com/file/sxJtZTY4aYJ3OIc4j9yARt/Landing-Page?node-id=54%3A70
-	- /project/609945afaf4f2148e0efaab0/env/609945afaf4f213e5fefaab1/deployments
+goCD credentials :::::::::::::::::
+rohan.patil
+fMcVg9O0Vv3YSceA1hSgiBO
 
 
 
 
 
-https://contentstack.atlassian.net/browse/CFLY-68
-	- https://www.figma.com/file/oFrOdfNUctWWps7d6C5y60/Project-Settings?node-id=0%3A1
-	- map to url
-	- LeftNavigation - default false condition
-		- https://github.com/contentstack/venus-components/pull/117
-=	- EnvRouter UT
-	- use Errorcode map as per api 
-		- show validations on field
-		- GENERAL
-			- Name field: Max length 200 characters.
-			- Description field: Max length 255 characters.
-			- remove error notification
-			- api errors
-	- desc as null if ""
-		- const descValue = description ? `"${description}"` : null;
-		- I mean, agar wo field update nahe ho raha toh wo field nae send hona chahye UI se
-	- Deploy icon - disabled state
-		- https://www.figma.com/file/sxJtZTY4aYJ3OIc4j9yARt/Landing-Page?node-id=54%3A70
+
+
+
+https://contentstack.atlassian.net/browse/CFLY-96
+	- EnvRouter UT
 	- EnvSettings
 		- smooth transition for height
-	- bugs/wizard PR
+	- env banner width
+	- TODO:
+	- replace query selector with ref 
+	- azhar -> notification text
+	- env page feedback
+		- https://www.figma.com/file/1T9ewpFj5OtGTi2xecRLLD/Environments?node-id=1206%3A309
+	- infinite-scroll UT
+=	- move ProjectListing imgs to common
+	- use venus npm
 
 
-https://github.com/contentstack/UI-React/pull/42
-https://contentstack.atlassian.net/browse/CS-14942
+
+
+https://contentstack.atlassian.net/browse/CFLY-103
+	- StackSkeleton card dynamic height
+	- Use the new status icon 
+	- use new gif loader
+
+https://contentstack.atlassian.net/browse/CFLY-106
+	- sortBy: "updatedAt"
+
+https://contentstack.atlassian.net/browse/CFLY-82				 -------------------------------
+	- select preset -> got to tab1 -> next -> preset is pre-selected
+
+
+VENUS
+	- comps
+		- the required field should have asterisk instead of the ‘required’ text
+	- ui 
+		- https://github.com/contentstack/UI-React/pull/42
+
 
 
 
 MEETING -
-	- steps-wrapper wizard ts issue
-	- LefNavigation -> WithoutHeaderData = default
-	- error={errorMessages && (errorMessages.name as boolean)}
-
 	- WORKED ON
-		- field validations (max length)
-		- branch and time icons
-		- restructuring DeploymentInfo
-		- adding loader to EnvRouter
+		1. CFLY-102
+		2. CFLY-96
 
 
 
@@ -1358,6 +1363,24 @@ https://betterprogramming.pub/how-i-built-a-rest-api-using-google-sheets-5bbf356
 sqs
 
 javascript singleton
+
+https://www.thunderclient.io/
+
+flask
+
+https://towardsdatascience.com/top-10-github-repos-to-bookmark-right-now-b0bc62436ffc
+
+https://basarat.gitbook.io/typescript/
+
+https://suvish.in/
+
+https://htbuild.thedivspace.com/docs/#/
+
+https://medium.com/@shahedn/css-variables-and-how-to-use-them-bd9724cb6566
+
+https://twitter.com/nlognhq/status/1376009244525293578?s=21
+
+https://alistapart.com/article/why-mutation-can-be-scary/
 
 -------------------------------------------------------------------------------------------------------
 
